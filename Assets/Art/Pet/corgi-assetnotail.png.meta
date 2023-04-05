@@ -1,0 +1,1674 @@
+fileFormatVersion: 2
+guid: f888108f2ed9fac42a499a6611770732
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3580252878147294260
+    second: corgi-assetnotail_0
+  - first:
+      213: 1381404687972486854
+    second: corgi-assetnotail_1
+  - first:
+      213: -1813647476281725454
+    second: corgi-assetnotail_2
+  - first:
+      213: -7498623352734321007
+    second: corgi-assetnotail_3
+  - first:
+      213: 3488500990456830377
+    second: corgi-assetnotail_4
+  - first:
+      213: 4127272915754907426
+    second: corgi-assetnotail_5
+  - first:
+      213: -5792987296720884797
+    second: corgi-assetnotail_6
+  - first:
+      213: 7907080749853071453
+    second: corgi-assetnotail_7
+  - first:
+      213: -5423667119349121431
+    second: corgi-assetnotail_8
+  - first:
+      213: 4903030788312501809
+    second: corgi-assetnotail_9
+  - first:
+      213: -5518642990231088796
+    second: corgi-assetnotail_10
+  - first:
+      213: 4076002207266134195
+    second: corgi-assetnotail_11
+  - first:
+      213: 76563021316041938
+    second: corgi-assetnotail_12
+  - first:
+      213: -3398115497124657585
+    second: corgi-assetnotail_13
+  - first:
+      213: 5811882374831539709
+    second: corgi-assetnotail_14
+  - first:
+      213: 7312121541022002448
+    second: corgi-assetnotail_15
+  - first:
+      213: 5965018241932478848
+    second: corgi-assetnotail_16
+  - first:
+      213: 3005784136346353907
+    second: corgi-assetnotail_17
+  - first:
+      213: -4451011430502293202
+    second: corgi-assetnotail_18
+  - first:
+      213: -5915753552248311199
+    second: corgi-assetnotail_19
+  - first:
+      213: 6954190252325051179
+    second: corgi-assetnotail_20
+  - first:
+      213: -255654536999499614
+    second: corgi-assetnotail_21
+  - first:
+      213: 5125273154046192344
+    second: corgi-assetnotail_22
+  - first:
+      213: -6975505953085511343
+    second: corgi-assetnotail_23
+  - first:
+      213: -1173989170789628689
+    second: corgi-assetnotail_24
+  - first:
+      213: 1281703853195484203
+    second: corgi-assetnotail_25
+  - first:
+      213: -4258447295161165620
+    second: corgi-assetnotail_26
+  - first:
+      213: -821343333224128546
+    second: corgi-assetnotail_27
+  - first:
+      213: -9188950326978168953
+    second: corgi-assetnotail_28
+  - first:
+      213: -6412525166505877450
+    second: corgi-assetnotail_29
+  - first:
+      213: 1256271056527721213
+    second: corgi-assetnotail_30
+  - first:
+      213: 1895171062661606600
+    second: corgi-assetnotail_31
+  - first:
+      213: -8078526321556278283
+    second: corgi-assetnotail_32
+  - first:
+      213: 7471297392255662707
+    second: corgi-assetnotail_33
+  - first:
+      213: 7693259466350726730
+    second: corgi-assetnotail_34
+  - first:
+      213: 741424446655188910
+    second: corgi-assetnotail_35
+  - first:
+      213: -665821962786511550
+    second: corgi-assetnotail_36
+  - first:
+      213: -1123334230076976330
+    second: corgi-assetnotail_37
+  - first:
+      213: -6417384110945537424
+    second: corgi-assetnotail_38
+  - first:
+      213: 5108199309128587947
+    second: corgi-assetnotail_39
+  - first:
+      213: 5871434483459771690
+    second: corgi-assetnotail_40
+  - first:
+      213: 2051122512739507548
+    second: corgi-assetnotail_41
+  - first:
+      213: 3687237507681226531
+    second: corgi-assetnotail_42
+  - first:
+      213: -7766243101595595459
+    second: corgi-assetnotail_43
+  - first:
+      213: 5248667309371261749
+    second: corgi-assetnotail_44
+  - first:
+      213: 5460156477517382038
+    second: corgi-assetnotail_45
+  - first:
+      213: -4991482022725275719
+    second: corgi-assetnotail_46
+  - first:
+      213: -8184713151073620694
+    second: corgi-assetnotail_47
+  - first:
+      213: 593991242497101022
+    second: corgi-assetnotail_48
+  - first:
+      213: -7302810382289351803
+    second: corgi-assetnotail_49
+  - first:
+      213: -180624791632858449
+    second: corgi-assetnotail_50
+  - first:
+      213: 7810457824607124475
+    second: corgi-assetnotail_51
+  - first:
+      213: -1509417048681365806
+    second: corgi-assetnotail_52
+  - first:
+      213: 6453547898533645619
+    second: corgi-assetnotail_53
+  - first:
+      213: -7908595708533274525
+    second: corgi-assetnotail_54
+  - first:
+      213: -4950607698234128615
+    second: corgi-assetnotail_55
+  - first:
+      213: 7585716348402246081
+    second: corgi-assetnotail_56
+  - first:
+      213: 1605871311710967137
+    second: corgi-assetnotail_57
+  - first:
+      213: -6070808244531062975
+    second: corgi-assetnotail_58
+  - first:
+      213: 1523621046493173943
+    second: corgi-assetnotail_59
+  - first:
+      213: -7714979951595965348
+    second: corgi-assetnotail_60
+  - first:
+      213: 6511847515575011256
+    second: corgi-assetnotail_61
+  - first:
+      213: 8045433544677863947
+    second: corgi-assetnotail_62
+  - first:
+      213: 3517112949292884514
+    second: corgi-assetnotail_63
+  - first:
+      213: 364808317150742145
+    second: corgi-assetnotail_64
+  - first:
+      213: 6595864109246950215
+    second: corgi-assetnotail_65
+  - first:
+      213: 2941575700461407206
+    second: corgi-assetnotail_66
+  - first:
+      213: -1199289639690726281
+    second: corgi-assetnotail_67
+  - first:
+      213: -2995993372886018469
+    second: corgi-assetnotail_68
+  - first:
+      213: 5346212230723955047
+    second: corgi-assetnotail_69
+  - first:
+      213: -8768574373522947259
+    second: corgi-assetnotail_70
+  - first:
+      213: 2255983832644460980
+    second: corgi-assetnotail_71
+  - first:
+      213: 8677864363316092367
+    second: corgi-assetnotail_72
+  - first:
+      213: -6623148980057733392
+    second: corgi-assetnotail_73
+  - first:
+      213: 976140568322829072
+    second: corgi-assetnotail_74
+  - first:
+      213: -2426673917015965279
+    second: corgi-assetnotail_75
+  - first:
+      213: 2102881393771482284
+    second: corgi-assetnotail_76
+  - first:
+      213: -6800211703490350224
+    second: corgi-assetnotail_77
+  - first:
+      213: -1341025377873597394
+    second: corgi-assetnotail_78
+  - first:
+      213: -6698285982510305948
+    second: corgi-assetnotail_79
+  - first:
+      213: -3461318420919718271
+    second: corgi-assetnotail_80
+  - first:
+      213: 2584058279011328654
+    second: corgi-assetnotail_81
+  - first:
+      213: -4588252320254585463
+    second: corgi-assetnotail_82
+  - first:
+      213: 3087231891227091196
+    second: corgi-assetnotail_83
+  - first:
+      213: 6419300032721438519
+    second: corgi-assetnotail_84
+  - first:
+      213: 4983992963574045974
+    second: corgi-assetnotail_85
+  - first:
+      213: -9018381189695998052
+    second: corgi-assetnotail_86
+  - first:
+      213: -6416201383432146192
+    second: corgi-assetnotail_87
+  - first:
+      213: 867539045094003293
+    second: corgi-assetnotail_88
+  - first:
+      213: 2538637457986562834
+    second: corgi-assetnotail_89
+  - first:
+      213: 5357990665105573269
+    second: corgi-assetnotail_90
+  - first:
+      213: -2377656171898258284
+    second: corgi-assetnotail_91
+  - first:
+      213: -4200980084781061229
+    second: corgi-assetnotail_92
+  - first:
+      213: -3544468392616366454
+    second: corgi-assetnotail_93
+  - first:
+      213: -4919195122970725220
+    second: corgi-assetnotail_94
+  - first:
+      213: 3516967607849720543
+    second: corgi-assetnotail_95
+  - first:
+      213: -3510182001224881626
+    second: corgi-assetnotail_96
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 92, y: 196, z: 0, w: 267}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: corgi-assetnotail_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 464
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a917cefa25a96030800000000000000
+      internalID: 3488500990456830377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 464
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22779a289d4074930800000000000000
+      internalID: 4127272915754907426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_6
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 465
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbe9960fbc2b9fa0800000000000000
+      internalID: -5792987296720884797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 468
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5852596c089bbd60800000000000000
+      internalID: 7907080749853071453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_8
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 471
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96eba33ad734bb4b0800000000000000
+      internalID: -5423667119349121431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 471
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e8b2c46801b0440800000000000000
+      internalID: 4903030788312501809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_10
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 471
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461931d7077d963b0800000000000000
+      internalID: -5518642990231088796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_11
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 471
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b85ec3796ed09830800000000000000
+      internalID: 4076002207266134195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_12
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 465
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc297889a1001100800000000000000
+      internalID: 76563021316041938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_13
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 464
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46822895f777d0d0800000000000000
+      internalID: -3398115497124657585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_14
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 464
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5003c2a34f7a050800000000000000
+      internalID: 5811882374831539709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 400
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b915a803f328060800000000000000
+      internalID: 6954190252325051179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_21
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 400
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a88de89d8bb37cf0800000000000000
+      internalID: -255654536999499614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dae4cb57c0a02740800000000000000
+      internalID: 5125273154046192344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_23
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 400
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15927b12b46023f90800000000000000
+      internalID: -6975505953085511343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_24
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 400
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4cde8b11725bfe0800000000000000
+      internalID: -1173989170789628689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df280f1bedb2f6110800000000000000
+      internalID: 1256271056527721213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_31
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc6b8a5a000d4a10800000000000000
+      internalID: 1895171062661606600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3bef6cc1f43ef80800000000000000
+      internalID: -8078526321556278283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 336
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a73b4c4616fa760800000000000000
+      internalID: 7471297392255662707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_34
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 336
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e0fb859b2f3ca60800000000000000
+      internalID: 7693259466350726730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_38
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072fadfd62fd0f6a0800000000000000
+      internalID: -6417384110945537424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_39
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 272
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa518e0538f3e640800000000000000
+      internalID: 5108199309128587947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_40
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 272
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d4994fd868b7150800000000000000
+      internalID: 5871434483459771690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_41
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 272
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d15aade0d077c10800000000000000
+      internalID: 2051122512739507548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_42
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 272
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f06d73af2bb2330800000000000000
+      internalID: 3687237507681226531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_43
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 272
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d0112eb03c83490800000000000000
+      internalID: -7766243101595595459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_44
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 272
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5338747fb1307d840800000000000000
+      internalID: 5248667309371261749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_45
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 272
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691c87c136f56cb40800000000000000
+      internalID: 5460156477517382038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_46
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 272
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf26bcdb81babab0800000000000000
+      internalID: -4991482022725275719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_51
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 208
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbb0e88202546c60800000000000000
+      internalID: 7810457824607124475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_52
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 209
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2debd6301397d0be0800000000000000
+      internalID: -1509417048681365806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_53
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 208
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d01111f9b9f8950800000000000000
+      internalID: 6453547898533645619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_54
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 208
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36802b8ca160f3290800000000000000
+      internalID: -7908595708533274525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_55
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 208
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917c0742788eb4bb0800000000000000
+      internalID: -4950607698234128615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_59
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 146
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8d880f44df42510800000000000000
+      internalID: 1523621046493173943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_60
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 144
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54bcd71c92eee490800000000000000
+      internalID: -7714979951595965348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_61
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7cb5d60dabe5a50800000000000000
+      internalID: 6511847515575011256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_62
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 144
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02398eae2f17af60800000000000000
+      internalID: 8045433544677863947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_63
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 145
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2226789c79b4fc030800000000000000
+      internalID: 3517112949292884514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_64
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 144
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186c0ea4b3f001500800000000000000
+      internalID: 364808317150742145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_65
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 144
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ba9620677398b50800000000000000
+      internalID: 6595864109246950215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_66
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 144
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb4ce1b38392d820800000000000000
+      internalID: 2941575700461407206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_72
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd1a7049a7fd6870800000000000000
+      internalID: 8677864363316092367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_73
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 80
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f60b25f719d514a0800000000000000
+      internalID: -6623148980057733392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_74
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 80
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01beab1dca2fb8d00800000000000000
+      internalID: 976140568322829072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_75
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 80
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1ce86fde8b25ed0800000000000000
+      internalID: -2426673917015965279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_76
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 80
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac07807c7fee2d10800000000000000
+      internalID: 2102881393771482284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_77
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 80
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073f0081c7bc0a1a0800000000000000
+      internalID: -6800211703490350224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_78
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 80
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c6f0d1688b36de0800000000000000
+      internalID: -1341025377873597394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_79
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 80
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dae705368ea03a0800000000000000
+      internalID: -6698285982510305948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_85
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 16
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d90eca133ba2540800000000000000
+      internalID: 4983992963574045974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_86
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 16
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97fa13e61648d280800000000000000
+      internalID: -9018381189695998052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_87
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 16
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2382516d215f6a0800000000000000
+      internalID: -6416201383432146192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_88
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 16
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d521c934a2e1a0c00800000000000000
+      internalID: 867539045094003293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_89
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 16
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b2ac8515d0b3320800000000000000
+      internalID: 2538637457986562834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_90
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 16
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5950a7f3f186b5a40800000000000000
+      internalID: 5357990665105573269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_91
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 16
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c3dfb1f4ed00fd0800000000000000
+      internalID: -2377656171898258284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corgi-assetnotail_92
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 16
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b6222eede13b5c0800000000000000
+      internalID: -4200980084781061229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

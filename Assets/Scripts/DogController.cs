@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 public class DogController : MonoBehaviour
 {
     #region Defs
+    [SerializeField] PoopController poopController;
     [SerializeField] float speed;
     [SerializeField] float jumpForce;
     [SerializeField] float sustainedJump = 0.5f;
@@ -41,6 +42,12 @@ public class DogController : MonoBehaviour
         get { return isFurnitureReachable; }
         set { isFurnitureReachable = value; }
     }
+
+    public bool IsFacingRight
+    {
+        get { return isFacingRight; }
+        set { isFacingRight = value; }
+    }
     public Furniture ReachableFurniture
     {
         get { return reachableFurniture; }
@@ -52,6 +59,7 @@ public class DogController : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        poopController = FindObjectOfType<PoopController>();
     }
     private void Update()
     {
@@ -74,7 +82,7 @@ public class DogController : MonoBehaviour
         {
             Debug.Log("Pooping");
             //Debug.Log ("Chewing");
-            Poop();
+            poopController.Poop();
         }
         Flip();
     }
@@ -116,6 +124,7 @@ public class DogController : MonoBehaviour
         if (isFurnitureReachable)
         {
             reachableFurniture.TakeDamage(chewPower);
+            poopController.PoopCharge(reachableFurniture.gameObject);
         }
     }
 

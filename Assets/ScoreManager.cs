@@ -20,8 +20,8 @@ public class ScoreManager : MonoBehaviour
         }
     }
     #endregion
-    
-    private int score;
+
+    [SerializeField] int score;
     [SerializeField] TextMeshProUGUI scoreText;
     void Awake()
     {
@@ -38,8 +38,13 @@ public class ScoreManager : MonoBehaviour
         score ++;
         UpdateUI();
     }
+    public void AddPoop()
+    {
+        score += 150;
+        UpdateUI();
+    }
     void UpdateUI()
     {
-        scoreText.text = score.ToString();
+        scoreText.text = "-$" + score.ToString();
     }
 }

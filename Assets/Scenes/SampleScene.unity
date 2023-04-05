@@ -654,71 +654,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 2052235454}
---- !u!1001 &481419626
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4317841403162617500, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617500, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.4651
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617500, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.9497
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617500, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617500, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617500, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617500, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617500, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617500, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617500, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617500, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617503, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617506, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_BodyType
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317841403162617507, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
-      propertyPath: m_Name
-      value: Poop
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
 --- !u!1 &499025186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,7 +1122,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 402014382}
   m_FillRect: {fileID: 681491097}
   m_HandleRect: {fileID: 402014381}
@@ -2014,7 +1949,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d75e535d05c8df4a94084f069185f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poopReady: 0
+  dogController: {fileID: 0}
+  poopPrefab: {fileID: 4317841403162617507, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
+  poopBarUI: {fileID: 2067631275}
+  currentCharge: 0
+  reachToPoop: 500
+  speedToPoop: 1
+  poopMoneyValue: 0
+  poopDamage: 0
+  readyToPoop: 0
+  poopShootX: 5
+  poopShootY: 5
 --- !u!114 &1404152024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2027,6 +1972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5214a4e75e1f20e47a98d81816ef5b67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poopController: {fileID: 0}
   speed: 4
   jumpForce: 9
   sustainedJump: 0.5
@@ -2895,7 +2841,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 84827469}
   m_FillRect: {fileID: 1984849528}
   m_HandleRect: {fileID: 84827468}

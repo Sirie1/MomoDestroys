@@ -7,7 +7,7 @@ public class MouthController : MonoBehaviour
     [SerializeField] DogController dogController;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       Debug.Log ("Entering trigger");
+       //Debug.Log ("Entering trigger");
         if (collision.gameObject.tag == "Furniture")
         {
             dogController.IsFurnitureReachable = true;

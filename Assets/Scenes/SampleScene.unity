@@ -653,6 +653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffa9b9ed48033b543aa98b4999d915e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   scoreText: {fileID: 2052235454}
 --- !u!1 &499025186
 GameObject:
@@ -1827,6 +1828,7 @@ GameObject:
   - component: {fileID: 1404152021}
   - component: {fileID: 1404152024}
   - component: {fileID: 1404152022}
+  - component: {fileID: 1404152023}
   m_Layer: 3
   m_Name: Dog
   m_TagString: Dog
@@ -1960,6 +1962,18 @@ MonoBehaviour:
   readyToPoop: 0
   poopShootX: 5
   poopShootY: 5
+--- !u!114 &1404152023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404152017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a740402de0e8164b8510fabc46ee860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1404152024
 MonoBehaviour:
   m_ObjectHideFlags: 0

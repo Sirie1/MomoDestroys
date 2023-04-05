@@ -5,8 +5,10 @@ using UnityEngine.EventSystems;
 
 public class DogController : MonoBehaviour
 {
-    #region Defs
-    [SerializeField] PoopController poopController;
+    #region Defs & refs
+    PoopController poopController;
+    DogStateController dogStateController;
+
     [SerializeField] float speed;
     [SerializeField] float jumpForce;
     [SerializeField] float sustainedJump = 0.5f;
@@ -60,10 +62,18 @@ public class DogController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         poopController = FindObjectOfType<PoopController>();
+        dogStateController = FindObjectOfType<DogStateController>();
     }
     private void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");   
+        if (Input.GetButton("Horizontal"))
+        {
+            dogStateController.SwitchState(dogStateController.WalkState);
+        }
+        else if (dogStateController.CurrentState != dogStateController.IdleState)
+            dogStateController.SwitchState(dogStateController.IdleState);
+
+        //horizontal = Input.GetAxisRaw("Horizontal");   
         if (Input.GetButtonDown("Jump") && isOnGround)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
@@ -88,7 +98,7 @@ public class DogController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2 (horizontal*speed, rb.velocity.y);
+        //rb.velocity = new Vector2 (horizontal*speed, rb.velocity.y);
     }
     private void Flip ()
     {

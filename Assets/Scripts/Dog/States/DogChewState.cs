@@ -18,9 +18,14 @@ public class DogChewState : DogBaseState
 
     public override void UpdateState(DogStateController dog)
     {
+
     }
     public override void FixedUpdateState(DogStateController dog)
     {
+        if (Input.GetButton("Jump") && dog.IsOnGround)
+        {
+          //  rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
 
     }
 }

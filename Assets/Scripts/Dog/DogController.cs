@@ -10,8 +10,8 @@ public class DogController : MonoBehaviour
     DogStateController dogStateController;
 
     [SerializeField] float speed;
-    [SerializeField] float jumpForce;
-    [SerializeField] float sustainedJump = 0.5f;
+
+   // [SerializeField] float sustainedJump = 0.5f;
     [SerializeField] float chewPower = 50f;
 
     [SerializeField] GameObject poopPrefab;
@@ -34,11 +34,7 @@ public class DogController : MonoBehaviour
         get { return speed; }
         set { speed = value; }
     }
-    public float JumpForce
-    {
-        set { jumpForce = value; }
-        get { return jumpForce; }
-    }
+
     public bool IsFurnitureReachable
     {
         get { return isFurnitureReachable; }
@@ -65,7 +61,7 @@ public class DogController : MonoBehaviour
         dogStateController = FindObjectOfType<DogStateController>();
     }
     private void Update()
-    {
+    {/*
         if (Input.GetButton("Horizontal"))
         {
             dogStateController.SwitchState(dogStateController.WalkState);
@@ -94,7 +90,7 @@ public class DogController : MonoBehaviour
             //Debug.Log ("Chewing");
             poopController.Poop();
         }
-        Flip();
+        Flip();*/
     }
     private void FixedUpdate()
     {

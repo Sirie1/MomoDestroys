@@ -1974,6 +1974,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a740402de0e8164b8510fabc46ee860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isOnGround: 0
+  isFurnitureReachable: 0
+  isFacingRight: 1
+  walkSpeed: 3
+  sustainedJump: 0.5
+  jumpForce: 0
 --- !u!114 &1404152024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1986,10 +1992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5214a4e75e1f20e47a98d81816ef5b67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poopController: {fileID: 0}
   speed: 4
-  jumpForce: 9
-  sustainedJump: 0.5
   chewPower: 50
   poopPrefab: {fileID: 4317841403162617507, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
   isOnGround: 0

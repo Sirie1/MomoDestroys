@@ -128,7 +128,7 @@ public class DogController : MonoBehaviour
         }
     }
     #endregion
-
+    //For future implementations dog can chew furniture or food. 
     public void Chew(Furniture reachableFurniture)
     {
         if (isFurnitureReachable)

@@ -28,7 +28,7 @@ public class PoopController : MonoBehaviour
         UpdatePoopUI();
         readyToPoop =false;
     }
-
+    //Method of poopcharge is called when something is chewed, value o increase to be modified 
     public void PoopCharge(GameObject chewedObject)
     {
         currentCharge++;
@@ -36,7 +36,7 @@ public class PoopController : MonoBehaviour
         if (currentCharge >= reachToPoop)
             readyToPoop = true;
     }
-
+    //Creates poop, poopshootx and y defines the shot of poop
     public void Poop()
     {
         if (readyToPoop)
@@ -60,7 +60,7 @@ public class PoopController : MonoBehaviour
             Debug.Log ("Not ready to poop");
 
     }
-
+    //After pooping the poop bar needs to be reseted
     private void ResetPoop()
     {
        currentCharge = 0;

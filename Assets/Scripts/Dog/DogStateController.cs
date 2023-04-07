@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class DogStateController : MonoBehaviour
 {
+    public DogController dogController;
+    public MouthController mouthController;   
+    public PoopController poopController;
 
     [SerializeField] bool isOnGround;
-    [SerializeField] bool isFurnitureReachable = false;
     [SerializeField] private bool isFacingRight = true;
     [SerializeField] float walkSpeed;
     [SerializeField] float sustainedJump;
@@ -42,6 +44,7 @@ public class DogStateController : MonoBehaviour
     #endregion
 
     #region SetGet
+
     public float WalkSpeed
     {
         get { return walkSpeed; }
@@ -65,11 +68,6 @@ public class DogStateController : MonoBehaviour
     {
         get { return isFacingRight; }
         set { isFacingRight = value; }
-    }
-    public bool IsFurnitureReachable
-    {
-        get { return isFurnitureReachable; }
-        set { isFurnitureReachable = value; }
     }
     #endregion
     private void Start()

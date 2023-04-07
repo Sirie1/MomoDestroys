@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DogChewState : DogBaseState
 {
+
     public override void EnterState(DogStateController dog)
     {
         Debug.Log("entering chew state");
@@ -18,14 +19,23 @@ public class DogChewState : DogBaseState
 
     public override void UpdateState(DogStateController dog)
     {
+        if (dog.mouthController.IsFurnitureReachable && Input.GetButton("Fire1"))
+        {
+            dog.mouthController.ReachableFurniture.TakeDamage(dog.mouthController.ChewPower);
+            dog.poopController.PoopCharge(dog.mouthController.ReachableFurniture.gameObject);
+        }
+        else if (Input.GetButton("Horizontal") && dog.IsOnGround)
+        {
+            dog.SwitchState(dog.WalkState);
+        }
+        else if (Input.GetButtonDown("Jump") && dog.IsOnGround)
+        {
+            dog.SwitchState(dog.JumpState);
+        }
 
     }
     public override void FixedUpdateState(DogStateController dog)
     {
-        if (Input.GetButton("Jump") && dog.IsOnGround)
-        {
-          //  rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-        }
 
     }
 }

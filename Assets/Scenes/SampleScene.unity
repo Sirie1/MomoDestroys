@@ -1974,12 +1974,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a740402de0e8164b8510fabc46ee860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogController: {fileID: 1404152024}
+  mouthController: {fileID: 1869151200}
+  poopController: {fileID: 1404152022}
   isOnGround: 0
-  isFurnitureReachable: 0
   isFacingRight: 1
   walkSpeed: 3
   sustainedJump: 0.5
-  jumpForce: 0
+  jumpForce: 9
 --- !u!114 &1404152024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2570,7 +2572,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538446fb927df7a4caafefad83cd8520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dogController: {fileID: 1404152024}
+  dogStateController: {fileID: 1404152023}
+  isFurnitureReachable: 0
+  reachableFurniture: {fileID: 0}
+  chewPower: 50
+  poopController: {fileID: 1404152022}
 --- !u!1 &1984849527
 GameObject:
   m_ObjectHideFlags: 0

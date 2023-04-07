@@ -4,14 +4,40 @@ using UnityEngine;
 
 public class MouthController : MonoBehaviour
 {
-    [SerializeField] DogController dogController;
+    [SerializeField] DogStateController dogStateController;
+    [SerializeField] bool isFurnitureReachable = false;
+    [SerializeField] Furniture reachableFurniture;
+    [SerializeField] float chewPower = 50f;
+    [SerializeField] PoopController poopController;
+    public bool IsFurnitureReachable
+    {
+        get { return isFurnitureReachable; }
+        set { isFurnitureReachable = value; }
+    }
+    public Furniture ReachableFurniture
+    {
+        get { return reachableFurniture; }
+        set { reachableFurniture = value; }
+    }
+    public float ChewPower
+    {
+        get { return chewPower; }
+    }
+    public void Chew(Furniture reachableFurniture)
+    {
+        if (isFurnitureReachable)
+        {
+            reachableFurniture.TakeDamage(chewPower);
+            poopController.PoopCharge(reachableFurniture.gameObject);
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
        //Debug.Log ("Entering trigger");
         if (collision.gameObject.tag == "Furniture")
         {
-            dogController.IsFurnitureReachable = true;
-            dogController.ReachableFurniture = collision.gameObject.GetComponentInParent<Furniture>();
+            IsFurnitureReachable = true;
+            reachableFurniture = collision.gameObject.GetComponentInParent<Furniture>();
         }
                 
     }
@@ -21,8 +47,8 @@ public class MouthController : MonoBehaviour
         Debug.Log("Exiting trigger");
         if (collision.gameObject.tag == "Furniture")
         {
-            dogController.IsFurnitureReachable = false;
-            dogController.ReachableFurniture = null;
+            IsFurnitureReachable = false;
+            reachableFurniture = null;
         }
                
     }

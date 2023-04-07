@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5B064D7F-073D-F88F-E85F-485B6B83FD78}</ProjectGuid>
+    <ProjectGuid>{0C603F26-433D-572E-C237-D6161F9E4BE2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,11 +56,18 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\DogController.cs" />
+    <Compile Include="Assets\Scripts\Dog\PoopController.cs" />
     <Compile Include="Assets\Scripts\Furniture.cs" />
-    <Compile Include="Assets\Scripts\MouthController.cs" />
-    <Compile Include="Assets\ScoreManager.cs" />
-    <Compile Include="Assets\PoopController.cs" />
+    <Compile Include="Assets\Scripts\Dog\DogController.cs" />
+    <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\Dog\MouthController.cs" />
+    <Compile Include="Assets\Scripts\Dog\Poop.cs" />
+    <Compile Include="Assets\Scripts\Dog\DogStateController.cs" />
+    <Compile Include="Assets\Scripts\Dog\States\DogIdleState.cs" />
+    <Compile Include="Assets\Scripts\Dog\States\DogBaseState.cs" />
+    <Compile Include="Assets\Scripts\Dog\States\DogJumpState.cs" />
+    <Compile Include="Assets\Scripts\Dog\States\DogChewState.cs" />
+    <Compile Include="Assets\Scripts\Dog\States\DogWalkState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

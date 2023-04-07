@@ -28,6 +28,13 @@ public class PoopController : MonoBehaviour
         UpdatePoopUI();
         readyToPoop =false;
     }
+    private void Update()
+    {
+        if (Input.GetButtonDown("Fire3"))
+        {
+            Poop();
+        }
+    }
     //Method of poopcharge is called when something is chewed, value o increase to be modified 
     public void PoopCharge(GameObject chewedObject)
     {

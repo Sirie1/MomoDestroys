@@ -7,7 +7,8 @@ public class DogController : MonoBehaviour
 {
     #region Defs & refs
     PoopController poopController;
-    DogStateController dogStateController;
+
+   // DogStateController dogStateController;
 
     [SerializeField] float speed;
 
@@ -58,7 +59,7 @@ public class DogController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         poopController = FindObjectOfType<PoopController>();
-        dogStateController = FindObjectOfType<DogStateController>();
+        //dogStateController = FindObjectOfType<DogStateController>();
     }
     private void Update()
     {/*

@@ -24,7 +24,9 @@ public class DogChewState : DogBaseState
             dog.mouthController.ReachableFurniture.TakeDamage(dog.mouthController.ChewPower);
             dog.poopController.PoopCharge(dog.mouthController.ReachableFurniture.gameObject);
         }
-        else if (Input.GetButton("Horizontal") && dog.IsOnGround)
+        else
+            dog.SwitchState(dog.IdleState);
+        if (Input.GetButton("Horizontal") && dog.IsOnGround)
         {
             dog.SwitchState(dog.WalkState);
         }

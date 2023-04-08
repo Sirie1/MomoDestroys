@@ -12,7 +12,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Dog
+  - Platform
   - Water
   - UI
   - Poop
@@ -22,7 +22,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Dog
   - 
   - 
   - 

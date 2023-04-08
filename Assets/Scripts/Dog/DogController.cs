@@ -10,48 +10,49 @@ public class DogController : MonoBehaviour
 
    // DogStateController dogStateController;
 
-    [SerializeField] float speed;
+   // [SerializeField] float speed;
 
    // [SerializeField] float sustainedJump = 0.5f;
-    [SerializeField] float chewPower = 50f;
+   // [SerializeField] float chewPower = 50f;
 
-    [SerializeField] GameObject poopPrefab;
+  //  [SerializeField] GameObject poopPrefab;
 
     [SerializeField] bool isOnGround;
-    [SerializeField] bool isFurnitureReachable = false;
-    [SerializeField] Furniture reachableFurniture;
+    //[SerializeField] bool isFurnitureReachable = false;
+   // [SerializeField] Furniture reachableFurniture;
 
     private float horizontal;
     [SerializeField] private bool isFacingRight = true;
     private Rigidbody2D rb;
 
-    [SerializeField] float poopx;
-    [SerializeField] float poopy;
+   // [SerializeField] float poopx;
+  // [SerializeField] float poopy;
     #endregion
 
     #region SetGet
-    public float Speed
+  /*  public float Speed
     {
         get { return speed; }
         set { speed = value; }
-    }
-
+    }*/
+  /*
     public bool IsFurnitureReachable
     {
         get { return isFurnitureReachable; }
         set { isFurnitureReachable = value; }
-    }
+    }*/
 
     public bool IsFacingRight
     {
         get { return isFacingRight; }
         set { isFacingRight = value; }
     }
+    /*
     public Furniture ReachableFurniture
     {
         get { return reachableFurniture; }
         set { reachableFurniture = value; }
-    }
+    }*/
     #endregion
 
 
@@ -97,16 +98,16 @@ public class DogController : MonoBehaviour
     {
         //rb.velocity = new Vector2 (horizontal*speed, rb.velocity.y);
     }
-    private void Flip ()
+    /*private void Flip ()
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
             isFacingRight = !isFacingRight;
             Vector3 localScale = transform.localScale;
-            localScale.y *= -1f;
+            localScale.x *= -1f;
             transform.localScale = localScale;  
         }
-    }
+    }*/
     #region Collisions
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -126,15 +127,15 @@ public class DogController : MonoBehaviour
     }
     #endregion
     //For future implementations dog can chew furniture or food. 
-    public void Chew(Furniture reachableFurniture)
+    /*public void Chew(Furniture reachableFurniture)
     {
         if (isFurnitureReachable)
         {
             reachableFurniture.TakeDamage(chewPower);
             poopController.PoopCharge(reachableFurniture.gameObject);
         }
-    }
-
+    }*/
+    /*
     public void Poop ()
     {
         GameObject newPoop;
@@ -148,5 +149,5 @@ public class DogController : MonoBehaviour
         newPoop.transform.position = this.transform.position + new Vector3(dir*0.8f, 0, 0);
         newPoop.GetComponent<Rigidbody2D>().velocity = new Vector2 (poopx * dir,poopy);
 
-    }
+    }*/
 }

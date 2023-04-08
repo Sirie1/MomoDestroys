@@ -7,6 +7,8 @@ public class DogStateController : MonoBehaviour
     public DogController dogController;
     public MouthController mouthController;   
     public PoopController poopController;
+    public GroundCheck groundCheck;
+    public Animator animator;
 
     [SerializeField] bool isOnGround;
     [SerializeField] private bool isFacingRight = true;
@@ -61,7 +63,7 @@ public class DogStateController : MonoBehaviour
 
     public bool IsOnGround
     {
-        get { return isOnGround; }
+        get { return groundCheck.IsGrounded; }
     }
 
     public bool IsFacingRight
@@ -90,7 +92,7 @@ public class DogStateController : MonoBehaviour
         currentState = state;
         state.EnterState(this);
     }
-
+    /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Furniture")
@@ -104,5 +106,5 @@ public class DogStateController : MonoBehaviour
         {
             isOnGround = false;
         }
-    }
+    }*/
 }

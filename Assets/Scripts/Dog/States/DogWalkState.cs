@@ -10,13 +10,13 @@ public class DogWalkState : DogBaseState
     {
         Debug.Log("entering walk state");
         horizontal = Input.GetAxisRaw("Horizontal");
-
+        dog.animator.Play("Dog_Walk");
     }
 
     public override void ExitState(DogStateController dog)
     {
         Debug.Log("exiting walk state");
-
+       // dog.animator.StopPlayback();
     }
 
     public override void UpdateState(DogStateController dog)
@@ -29,6 +29,14 @@ public class DogWalkState : DogBaseState
             
             horizontal = Input.GetAxisRaw("Horizontal");
         }*/
+
+        if (Input.GetButton("Horizontal"))
+        {
+            horizontal = Input.GetAxisRaw("Horizontal");
+            Flip(dog);
+        }
+        else
+            dog.SwitchState(dog.IdleState);
         if (Input.GetButton("Jump") && dog.IsOnGround)
         {
             dog.SwitchState(dog.JumpState);
@@ -37,6 +45,7 @@ public class DogWalkState : DogBaseState
         {
             dog.SwitchState(dog.ChewState);
         }
+
     }
     public override void FixedUpdateState(DogStateController dog)
     {
@@ -49,7 +58,7 @@ public class DogWalkState : DogBaseState
         {
             dog.IsFacingRight = !dog.IsFacingRight;
             Vector3 localScale = dog.transform.localScale;
-            localScale.y *= -1f;
+            localScale.x *= -1f;
             dog.transform.localScale = localScale;
         }
     }

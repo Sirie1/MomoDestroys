@@ -17,7 +17,7 @@ public class DogController : MonoBehaviour
 
   //  [SerializeField] GameObject poopPrefab;
 
-    [SerializeField] bool isOnGround;
+  //  [SerializeField] bool isOnGround;
     //[SerializeField] bool isFurnitureReachable = false;
    // [SerializeField] Furniture reachableFurniture;
 
@@ -109,6 +109,7 @@ public class DogController : MonoBehaviour
         }
     }*/
     #region Collisions
+    /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Furniture")
@@ -124,7 +125,7 @@ public class DogController : MonoBehaviour
         {
             isOnGround = false;
         }
-    }
+    }*/
     #endregion
     //For future implementations dog can chew furniture or food. 
     /*public void Chew(Furniture reachableFurniture)

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class PoopController : MonoBehaviour
 {
-    [SerializeField] DogController dogController;
+    [SerializeField] DogStateController dogStateController;
     [SerializeField] GameObject poopPrefab;
     [SerializeField] Slider poopBarUI;
 
@@ -23,7 +23,7 @@ public class PoopController : MonoBehaviour
 
     private void Start()
     {
-        dogController = FindObjectOfType<DogController>();
+        dogStateController = FindObjectOfType<DogStateController>();
         ResetPoop();
         UpdatePoopUI();
         readyToPoop =false;
@@ -52,11 +52,11 @@ public class PoopController : MonoBehaviour
             newPoop = Instantiate(poopPrefab);
 
             int dir;
-            if (dogController.IsFacingRight)
+            if (dogStateController.IsFacingRight)
                 dir = -1;
             else
                 dir = 1;
-            newPoop.transform.position = dogController.transform.position + new Vector3(dir * 0.8f, 0, 0);
+            newPoop.transform.position = dogStateController.transform.position + new Vector3(dir * 0.8f, 0, 0);
             newPoop.GetComponent<Rigidbody2D>().velocity = new Vector2(poopShootX * dir, poopShootY);
             ResetPoop();
             ScoreManager.Instance.AddPoop();

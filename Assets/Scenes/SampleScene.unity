@@ -2001,7 +2001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d75e535d05c8df4a94084f069185f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dogController: {fileID: 0}
+  dogStateController: {fileID: 0}
   poopPrefab: {fileID: 4317841403162617507, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
   poopBarUI: {fileID: 2067631275}
   currentCharge: 0

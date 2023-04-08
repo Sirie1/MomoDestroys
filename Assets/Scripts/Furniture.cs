@@ -8,6 +8,7 @@ public class Furniture : MonoBehaviour
    // [SerializeField] bool mouthContact = false;
     [Range(0.0f, 100.0f)] [SerializeField] private float health = 100f;
     [SerializeField] Slider slider;
+    [SerializeField] SpriteRenderer spriteRenderer;
     private void Start()
     {
         RestoreHealth();
@@ -16,7 +17,7 @@ public class Furniture : MonoBehaviour
     {
         health = 100f;
         slider.value = health/100;
-
+        UpdateSprite();
     }
 
     public void TakeDamage (float chewPower)
@@ -26,8 +27,17 @@ public class Furniture : MonoBehaviour
             health -= chewPower * Time.deltaTime;
             ScoreManager.Instance.AddScore();
             slider.value = health / 100;
+            UpdateSprite();
         }
-
-
+    }
+    void UpdateSprite()
+    {
+        if (health < 10f)
+        {
+            spriteRenderer.enabled = false; 
+        }
+        else
+            spriteRenderer.enabled = true;
+        
     }
 }

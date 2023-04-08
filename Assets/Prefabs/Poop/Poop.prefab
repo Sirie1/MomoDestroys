@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4317841403162617506}
   - component: {fileID: 4317841403162617503}
   - component: {fileID: 1648212139426021665}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Poop
   m_TagString: Poop
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4317841403162617507}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.4651, y: -2.9497, z: 0}
-  m_LocalScale: {x: 0.2702, y: 0.1503, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: bd3cb4af8406d4436a2ae8c2aafe1f8d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fca94f0fe22324a47881a987803cf5a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

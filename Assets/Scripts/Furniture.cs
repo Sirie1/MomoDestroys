@@ -8,10 +8,11 @@ public class Furniture : MonoBehaviour
    // [SerializeField] bool mouthContact = false;
     [Range(0.0f, 100.0f)] [SerializeField] private float health = 100f;
     [SerializeField] Slider slider;
-    [SerializeField] SpriteRenderer spriteRenderer;
+    [SerializeField] SpriteRenderer brokenSpriteRenderer;
     private void Start()
     {
         RestoreHealth();
+
     }
     private void RestoreHealth()
     {
@@ -34,10 +35,10 @@ public class Furniture : MonoBehaviour
     {
         if (health < 10f)
         {
-            spriteRenderer.enabled = false; 
+            brokenSpriteRenderer.gameObject.SetActive (true);
         }
         else
-            spriteRenderer.enabled = true;
-        
+            brokenSpriteRenderer.gameObject.SetActive(false);
+
     }
 }

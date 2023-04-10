@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class DogWalkState : DogBaseState
 {
-    float horizontal;
+    //float horizontal;
+    Vector2 input;
 
     public override void EnterState(DogStateController dog)
     {
         Debug.Log("entering walk state");
-        horizontal = Input.GetAxisRaw("Horizontal");
+
+        //horizontal = Input.GetAxisRaw("Horizontal");
         dog.animator.Play("Dog_Walk");
     }
 
@@ -21,7 +23,8 @@ public class DogWalkState : DogBaseState
 
     public override void UpdateState(DogStateController dog)
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
+        input = dog.playerInput.actions["Move"].ReadValue<Vector2>();
+       // horizontal = Input.GetAxisRaw("Horizontal");
         Flip(dog);
         /*
         if (Input.GetButton("Horizontal") && dog.IsOnGround)
@@ -30,18 +33,18 @@ public class DogWalkState : DogBaseState
             horizontal = Input.GetAxisRaw("Horizontal");
         }*/
 
-        if (Input.GetButton("Horizontal"))
+        if (input.x != 0)
         {
-            horizontal = Input.GetAxisRaw("Horizontal");
+            //horizontal = Input.GetAxisRaw("Horizontal");
             Flip(dog);
         }
         else
             dog.SwitchState(dog.IdleState);
-        if (Input.GetButton("Jump") && dog.IsOnGround)
+        if (dog.playerInput.actions["Jump"].triggered && dog.IsOnGround)
         {
             dog.SwitchState(dog.JumpState);
         }
-        else if (Input.GetButton("Fire1") && dog.mouthController.IsFurnitureReachable)
+        else if (dog.playerInput.actions["Chew"].triggered && dog.mouthController.IsFurnitureReachable)
         {
             dog.SwitchState(dog.ChewState);
         }
@@ -50,11 +53,11 @@ public class DogWalkState : DogBaseState
     public override void FixedUpdateState(DogStateController dog)
     {
         Rigidbody2D rb = dog.GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(horizontal * dog.WalkSpeed, rb.velocity.y);
+        rb.velocity = new Vector2(input.x * dog.WalkSpeed, rb.velocity.y);
     }
     private void Flip(DogStateController dog)
     {
-        if (dog.IsFacingRight && horizontal < 0f || !dog.IsFacingRight && horizontal > 0f)
+        if (dog.IsFacingRight && input.x < 0f || !dog.IsFacingRight && input.x > 0f)
         {
             dog.IsFacingRight = !dog.IsFacingRight;
             Vector3 localScale = dog.transform.localScale;

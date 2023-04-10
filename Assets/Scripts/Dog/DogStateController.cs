@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class DogStateController : MonoBehaviour
 {
@@ -9,7 +10,9 @@ public class DogStateController : MonoBehaviour
     public PoopController poopController;
     public GroundCheck groundCheck;
     public Animator animator;
+    public PlayerInput playerInput;
 
+    
     [SerializeField] bool isOnGround;
     [SerializeField] private bool isFacingRight = true;
     [SerializeField] float walkSpeed;

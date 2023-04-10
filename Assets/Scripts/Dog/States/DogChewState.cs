@@ -19,18 +19,21 @@ public class DogChewState : DogBaseState
 
     public override void UpdateState(DogStateController dog)
     {
-        if (dog.mouthController.IsFurnitureReachable && Input.GetButton("Fire1"))
+        Vector2 input = dog.playerInput.actions["Move"].ReadValue<Vector2>();
+        if (dog.mouthController.IsFurnitureReachable && dog.playerInput.actions["Chew"].IsPressed())
+           
+           // if (dog.mouthController.IsFurnitureReachable && Input.GetButton("Fire1"))
         {
             dog.mouthController.ReachableFurniture.TakeDamage(dog.mouthController.ChewPower);
             dog.poopController.PoopCharge(dog.mouthController.ReachableFurniture.gameObject);
         }
         else
             dog.SwitchState(dog.IdleState);
-        if (Input.GetButton("Horizontal") && dog.IsOnGround)
+        if (input.x!=0 && dog.IsOnGround)
         {
             dog.SwitchState(dog.WalkState);
         }
-        else if (Input.GetButtonDown("Jump") && dog.IsOnGround)
+        else if (dog.playerInput.actions["Jump"].triggered && dog.IsOnGround)
         {
             dog.SwitchState(dog.JumpState);
         }

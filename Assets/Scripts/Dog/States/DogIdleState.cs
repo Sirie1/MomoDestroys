@@ -18,17 +18,20 @@ public class DogIdleState : DogBaseState
 
     public override void UpdateState(DogStateController dog)
     {
-        if (Input.GetButton("Horizontal") && dog.IsOnGround)
+        Vector2 input = dog.playerInput.actions["Move"].ReadValue<Vector2>();
+
+        if (input.x != 0 && dog.IsOnGround)
+        //if (Input.GetButton("Horizontal") && dog.IsOnGround)
         {
             dog.SwitchState(dog.WalkState);
         }
-
-        //horizontal = Input.GetAxisRaw("Horizontal");   
-        else if (Input.GetButtonDown("Jump") && dog.IsOnGround)
+        //else if (Input.GetButtonDown("Jump") && dog.IsOnGround)
+        else if (dog.playerInput.actions["Jump"].triggered && dog.IsOnGround)
         {
             dog.SwitchState(dog.JumpState);
         }
-        else if (Input.GetButtonDown("Fire1") && dog.mouthController.IsFurnitureReachable)
+        //else if (Input.GetButtonDown("Fire1") && dog.mouthController.IsFurnitureReachable)
+        else if (dog.playerInput.actions["Chew"].IsPressed() && dog.mouthController.IsFurnitureReachable)
         {
             dog.SwitchState(dog.ChewState);
         }

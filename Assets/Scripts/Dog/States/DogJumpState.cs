@@ -28,7 +28,7 @@ public class DogJumpState : DogBaseState
     {
         if (dog.IsOnGround && rb.velocity.y == 0)
             dog.SwitchState(dog.IdleState);
-        horizontal = Input.GetAxisRaw("Horizontal");
+        horizontal = dog.playerInput.actions["Move"].ReadValue<Vector2>().x;
     }
     public override void FixedUpdateState(DogStateController dog)
     {

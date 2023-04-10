@@ -30,7 +30,8 @@ public class PoopController : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetButtonDown("Fire3"))
+        if (dogStateController.playerInput.actions["Poop"].IsPressed())
+            //if (Input.GetButtonDown("Fire3"))
         {
             Poop();
         }

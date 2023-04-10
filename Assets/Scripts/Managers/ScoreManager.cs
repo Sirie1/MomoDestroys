@@ -23,12 +23,15 @@ public class ScoreManager : MonoBehaviour
 
     [SerializeField] int score;
     [SerializeField] TextMeshProUGUI scoreText;
+
+    [SerializeField] int poopOnBed;
+    [SerializeField] int poopOnPicture;
+
     void Awake()
     {
         _instance = this; //Initialization of the private instance
     }
 
-    
     public void ResetScore()
     {
         score = 0;

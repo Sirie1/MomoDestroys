@@ -49,6 +49,8 @@ public class TimerManager : MonoBehaviour
         timeLeft -= Time.deltaTime;
         if (timeLeft>=0)
             UpdateTimeUI();
+        else
+            GameManager.Instance.ManageGameEnd();
     }
     private void UpdateTimeUI()
     {

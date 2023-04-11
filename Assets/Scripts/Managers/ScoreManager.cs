@@ -27,6 +27,10 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] int poopOnBed;
     [SerializeField] int poopOnPicture;
 
+    public int Score
+    {
+        get { return score; }
+    }
     void Awake()
     {
         _instance = this; //Initialization of the private instance
@@ -48,6 +52,6 @@ public class ScoreManager : MonoBehaviour
     }
     void UpdateUI()
     {
-        scoreText.text = "-$" + score.ToString();
+        scoreText.text = "-£" + score.ToString();
     }
 }

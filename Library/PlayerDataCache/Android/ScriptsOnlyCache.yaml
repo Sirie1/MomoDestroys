@@ -1,23 +1,33 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DataManager
     - DogController
     - DogStateController
+    - EndScreenController
     - Furniture
+    - GameManager
     - GroundCheck
     - MouthController
     - Poop
     - PoopController
     - ScoreManager
+    - SessionController
+    - TimerManager
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
+    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
+    - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -53,10 +63,12 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -94,35 +106,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 656}
     - Class: 114
-      Script: {instanceID: 1568}
+      Script: {instanceID: 1562}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1570}
     - Class: 114
-      Script: {instanceID: 1936}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2394}
+      Script: {instanceID: 1938}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2396}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 2406}
     - Class: 114
-      Script: {instanceID: 3150}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 3274}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3152}
     - Class: 114
-      Script: {instanceID: 3538}
+      Script: {instanceID: 3276}
     - Class: 114
-      Script: {instanceID: 3678}
+      Script: {instanceID: 3356}
     - Class: 114
-      Script: {instanceID: 4192}
+      Script: {instanceID: 3540}
     - Class: 114
-      Script: {instanceID: 4196}
+      Script: {instanceID: 3680}
     - Class: 114
-      Script: {instanceID: 4236}
+      Script: {instanceID: 3786}
+    - Class: 114
+      Script: {instanceID: 4194}
+    - Class: 114
+      Script: {instanceID: 4198}
+    - Class: 114
+      Script: {instanceID: 4238}
     - Class: 114
       Script: {instanceID: 4760}
     - Class: 114
@@ -141,6 +159,16 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5770}
     - Class: 114
       Script: {instanceID: 5904}
+    - Class: 114
+      Script: {instanceID: 29862}
+    - Class: 114
+      Script: {instanceID: 31116}
+    - Class: 114
+      Script: {instanceID: 31136}
+    - Class: 114
+      Script: {instanceID: 37600}
+    - Class: 114
+      Script: {instanceID: 38332}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -160,6 +188,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 251
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -530,7 +564,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 530d19c2f9bdcac7f94120194bf45011
+      Hash: e2c24526be5514ba5a9df7172675916a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Furniture
@@ -668,7 +702,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 18306f4d8d0b41d3621c18c026baab39
+      Hash: 16cd2d019ebb19362697f575bcb56b97
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScoreManager
@@ -894,6 +928,36 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 381b9b140af86d113b316d4260115cac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimerManager
+  - hash:
+      serializedVersion: 2
+      Hash: f3a0ba27556bbe28254b17c1160ddd00
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 79cbafb09a65851eeea3c0f9fe2617d2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DataManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SessionController
+  - hash:
+      serializedVersion: 2
+      Hash: 4cf0d16580527ebfcb1cc1bc480c872d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EndScreenController
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

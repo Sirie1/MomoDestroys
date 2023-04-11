@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,20 +29,22 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        StartGame();
+       
     }
     public void StartGame()
     {
+
         EndScreen.SetActive(false);
 
         ResumeGame();
 
+        ScoreManager.Instance.ResetScore();
         TimerManager.Instance.ResetTimer();
         //DataManager.Instance.LoadUserData();
     }
     public void ManageGameEnd()
     {
-        PauseGame();
+        //PauseGame();
         EndScreen.SetActive(true);
     }
     void PauseGame()
@@ -51,5 +54,16 @@ public class GameManager : MonoBehaviour
     void ResumeGame()
     {
         Time.timeScale = 1;
+    }
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+    public void PlayAgain()
+    {
+        SceneManager.LoadScene(0);
+
+        ScoreManager.Instance.ResetScore();
+        TimerManager.Instance.ResetTimer();
     }
 }

@@ -100,7 +100,7 @@ public class DataManager : MonoBehaviour
     public class UserData
     {
         public string UserName;
-        public float BestTime;
+        public int BestScore;
         public int MatchesPlayed;
         public int LastLevelPassed;
     }

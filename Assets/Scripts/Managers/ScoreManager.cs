@@ -45,7 +45,17 @@ public class ScoreManager : MonoBehaviour
         score ++;
         UpdateUI();
     }
-    public void AddPoop()
+    public void AddPoop(Poop poop)
+    {
+
+        score += 150;
+        UpdateUI();
+    }
+    public void AddPoopCollision(Poop poop)
+    {
+        Debug.Log("Pooping on " + poop.ObjectPooped.name + "costs bonus");
+    }
+    public void AddPee()
     {
         score += 150;
         UpdateUI();

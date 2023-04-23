@@ -5,10 +5,23 @@ using UnityEngine;
 public class Poop : MonoBehaviour
 {
     [SerializeField] int poopDamage;
-
+    [SerializeField] GameObject objectPooped;
     public int PoopDamage
     {
         get { return poopDamage; }
         set { poopDamage = value; }
+    }
+    public GameObject ObjectPooped
+    {
+        get { return objectPooped; }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        objectPooped = collision.gameObject;
+        if (objectPooped != null)
+            ScoreManager.Instance.AddPoopCollision(this);
+
+        //Debug.Log("Pooped on " + collision.gameObject.name);
     }
 }

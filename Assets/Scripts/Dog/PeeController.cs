@@ -43,6 +43,7 @@ public class PeeController : MonoBehaviour
             GameObject newPee;
             newPee = Instantiate(peePrefab);
             newPee.transform.position = this.transform.position + new Vector3(0, -0.6f, 0);
+            ScoreManager.Instance.AddPee();
             UsePeeCharge();
             UpdatePeeBarUI();
         }

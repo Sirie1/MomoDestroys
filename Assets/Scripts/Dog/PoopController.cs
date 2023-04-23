@@ -70,7 +70,7 @@ public class PoopController : MonoBehaviour
             newPoop.transform.position = dogStateController.transform.position + new Vector3(dir * 0.8f, 0, 0);
             newPoop.GetComponent<Rigidbody2D>().velocity = new Vector2(poopShootX * dir, poopShootY);
             ResetPoop();
-            ScoreManager.Instance.AddPoop();
+            ScoreManager.Instance.AddPoop(newPoop.GetComponent<Poop>());
             UpdatePoopUI();
             readyToPoop = false;
         }

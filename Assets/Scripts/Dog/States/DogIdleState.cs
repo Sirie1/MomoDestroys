@@ -35,6 +35,10 @@ public class DogIdleState : DogBaseState
         {
             dog.SwitchState(dog.ChewState);
         }
+        else if (dog.playerInput.actions["Pee"].IsPressed())
+        {
+            dog.SwitchState(dog.PeeState);
+        }
     }
     public override void FixedUpdateState(DogStateController dog)
     {

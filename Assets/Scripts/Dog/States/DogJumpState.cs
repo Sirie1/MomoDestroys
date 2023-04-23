@@ -4,24 +4,19 @@ using UnityEngine;
 
 public class DogJumpState : DogBaseState
 {
-   // bool isJumping;
     float horizontal;
     Rigidbody2D rb;
     public override void EnterState(DogStateController dog)
     {
-       // isJumping = true;
         rb = dog.GetComponent<Rigidbody2D>();
         Debug.Log("entering jump state");
         rb.velocity = new Vector2(rb.velocity.x, dog.JumpForce);
         dog.animator.Play("Dog_Jump");
-
     }
 
     public override void ExitState(DogStateController dog)
     {
-       // isJumping = false;
         Debug.Log("exiting jump state");
-       // dog.animator.StopPlayback();
     }
 
     public override void UpdateState(DogStateController dog)
@@ -34,17 +29,6 @@ public class DogJumpState : DogBaseState
     {
         Flip(dog);
         rb.velocity = new Vector2(horizontal * dog.WalkSpeed, rb.velocity.y);
-        /*
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * dog.SustainedJump);
-        }*/
-/*
-        if (Input.GetButtonUp("Horizontal"))
-        {
-            rb.velocity = new Vector2(horizontal * dog.WalkSpeed, rb.velocity.y);
-        }
-*/
     }
     private void Flip(DogStateController dog)
     {

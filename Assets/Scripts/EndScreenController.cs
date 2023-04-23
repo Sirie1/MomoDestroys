@@ -7,11 +7,14 @@ using System;
 public class EndScreenController : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI scoreTextUI;
+    [SerializeField] TextMeshProUGUI maxScoreTextUI;
     // Start is called before the first frame update
     void Start()
     {
         scoreTextUI.text = "£" + ScoreManager.Instance.Score.ToString();
         CheckBestScore();
+        maxScoreTextUI.text = "£" + DataManager.Instance.userData.BestScore.ToString();
+
     }
 
     private void CheckBestScore()

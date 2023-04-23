@@ -5,9 +5,11 @@ using UnityEngine.InputSystem;
 
 public class DogStateController : MonoBehaviour
 {
+    #region Def
     public DogController dogController;
     public MouthController mouthController;   
     public PoopController poopController;
+    public PeeController peeController;
     public GroundCheck groundCheck;
     public Animator animator;
     public PlayerInput playerInput;
@@ -19,16 +21,25 @@ public class DogStateController : MonoBehaviour
     [SerializeField] float sustainedJump;
     [SerializeField] float jumpForce;
 
+    [SerializeField] DogBaseState prevState;
     [SerializeField] DogBaseState currentState;
     DogIdleState idleState = new DogIdleState();
     DogWalkState walkState = new DogWalkState();
     DogJumpState jumpState = new DogJumpState();
     DogChewState chewState = new DogChewState();
+    DogPeeState peeState = new DogPeeState();
+    DogPooState pooState = new DogPooState();
+
+    #endregion
 
     #region States
     public DogBaseState CurrentState
     {
         get { return currentState; }
+    }
+    public DogBaseState PrevState
+    {
+        get { return prevState; }
     }
     public DogIdleState IdleState
     {
@@ -45,6 +56,14 @@ public class DogStateController : MonoBehaviour
     public DogChewState ChewState
     {
         get { return chewState; }
+    }
+    public DogPooState PooState
+    {
+        get { return pooState; }
+    }
+    public DogPeeState PeeState
+    {
+        get { return peeState; }
     }
     #endregion
 
@@ -75,8 +94,10 @@ public class DogStateController : MonoBehaviour
         set { isFacingRight = value; }
     }
     #endregion
+
     private void Start()
     {
+        prevState = IdleState;
         currentState = IdleState;
         currentState.EnterState(this);
     }
@@ -90,24 +111,11 @@ public class DogStateController : MonoBehaviour
     }
     public void SwitchState(DogBaseState state)
     {
+        prevState = currentState;
         Debug.Log ("Switching state");
         currentState.ExitState(this);
+
         currentState = state;
         state.EnterState(this);
     }
-    /*
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Furniture")
-        {
-            isOnGround = true;
-        }
-    }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Furniture")
-        {
-            isOnGround = false;
-        }
-    }*/
 }

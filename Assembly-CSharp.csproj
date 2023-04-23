@@ -56,12 +56,16 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogIdleState.cs" />
+    <Compile Include="Assets\Scripts\EndScreenController.cs" />
     <Compile Include="Assets\Scripts\Dog\PoopController.cs" />
     <Compile Include="Assets\Scripts\Dog\DogStateController.cs" />
+    <Compile Include="Assets\Scripts\Managers\SessionController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogWalkState.cs" />
     <Compile Include="Assets\Scripts\Furniture.cs" />
     <Compile Include="Assets\Scripts\Dog\GroundCheck.cs" />
+    <Compile Include="Assets\Scripts\Managers\DataManager.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogJumpState.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogChewState.cs" />
     <Compile Include="Assets\Scripts\Dog\DogController.cs" />
@@ -70,10 +74,9 @@
     <Compile Include="Assets\Scripts\Dog\MouthController.cs" />
     <Compile Include="Assets\Scripts\Dog\Poop.cs" />
     <Compile Include="Assets\Scripts\Managers\TimerManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\DataManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\SessionController.cs" />
-    <Compile Include="Assets\Scripts\EndScreenController.cs" />
+    <Compile Include="Assets\Scripts\Dog\States\DogPooState.cs" />
+    <Compile Include="Assets\Scripts\Dog\States\DogPeeState.cs" />
+    <Compile Include="Assets\Scripts\Dog\PeeController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

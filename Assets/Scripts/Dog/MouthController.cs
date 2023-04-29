@@ -9,6 +9,14 @@ public class MouthController : MonoBehaviour
     [SerializeField] Furniture reachableFurniture;
     [SerializeField] float chewPower = 50f;
     [SerializeField] PoopController poopController;
+    [SerializeField] Animator mouthAnimator;
+   // [SerializeField] bool isChewing;
+
+    private void Start()
+    {
+
+        //  mouthAnimator.StopPlayback();
+    }
     public bool IsFurnitureReachable
     {
         get { return isFurnitureReachable; }
@@ -23,14 +31,18 @@ public class MouthController : MonoBehaviour
     {
         get { return chewPower; }
     }
+    /*
     public void Chew(Furniture reachableFurniture)
     {
         if (isFurnitureReachable)
         {
+            mouthAnimator.SetBool("isChewing", true);
+           // mouthAnimator.StopPlayback();
+            mouthAnimator.Play("Cloud");
             reachableFurniture.TakeDamage(chewPower);
             poopController.PoopCharge(reachableFurniture.gameObject);
         }
-    }
+    }*/
     private void OnTriggerEnter2D(Collider2D collision)
     {
        //Debug.Log ("Entering trigger");
@@ -49,7 +61,16 @@ public class MouthController : MonoBehaviour
         {
             IsFurnitureReachable = false;
             reachableFurniture = null;
+            mouthAnimator.SetBool("isChewing", false);
         }
                
+    }
+    public void StartAnimation()
+    {
+        mouthAnimator.SetBool("isChewing", true);
+    }
+    public void StopAnimation()
+    {
+        mouthAnimator.SetBool("isChewing", false);
     }
 }

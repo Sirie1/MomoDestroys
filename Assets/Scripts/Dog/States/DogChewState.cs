@@ -14,7 +14,7 @@ public class DogChewState : DogBaseState
     public override void ExitState(DogStateController dog)
     {
         Debug.Log("exiting chew state");
-
+        dog.mouthController.StopAnimation();
     }
 
     public override void UpdateState(DogStateController dog)
@@ -26,6 +26,7 @@ public class DogChewState : DogBaseState
         {
             dog.mouthController.ReachableFurniture.TakeDamage(dog.mouthController.ChewPower);
             dog.poopController.PoopCharge(dog.mouthController.ReachableFurniture.gameObject);
+            dog.mouthController.StartAnimation();
         }
         else
             dog.SwitchState(dog.IdleState);

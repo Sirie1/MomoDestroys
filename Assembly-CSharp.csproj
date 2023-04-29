@@ -57,10 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Dog\PeeController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogIdleState.cs" />
     <Compile Include="Assets\Scripts\EndScreenController.cs" />
     <Compile Include="Assets\Scripts\Dog\PoopController.cs" />
+    <Compile Include="Assets\Scripts\Dog\States\DogPooState.cs" />
     <Compile Include="Assets\Scripts\Dog\DogStateController.cs" />
+    <Compile Include="Assets\Scripts\Dog\States\DogPeeState.cs" />
     <Compile Include="Assets\Scripts\Managers\SessionController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogWalkState.cs" />
     <Compile Include="Assets\Scripts\Furniture.cs" />
@@ -74,12 +77,18 @@
     <Compile Include="Assets\Scripts\Dog\MouthController.cs" />
     <Compile Include="Assets\Scripts\Dog\Poop.cs" />
     <Compile Include="Assets\Scripts\Managers\TimerManager.cs" />
-    <Compile Include="Assets\Scripts\Dog\States\DogPooState.cs" />
-    <Compile Include="Assets\Scripts\Dog\States\DogPeeState.cs" />
-    <Compile Include="Assets\Scripts\Dog\PeeController.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\DOTween\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -94,7 +103,9 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\DOTween\DOTween.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\DOTween\DOTween.XML" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -317,6 +328,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

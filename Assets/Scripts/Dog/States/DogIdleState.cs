@@ -31,7 +31,7 @@ public class DogIdleState : DogBaseState
             dog.SwitchState(dog.JumpState);
         }
         //else if (Input.GetButtonDown("Fire1") && dog.mouthController.IsFurnitureReachable)
-        else if (dog.playerInput.actions["Chew"].IsPressed() && dog.mouthController.IsFurnitureReachable)
+        else if (dog.playerInput.actions["Chew"].triggered && dog.mouthController.IsFurnitureReachable)
         {
             dog.SwitchState(dog.ChewState);
         }

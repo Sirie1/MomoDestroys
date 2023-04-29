@@ -8,6 +8,7 @@ public class MouthController : MonoBehaviour
     [SerializeField] bool isFurnitureReachable = false;
     [SerializeField] Furniture reachableFurniture;
     [SerializeField] float chewPower = 50f;
+    [SerializeField] float chewTime = 0.3f;
     [SerializeField] PoopController poopController;
     [SerializeField] Animator mouthAnimator;
    // [SerializeField] bool isChewing;
@@ -15,7 +16,6 @@ public class MouthController : MonoBehaviour
     private void Start()
     {
 
-        //  mouthAnimator.StopPlayback();
     }
     public bool IsFurnitureReachable
     {
@@ -30,6 +30,10 @@ public class MouthController : MonoBehaviour
     public float ChewPower
     {
         get { return chewPower; }
+    }
+    public float ChewTime
+    {
+        get { return chewTime; }
     }
     /*
     public void Chew(Furniture reachableFurniture)

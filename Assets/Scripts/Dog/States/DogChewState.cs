@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class DogChewState : DogBaseState
 {
-
+    float chewStateTimer;
     public override void EnterState(DogStateController dog)
     {
         Debug.Log("entering chew state");
         dog.animator.Play("Dog_Sniff");
+        chewStateTimer = dog.mouthController.ChewTime;
     }
 
     public override void ExitState(DogStateController dog)
@@ -19,7 +20,20 @@ public class DogChewState : DogBaseState
 
     public override void UpdateState(DogStateController dog)
     {
-        Vector2 input = dog.playerInput.actions["Move"].ReadValue<Vector2>();
+        chewStateTimer -= Time.deltaTime;
+        if (chewStateTimer <= 0 || !dog.mouthController.IsFurnitureReachable)
+        {
+            dog.SwitchState(dog.IdleState);
+        }
+        else
+        {
+            dog.mouthController.ReachableFurniture.TakeDamage(dog.mouthController.ChewPower);
+            dog.poopController.PoopCharge(dog.mouthController.ReachableFurniture.gameObject);
+            dog.mouthController.StartAnimation();
+        }
+
+        /*Vector2 input = dog.playerInput.actions["Move"].ReadValue<Vector2>();
+
         if (dog.mouthController.IsFurnitureReachable && dog.playerInput.actions["Chew"].IsPressed())
            
            // if (dog.mouthController.IsFurnitureReachable && Input.GetButton("Fire1"))
@@ -38,7 +52,7 @@ public class DogChewState : DogBaseState
         {
             dog.SwitchState(dog.JumpState);
         }
-
+        */
     }
     public override void FixedUpdateState(DogStateController dog)
     {

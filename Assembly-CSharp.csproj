@@ -799,6 +799,14 @@
       <Project>{276B0EDB-C91E-5230-B45B-AEFEDD464EEE}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{DB8898AD-BA26-EC9C-23C9-3D6F9A808534}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{664130E1-024B-F8ED-9A0D-CDC457E61601}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

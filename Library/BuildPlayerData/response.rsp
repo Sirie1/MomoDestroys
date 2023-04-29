@@ -12,6 +12,7 @@
 -a="C:\Users\usuario\Unity\MomoDestroys\Library\PlayerScriptAssemblies\Unity.2D.Animation.Runtime.dll"
 -a="C:\Users\usuario\Unity\MomoDestroys\Library\PlayerScriptAssemblies\Unity.2D.Common.Runtime.dll"
 -a="C:\Users\usuario\Unity\MomoDestroys\Library\PlayerScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll"
+-a="C:\Users\usuario\Unity\MomoDestroys\Library\PlayerScriptAssemblies\Cinemachine.dll"
 -a="C:\Users\usuario\Unity\MomoDestroys\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\AOT\Newtonsoft.Json.dll"
 -a="C:\Users\usuario\Unity\MomoDestroys\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Portable\Newtonsoft.Json.dll"
 -a="C:\Users\usuario\Unity\MomoDestroys\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll"

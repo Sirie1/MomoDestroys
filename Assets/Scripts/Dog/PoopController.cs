@@ -74,8 +74,7 @@ public class PoopController : MonoBehaviour
             UpdatePoopUI();
             readyToPoop = false;
         }
-        else 
-            Debug.Log ("Not ready to poop");
+        
 
     }
     //After pooping the poop bar needs to be reseted

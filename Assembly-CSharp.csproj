@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Dog\PeeController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogIdleState.cs" />
     <Compile Include="Assets\Scripts\EndScreenController.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
     <Compile Include="Assets\Scripts\Dog\PoopController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogPooState.cs" />
     <Compile Include="Assets\Scripts\Dog\DogStateController.cs" />
@@ -74,17 +75,17 @@
     <Compile Include="Assets\Scripts\Dog\DogController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogBaseState.cs" />
     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets\Scripts\Dog\MouthController.cs" />
     <Compile Include="Assets\Scripts\Dog\Poop.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Scripts\Managers\TimerManager.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Scripts\FaceController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -326,11 +327,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -763,6 +764,14 @@
       <Project>{F1171FB8-6732-CE57-EF7C-B381C75F43E2}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{664130E1-024B-F8ED-9A0D-CDC457E61601}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{DB8898AD-BA26-EC9C-23C9-3D6F9A808534}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
       <Project>{44885AD5-EF4E-C554-2FA8-2355C475171A}</Project>
       <Name>Unity.2D.Animation.Triangle.Runtime</Name>
@@ -798,14 +807,6 @@
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
       <Project>{276B0EDB-C91E-5230-B45B-AEFEDD464EEE}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{DB8898AD-BA26-EC9C-23C9-3D6F9A808534}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{664130E1-024B-F8ED-9A0D-CDC457E61601}</Project>
-      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

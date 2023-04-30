@@ -17,14 +17,14 @@ public class Furniture : MonoBehaviour
     [SerializeField] Slider slider;
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] SpriteRenderer brokenSpriteRenderer;
-    Vector2 originalPosition;
+    //Vector2 originalPosition;
     private void Start()
     {
         RestoreHealth();
         isShakeOn = false;
         shakeIntensity = 0.025f;
         shakeSpeed = 40f;
-        originalPosition = spriteRenderer.GetComponentInParent<Transform>().position;
+        //originalPosition = spriteRenderer.GetComponentInParent<Transform>().position;
     }
     private void Update()
     {
@@ -35,9 +35,6 @@ public class Furniture : MonoBehaviour
             shakeCurrentTime -= Time.deltaTime;
             if (shakeCurrentTime > 0)
             {
-               // isShakeAnimOn = true;
-                //transform.DOShakePosition(0.1f, shakeIntensity).onComplete = ResetPosition;
-                //spriteRenderer.transform.DOShakePosition(0.1f, shakeIntensity).onComplete = ResetPosition;
                 ShakeFrame();
                 
             }
@@ -61,12 +58,13 @@ public class Furniture : MonoBehaviour
     {
         spriteRenderer.transform.localPosition = new Vector3( Mathf.Sin(Time.time * shakeSpeed) * shakeIntensity, Mathf.Sin(Time.time * shakeSpeed) * shakeIntensity, 0);
     }
+    /*
     private void ResetPosition ()
     {
         isShakeAnimOn = false;
         transform.localPosition = originalPosition;
 
-    }
+    }*/
     private void RestoreHealth()
     {
         health = 100f;

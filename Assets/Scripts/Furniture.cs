@@ -8,32 +8,58 @@ public class Furniture : MonoBehaviour
 {
    // [SerializeField] bool mouthContact = false;
     [Range(0.0f, 100.0f)] [SerializeField] private float health = 100f;
-    [SerializeField] float shakeIntensity = 0.05f;
-    //[SerializeField] float shakeSpeed = 5f;
+    [SerializeField] float shakeIntensity = 0.025f;
+    [SerializeField] float shakeTime = 0.1f;
+    [SerializeField] float shakeCurrentTime = 0.1f;
+    [SerializeField] float shakeSpeed = 40f;
     [SerializeField] bool isShakeOn;
     [SerializeField] bool isShakeAnimOn;
     [SerializeField] Slider slider;
+    [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] SpriteRenderer brokenSpriteRenderer;
     Vector2 originalPosition;
     private void Start()
     {
         RestoreHealth();
         isShakeOn = false;
-        originalPosition = transform.localPosition;
+        shakeIntensity = 0.025f;
+        shakeSpeed = 40f;
+        originalPosition = spriteRenderer.GetComponentInParent<Transform>().position;
     }
     private void Update()
     {
-        //Shake
-        if(isShakeOn)
-        {
-            if (!isShakeAnimOn)
-            {
-                isShakeAnimOn = true;
-                transform.DOShakePosition(0.1f, shakeIntensity).onComplete = ResetPosition;
-            }
-        }
-        isShakeOn=false;
 
+        //Shake
+        if (isShakeOn)
+        {
+            shakeCurrentTime -= Time.deltaTime;
+            if (shakeCurrentTime > 0)
+            {
+               // isShakeAnimOn = true;
+                //transform.DOShakePosition(0.1f, shakeIntensity).onComplete = ResetPosition;
+                //spriteRenderer.transform.DOShakePosition(0.1f, shakeIntensity).onComplete = ResetPosition;
+                ShakeFrame();
+                
+            }
+            else
+            {
+                spriteRenderer.transform.localPosition = new Vector3(0, 0, 0);
+                isShakeOn =false;
+            }
+
+        }
+        else
+            spriteRenderer.transform.localPosition = new Vector3(0, 0, 0);
+
+
+    }
+    private void StartShakeTimer()
+    {
+        shakeCurrentTime = shakeTime;
+    }
+    private void ShakeFrame()
+    {
+        spriteRenderer.transform.localPosition = new Vector3( Mathf.Sin(Time.time * shakeSpeed) * shakeIntensity, Mathf.Sin(Time.time * shakeSpeed) * shakeIntensity, 0);
     }
     private void ResetPosition ()
     {
@@ -61,6 +87,7 @@ public class Furniture : MonoBehaviour
     }
     public void StartShake()
     {
+        StartShakeTimer();
         isShakeOn = true;
     }
     void UpdateSprite()

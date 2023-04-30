@@ -35,18 +35,6 @@ public class MouthController : MonoBehaviour
     {
         get { return chewTime; }
     }
-    /*
-    public void Chew(Furniture reachableFurniture)
-    {
-        if (isFurnitureReachable)
-        {
-            mouthAnimator.SetBool("isChewing", true);
-           // mouthAnimator.StopPlayback();
-            mouthAnimator.Play("Cloud");
-            reachableFurniture.TakeDamage(chewPower);
-            poopController.PoopCharge(reachableFurniture.gameObject);
-        }
-    }*/
     private void OnTriggerEnter2D(Collider2D collision)
     {
        //Debug.Log ("Entering trigger");
@@ -60,7 +48,7 @@ public class MouthController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("Exiting trigger");
+       // Debug.Log("Exiting trigger");
         if (collision.gameObject.tag == "Furniture")
         {
             IsFurnitureReachable = false;

@@ -8,6 +8,7 @@ public class EndScreenController : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI scoreTextUI;
     [SerializeField] TextMeshProUGUI maxScoreTextUI;
+    [SerializeField] GameObject ScoreTextGameObject;
     // Start is called before the first frame update
     void Start()
     {

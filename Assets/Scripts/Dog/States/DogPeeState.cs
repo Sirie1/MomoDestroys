@@ -7,7 +7,7 @@ public class DogPeeState : DogBaseState
     float peeTimer;
     public override void EnterState(DogStateController dog)
     {
-        Debug.Log("entering pee state");
+       // Debug.Log("entering pee state");
         if (dog.peeController.IsPeeAvailable)
         {
             dog.animator.Play("Dog_Pee");
@@ -23,8 +23,8 @@ public class DogPeeState : DogBaseState
 
     public override void ExitState(DogStateController dog)
     {
-        Debug.Log("exiting pee state");
-        //dog.animator.StopPlayback();
+        //Debug.Log("exiting pee state");
+
     }
 
     public override void UpdateState(DogStateController dog)

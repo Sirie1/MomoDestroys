@@ -6,14 +6,14 @@ public class DogPooState : DogBaseState
 {
     public override void EnterState(DogStateController dog)
     {
-        Debug.Log("entering poo state");
+       // Debug.Log("entering poo state");
         dog.animator.Play("Dog_Idle");
     }
 
     public override void ExitState(DogStateController dog)
     {
-        Debug.Log("exiting poo state");
-        //dog.animator.StopPlayback();
+      //  Debug.Log("exiting poo state");
+
     }
 
     public override void UpdateState(DogStateController dog)

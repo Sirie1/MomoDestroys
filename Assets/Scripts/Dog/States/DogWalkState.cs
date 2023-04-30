@@ -9,7 +9,7 @@ public class DogWalkState : DogBaseState
 
     public override void EnterState(DogStateController dog)
     {
-        Debug.Log("entering walk state");
+       // Debug.Log("entering walk state");
 
         //horizontal = Input.GetAxisRaw("Horizontal");
         dog.animator.Play("Dog_Walk");
@@ -17,8 +17,8 @@ public class DogWalkState : DogBaseState
 
     public override void ExitState(DogStateController dog)
     {
-        Debug.Log("exiting walk state");
-       // dog.animator.StopPlayback();
+        //Debug.Log("exiting walk state");
+
     }
 
     public override void UpdateState(DogStateController dog)

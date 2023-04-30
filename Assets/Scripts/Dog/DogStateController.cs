@@ -112,7 +112,7 @@ public class DogStateController : MonoBehaviour
     public void SwitchState(DogBaseState state)
     {
         prevState = currentState;
-        Debug.Log ("Switching state");
+        //Debug.Log ("Switching state");
         currentState.ExitState(this);
 
         currentState = state;

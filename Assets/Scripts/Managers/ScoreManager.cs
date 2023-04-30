@@ -74,10 +74,10 @@ public class ScoreManager : MonoBehaviour
     public void AddPoopCollision(Poop poop)
     {
 
-        Debug.Log("Pooping on " + poop.ObjectPooped.name);
+        //Debug.Log("Pooping on " + poop.ObjectPooped.name);
         if(ReachedPoopList.Count <1)
         {
-            Debug.Log("First poop, creating list");
+            //Debug.Log("First poop, creating list");
             PoopReach newObjectReached = new PoopReach();
             newObjectReached.objectReached = poop.ObjectPooped.name;
             //Search in dictionary for corresponding bonus 
@@ -92,15 +92,15 @@ public class ScoreManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Poop list not mull");
+            //Debug.Log("Poop list not mull");
             //Check list if existing
             bool wasFoundInList = false;
             for (int i = 0; i < ReachedPoopList.Count; i++)
             {
-                Debug.Log($"Checking element n: {i}");
+                //Debug.Log($"Checking element n: {i}");
                 if (ReachedPoopList[i].objectReached == poop.ObjectPooped.name)
                 {
-                    Debug.Log ("Pooped repeated " + poop.ObjectPooped.name);
+                    //Debug.Log ("Pooped repeated " + poop.ObjectPooped.name);
                     PoopReach tempStruct = ReachedPoopList[i];
                     tempStruct.timesReached++;
                     ReachedPoopList[i] = tempStruct;
@@ -114,7 +114,6 @@ public class ScoreManager : MonoBehaviour
                 PoopReach newObjectReached = new PoopReach();
                 newObjectReached.objectReached = poop.ObjectPooped.name;
                 //Search in dictionary for corresponding bonus 
-                //newObjectReached.bonusDestruction = bonusPoopCost[poop.ObjectPooped.name];
                 if (!bonusPoopCost.TryGetValue(poop.ObjectPooped.name, out newObjectReached.bonusDestruction))
                 {
                     Debug.LogWarning("Dict doesn't have the value " + poop.ObjectPooped.name);

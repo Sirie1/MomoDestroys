@@ -9,14 +9,14 @@ public class DogJumpState : DogBaseState
     public override void EnterState(DogStateController dog)
     {
         rb = dog.GetComponent<Rigidbody2D>();
-        Debug.Log("entering jump state");
+       // Debug.Log("entering jump state");
         rb.velocity = new Vector2(rb.velocity.x, dog.JumpForce);
         dog.animator.Play("Dog_Jump");
     }
 
     public override void ExitState(DogStateController dog)
     {
-        Debug.Log("exiting jump state");
+      //  Debug.Log("exiting jump state");
     }
 
     public override void UpdateState(DogStateController dog)

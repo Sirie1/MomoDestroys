@@ -32,8 +32,9 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] int score;
     [SerializeField] TextMeshProUGUI scoreText;
 
-    [SerializeField] int poopOnBed;
-    [SerializeField] int poopOnPicture;
+   // SerializeField] int poopOnBed;
+   // [SerializeField] int poopOnPicture;
+
     public List<PoopReach> ReachedPoopList = new List<PoopReach>();
        
     Dictionary<string, int> bonusPoopCost = new Dictionary<string, int>()

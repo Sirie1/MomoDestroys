@@ -67,7 +67,7 @@
     <Compile Include="Assets\Scripts\Dog\States\DogPeeState.cs" />
     <Compile Include="Assets\Scripts\Managers\SessionController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogWalkState.cs" />
-    <Compile Include="Assets\Scripts\Furniture.cs" />
+    <Compile Include="Assets\Scripts\Furniture\Furniture.cs" />
     <Compile Include="Assets\Scripts\Dog\GroundCheck.cs" />
     <Compile Include="Assets\Scripts\Managers\DataManager.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogJumpState.cs" />
@@ -82,10 +82,12 @@
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\Scripts\FaceController.cs" />
     <Compile Include="Assets\Scripts\Managers\TimerManager.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
-    <Compile Include="Assets\Scripts\FaceController.cs" />
+    <Compile Include="Assets\Scripts\Furniture\FurnitureSO\FurnitureSO.cs" />
+    <Compile Include="Assets\Scripts\Furniture\FurnitureSO\FurnitureCatalogSO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

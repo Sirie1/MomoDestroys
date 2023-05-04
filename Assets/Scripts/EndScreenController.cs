@@ -10,6 +10,7 @@ public class EndScreenController : MonoBehaviour
     [SerializeField] TextMeshProUGUI maxScoreTextUI;
     [SerializeField] GameObject ScoreTextGameObject;
     [SerializeField] GameObject bonusTextPrefab;
+    [SerializeField] TextMeshProUGUI totalScoreText;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,10 +31,17 @@ public class EndScreenController : MonoBehaviour
     }
     private void CalculateScore()
     {
+        int totalScore = ScoreManager.Instance.Score;
         for (int i = 0; i < ScoreManager.Instance.ReachedPoopList.Count; i++)
         {
+
             GameObject tempBonusText = Instantiate(bonusTextPrefab, scoreTextParentUI.transform);
-            tempBonusText.GetComponent<TextMeshProUGUI>().text = ScoreManager.Instance.ReachedPoopList[i].objectReached + " X"+ ScoreManager.Instance.ReachedPoopList[i].timesReached;
+
+            int bonusScore = ScoreManager.Instance.ReachedPoopList[i].timesReached * ScoreManager.Instance.ReachedPoopList[i].bonusDestruction;
+            tempBonusText.GetComponent<TextMeshProUGUI>().text = ScoreManager.Instance.ReachedPoopList[i].objectReached + " X" + ScoreManager.Instance.ReachedPoopList[i].timesReached + " $" + bonusScore;
+            tempBonusText.GetComponent<TextMeshProUGUI>().color = Color.green;
+            totalScore = totalScore + bonusScore;
         }
+        totalScoreText.text = "$" + totalScore.ToString();
     }
 }

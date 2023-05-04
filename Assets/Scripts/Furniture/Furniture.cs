@@ -17,6 +17,8 @@ public class Furniture : MonoBehaviour
     [SerializeField] Slider slider;
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] SpriteRenderer brokenSpriteRenderer;
+
+    [SerializeField] FurnitureSO furnitureSO;
     //Vector2 originalPosition;
     private void Start()
     {
@@ -24,7 +26,8 @@ public class Furniture : MonoBehaviour
         isShakeOn = false;
         shakeIntensity = 0.025f;
         shakeSpeed = 40f;
-        //originalPosition = spriteRenderer.GetComponentInParent<Transform>().position;
+        //Set values from SO
+        SetPhysics();
     }
     private void Update()
     {
@@ -47,8 +50,20 @@ public class Furniture : MonoBehaviour
         }
         else
             spriteRenderer.transform.localPosition = new Vector3(0, 0, 0);
+    }
+    void SetPhysics()
+    {
 
-
+        if (furnitureSO.IsMovable)
+        {
+            GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            GetComponent<Rigidbody2D>().mass = furnitureSO.Mass;
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+        }
+        else
+        {
+            GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+        }
     }
     private void StartShakeTimer()
     {
@@ -67,8 +82,8 @@ public class Furniture : MonoBehaviour
     }*/
     private void RestoreHealth()
     {
-        health = 100f;
-        slider.value = health/100;
+        health = furnitureSO.MaxHealth;
+        slider.value = 1f;
         UpdateSprite();
     }
 
@@ -79,7 +94,7 @@ public class Furniture : MonoBehaviour
             StartShake();
             health -= chewPower * Time.deltaTime;
             ScoreManager.Instance.AddScore();
-            slider.value = health / 100;
+            slider.value = health /furnitureSO.MaxHealth;
             UpdateSprite();
         }
     }

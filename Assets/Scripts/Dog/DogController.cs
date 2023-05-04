@@ -22,7 +22,7 @@ public class DogController : MonoBehaviour
    // [SerializeField] Furniture reachableFurniture;
 
     private float horizontal;
-    [SerializeField] private bool isFacingRight = true;
+    //[SerializeField] private bool isFacingRight = true;
     private Rigidbody2D rb;
 
    // [SerializeField] float poopx;
@@ -42,11 +42,11 @@ public class DogController : MonoBehaviour
         set { isFurnitureReachable = value; }
     }*/
 
-    public bool IsFacingRight
+   /* public bool IsFacingRight
     {
         get { return isFacingRight; }
         set { isFacingRight = value; }
-    }
+    }*/
     /*
     public Furniture ReachableFurniture
     {

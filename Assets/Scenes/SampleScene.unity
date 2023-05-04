@@ -2302,7 +2302,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016555548, y: 0.016370177}
+  m_Offset: {x: -0.004704237, y: 0.016370177}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2313,7 +2313,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2538514, y: 0.4336064}
+  m_Size: {x: 1.1732621, y: 0.4336064}
   m_EdgeRadius: 0
 --- !u!251 &291384633
 PlatformEffector2D:
@@ -4272,7 +4272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGrounded: 0
-  radiousCheck: 0.4
+  radiousCheck: 1
   platformLayerMask:
     serializedVersion: 2
     m_Bits: 8
@@ -4284,7 +4284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500139555}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -1.46, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1404152020}
@@ -12904,7 +12904,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1183638766}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.24, y: -1.83, z: 1.03758}
+  m_LocalPosition: {x: -5.52, y: -1.83, z: 1.03758}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1724077927}
@@ -13524,6 +13524,7 @@ GameObject:
   - component: {fileID: 1276708691}
   - component: {fileID: 1276708692}
   - component: {fileID: 1276708693}
+  - component: {fileID: 1276708694}
   m_Layer: 3
   m_Name: Platform
   m_TagString: Furniture
@@ -13558,7 +13559,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0.004197061, y: -0.00032532215}
+  m_Offset: {x: 0.004197061, y: 0.028086483}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -13569,7 +13570,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.41683018, y: 0.31906176}
+  m_Size: {x: 0.41683018, y: 0.37588537}
   m_EdgeRadius: 0
 --- !u!251 &1276708693
 PlatformEffector2D:
@@ -13590,6 +13591,22 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!70 &1276708694
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276708690}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 8fe552a1bd8cf284d8a9fa5096e7e166, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.05258572}
+  m_Size: {x: 0.36, y: 0.4926083}
+  m_Direction: 0
 --- !u!1 &1318369091
 GameObject:
   m_ObjectHideFlags: 0
@@ -14238,6 +14255,7 @@ GameObject:
   - component: {fileID: 1404152027}
   - component: {fileID: 1404152025}
   - component: {fileID: 1404152026}
+  - component: {fileID: 1404152028}
   m_Layer: 12
   m_Name: Dog
   m_TagString: Dog
@@ -14261,7 +14279,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4558b3feea9fc05499d3861b02ea916d, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -14346,8 +14364,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.07125669, y: -0.27337554}
-  m_Size: {x: 1.609604, y: 1.1551676}
+  m_Offset: {x: -0.040663023, y: -0.51587105}
+  m_Size: {x: 2.1197128, y: 1.112369}
   m_Direction: 1
 --- !u!114 &1404152022
 MonoBehaviour:
@@ -14408,7 +14426,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5214a4e75e1f20e47a98d81816ef5b67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFacingRight: 1
 --- !u!95 &1404152025
 Animator:
   serializedVersion: 3
@@ -14476,6 +14493,36 @@ MonoBehaviour:
   peeTime: 1
   peeBarUI: {fileID: 1318369093}
   isPeeAvailable: 0
+--- !u!60 &1404152028
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404152017}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.1333334, y: 1.8666667}
+    newSize: {x: 2.1333334, y: 1.8666667}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.0184802, y: 0.09407854}
+      - {x: -0.29709667, y: -0.12264201}
+      - {x: 0.09223628, y: -0.9333334}
+      - {x: 0.35331398, y: -0.122900575}
+      - {x: 0.94199115, y: 0.11233427}
 --- !u!1 &1430937280
 GameObject:
   m_ObjectHideFlags: 0
@@ -17013,7 +17060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeLeft: 0
   timeLeftInt: 0
-  gameTime: 73.8
+  gameTime: 500
   timeUI: {fileID: 137808135}
 --- !u!1 &1764895964
 GameObject:
@@ -17726,7 +17773,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850137900}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.5900888, y: -1.78, z: 1.03758}
+  m_LocalPosition: {x: -0.16, y: -1.78, z: 1.03758}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 617036728}
@@ -17770,7 +17817,6 @@ GameObject:
   - component: {fileID: 1869151199}
   - component: {fileID: 1869151198}
   - component: {fileID: 1869151200}
-  - component: {fileID: 1869151201}
   - component: {fileID: 1869151202}
   m_Layer: 12
   m_Name: Mouth
@@ -17800,15 +17846,15 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1869151196}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.14138709, y: 0.14127025}
+  m_Offset: {x: -0.14138709, y: 0.027758906}
   serializedVersion: 2
-  m_Radius: 0.53188246
+  m_Radius: 0.64539385
 --- !u!212 &1869151199
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17879,22 +17925,6 @@ MonoBehaviour:
   chewTime: 0.3
   poopController: {fileID: 1404152022}
   mouthAnimator: {fileID: 1869151202}
---- !u!70 &1869151201
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869151196}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.015595934, y: -0.3247359}
-  m_Size: {x: 0.968808, y: 1.9190633}
-  m_Direction: 0
 --- !u!95 &1869151202
 Animator:
   serializedVersion: 3

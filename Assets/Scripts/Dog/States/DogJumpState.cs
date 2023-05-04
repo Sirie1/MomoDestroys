@@ -16,12 +16,12 @@ public class DogJumpState : DogBaseState
 
     public override void ExitState(DogStateController dog)
     {
-      //  Debug.Log("exiting jump state");
+      Debug.Log("exiting jump state");
     }
 
     public override void UpdateState(DogStateController dog)
     {
-        if (dog.IsOnGround && rb.velocity.y == 0)
+        if (dog.groundCheck.IsGrounded && Mathf.Abs(rb.velocity.y) <= Mathf.Abs( 0.00001f))
             dog.SwitchState(dog.IdleState);
         horizontal = dog.playerInput.actions["Move"].ReadValue<Vector2>().x;
     }

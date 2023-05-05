@@ -30,6 +30,11 @@ public class DogJumpState : DogBaseState
         Flip(dog);
         rb.velocity = new Vector2(horizontal * dog.WalkSpeed, rb.velocity.y);
     }
+
+    /// <summary>
+    /// Flips to the correcto facing forward position
+    /// </summary>
+
     private void Flip(DogStateController dog)
     {
         if (dog.IsFacingRight && horizontal < 0f || !dog.IsFacingRight && horizontal > 0f)

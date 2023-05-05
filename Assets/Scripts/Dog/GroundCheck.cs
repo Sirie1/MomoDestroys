@@ -16,6 +16,10 @@ public class GroundCheck : MonoBehaviour
     {
         GroundCheckM();
     }
+
+    /// <summary>
+    /// Generates bubble colliders with certain radius and checks for collition to certain layer
+    /// </summary>
     public void GroundCheckM()
     {
         isGrounded = false;

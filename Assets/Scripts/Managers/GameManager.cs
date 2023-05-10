@@ -27,10 +27,7 @@ public class GameManager : MonoBehaviour
     {
         _instance = this; //Initialization of the private instance
     }
-    private void Start()
-    {
-       
-    }
+
     public void StartGame()
     {
 

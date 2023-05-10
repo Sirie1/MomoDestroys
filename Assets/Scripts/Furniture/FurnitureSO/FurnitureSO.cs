@@ -15,12 +15,12 @@ public class FurnitureSO : ScriptableObject
     //Pooping section
     [Header("Pooping Settings")]
     [SerializeField] int bonusForPoop;
-    [SerializeField] string messagePooOnScoreboard;
+  //  [SerializeField] string messagePooOnScoreboard;
 
     //Pee section
     [Header("Pee Settings")]
     [SerializeField] int bonusForPee;
-    [SerializeField] string messagePeeOnScoreboard;
+  //  [SerializeField] string messagePeeOnScoreboard;
 
     //Properties
     public string FurnitureName
@@ -44,6 +44,7 @@ public class FurnitureSO : ScriptableObject
     {
         get => bonusForPoop;
     }
+    /*
     public string MessagePooOnScoreboard
     {
         get => messagePooOnScoreboard;
@@ -55,7 +56,7 @@ public class FurnitureSO : ScriptableObject
     public string MessagePeeOnScoreboard
     {
         get => messagePeeOnScoreboard;
-    }
+    }*/
 
     
 }

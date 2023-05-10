@@ -93,8 +93,6 @@ public class DataManager : MonoBehaviour
     }
     #endregion
 
-
-
     #region Class definitions formats to save
     [Serializable]
     public class UserData
@@ -103,6 +101,13 @@ public class DataManager : MonoBehaviour
         public int BestScore;
         public int MatchesPlayed;
         public int LastLevelPassed;
+        public List<AchievementsData> Achievements;
+    }
+    [Serializable]
+    public class AchievementsData
+    {
+        public int ID;
+        public int timesAchieved;
     }
     #endregion
 

@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject EndScreen;
+    [SerializeField] GameObject PauseMenu;
+    [SerializeField] GameObject Joystick;
+    bool isGamePaused;
     #region Singleton
     private static GameManager _instance;
     public static GameManager Instance
@@ -44,14 +48,29 @@ public class GameManager : MonoBehaviour
         //PauseGame();
         EndScreen.SetActive(true);
     }
-    void PauseGame()
+    public void PauseGame()
     {
+        isGamePaused = true;
+        PauseMenu.SetActive(true);
+        Joystick.SetActive(false);
         Time.timeScale = 0;
     }
-    void ResumeGame()
+    public void ResumeGame()
     {
+        isGamePaused = false;
+        PauseMenu.SetActive(false);
+        Joystick.SetActive(true);
         Time.timeScale = 1;
     }
+    public void TogglePause()
+    { 
+        if(isGamePaused)
+            ResumeGame();
+        else
+            PauseGame();
+    }
+
+
     public void ExitGame()
     {
         Application.Quit();

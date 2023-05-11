@@ -23,7 +23,7 @@ public class Furniture : MonoBehaviour
 
     #region Properties
 
-    ObjectTypes ObjectType
+    public ObjectTypes ObjectType
     {
         get { return objectType; }
     }
@@ -35,7 +35,8 @@ public class Furniture : MonoBehaviour
         Bench,
         Bed,
         Picture, 
-        ArtPicture
+        ArtPicture,
+        Other
     }
     private void Start()
     {

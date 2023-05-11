@@ -4,11 +4,26 @@ using UnityEngine;
 
 public class AchievementsController : MonoBehaviour
 {
+    [SerializeField] AchievementsSOCatalog achievementSOList;
     //Checks if dog messed on object, and corresponds to an achievement. 
-    public void CheckAchievement(AchievementSO.AchievementType action, GameObject affectedObject )
+    public void CheckAchievement(AchievementSO.AchievementType action, Furniture affectedObject )
     {
+        foreach ( var achievement in achievementSOList.AchievementsCatalog)
+        {
+            if (achievement.achievementType == action)
+            {
+                foreach (var myType in achievement.interactionObject)
+                {
+                    if (myType == affectedObject.ObjectType)
+                    {
+                        Debug.Log("Achievement reached");
+                        DataManager.Instance.AddAchievement(achievement.id);
 
-        DataManager.Instance.AddAchievement(0);
-        DataManager.Instance.SaveUserData();
+                        DataManager.Instance.SaveUserData();
+                    }
+                }
+            }
+        }
+
     }
 }

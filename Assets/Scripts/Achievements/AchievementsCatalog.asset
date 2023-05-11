@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd8be250e6736a4c944c45a2cfb1a11, type: 3}
   m_Name: AchievementsCatalog
   m_EditorClassIdentifier: 
-  achievementsCatalog: []
+  achievementsCatalog:
+  - {fileID: 11400000, guid: 51088ca261f541e46a95bc191fd1ea18, type: 2}
+  - {fileID: 11400000, guid: 510a0b8ff0c4fce4d8f14f8fc5a77c8e, type: 2}
+  - {fileID: 11400000, guid: 2f20a25f761d788498601b50ec2b5899, type: 2}
+  - {fileID: 11400000, guid: d5339176eb3a01046b206ceab89df66d, type: 2}

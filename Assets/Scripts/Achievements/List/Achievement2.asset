@@ -16,5 +16,5 @@ MonoBehaviour:
   Name: Poop on bench
   achievementType: 1
   Text: It is a bench or a toilet?
-  interactionObject: []
+  interactionObject: 01000000
   reward: 0

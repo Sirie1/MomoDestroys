@@ -16,7 +16,7 @@ public class AchievementSO : ScriptableObject
     public string Name;
     public AchievementType achievementType;
     public string Text;
-    public List<GameObject> interactionObject = new List<GameObject>();
+    public List<Furniture.ObjectTypes> interactionObject = new List<Furniture.ObjectTypes>();
     public int reward;
 
 }

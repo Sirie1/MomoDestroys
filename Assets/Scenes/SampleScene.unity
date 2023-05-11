@@ -214,6 +214,7 @@ MonoBehaviour:
   shakeSpeed: 5
   isShakeOn: 0
   isShakeAnimOn: 0
+  objectType: 0
   slider: {fileID: 528879202}
   spriteRenderer: {fileID: 2044914389}
   brokenSpriteRenderer: {fileID: 1733487765}
@@ -2166,6 +2167,7 @@ MonoBehaviour:
   shakeSpeed: 5
   isShakeOn: 0
   isShakeAnimOn: 0
+  objectType: 5
   slider: {fileID: 552550646}
   spriteRenderer: {fileID: 1380775395}
   brokenSpriteRenderer: {fileID: 1136659746}
@@ -3470,6 +3472,7 @@ MonoBehaviour:
   shakeSpeed: 5
   isShakeOn: 0
   isShakeAnimOn: 0
+  objectType: 0
   slider: {fileID: 34458415}
   spriteRenderer: {fileID: 1511247162}
   brokenSpriteRenderer: {fileID: 69108627}
@@ -5290,6 +5293,7 @@ MonoBehaviour:
   shakeSpeed: 5
   isShakeOn: 0
   isShakeAnimOn: 0
+  objectType: 2
   slider: {fileID: 48583891}
   spriteRenderer: {fileID: 1472268428}
   brokenSpriteRenderer: {fileID: 977818357}
@@ -12947,6 +12951,7 @@ MonoBehaviour:
   shakeSpeed: 5
   isShakeOn: 0
   isShakeAnimOn: 0
+  objectType: 4
   slider: {fileID: 1141780890}
   spriteRenderer: {fileID: 1640422426}
   brokenSpriteRenderer: {fileID: 1064505872}
@@ -13692,6 +13697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 743a03f6a396aa5469275be38e147321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  achievementSOList: {fileID: 0}
 --- !u!1 &1091577094
 GameObject:
   m_ObjectHideFlags: 0
@@ -14867,6 +14873,7 @@ MonoBehaviour:
   shakeSpeed: 40
   isShakeOn: 0
   isShakeAnimOn: 0
+  objectType: 1
   slider: {fileID: 337480258}
   spriteRenderer: {fileID: 1724077928}
   brokenSpriteRenderer: {fileID: 1562102577}
@@ -15285,6 +15292,7 @@ MonoBehaviour:
   shakeSpeed: 5
   isShakeOn: 0
   isShakeAnimOn: 0
+  objectType: 3
   slider: {fileID: 1431696765}
   spriteRenderer: {fileID: 154360850}
   brokenSpriteRenderer: {fileID: 307847027}
@@ -16240,6 +16248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 743a03f6a396aa5469275be38e147321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  achievementSOList: {fileID: 11400000, guid: 9a000392939d02948800a62129b63f81, type: 2}
 --- !u!1 &1367907985
 GameObject:
   m_ObjectHideFlags: 0
@@ -17099,6 +17108,7 @@ MonoBehaviour:
   shakeSpeed: 5
   isShakeOn: 0
   isShakeAnimOn: 0
+  objectType: 0
   slider: {fileID: 1522735605}
   spriteRenderer: {fileID: 1675902596}
   brokenSpriteRenderer: {fileID: 2141966884}
@@ -20732,6 +20742,7 @@ MonoBehaviour:
   shakeSpeed: 40
   isShakeOn: 0
   isShakeAnimOn: 0
+  objectType: 0
   slider: {fileID: 686418072}
   spriteRenderer: {fileID: 617036729}
   brokenSpriteRenderer: {fileID: 905817101}
@@ -22732,6 +22743,7 @@ MonoBehaviour:
   shakeSpeed: 40
   isShakeOn: 0
   isShakeAnimOn: 0
+  objectType: 0
   slider: {fileID: 1611671184}
   spriteRenderer: {fileID: 887124252}
   brokenSpriteRenderer: {fileID: 48729155}

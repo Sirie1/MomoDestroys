@@ -76,9 +76,10 @@ public class ScoreManager : MonoBehaviour
     {
         //Check if adds to achievements
 
-        if (poop.ObjectPooped.tag == "Furniture")
+        if (poop.ObjectPooped.GetComponent<Furniture>() != null)
         {
-            achievementsController.CheckAchievement(AchievementSO.AchievementType.Poop, poop.ObjectPooped);
+            
+            achievementsController.CheckAchievement(AchievementSO.AchievementType.Poop, poop.ObjectPooped.GetComponent<Furniture>());
         }
 
 

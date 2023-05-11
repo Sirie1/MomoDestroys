@@ -16,5 +16,5 @@ MonoBehaviour:
   Name: Pee on table
   achievementType: 2
   Text: Ohh why on the table?
-  interactionObject: []
+  interactionObject: 00000000
   reward: 0

@@ -16,5 +16,5 @@ MonoBehaviour:
   Name: Poop on picture
   achievementType: 1
   Text: Wow how did you reach there?
-  interactionObject: []
+  interactionObject: 03000000
   reward: 0

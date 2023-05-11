@@ -16,5 +16,5 @@ MonoBehaviour:
   Name: Poop on table
   achievementType: 1
   Text: Holy Poop
-  interactionObject: []
+  interactionObject: 00000000
   reward: 0

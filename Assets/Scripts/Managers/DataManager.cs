@@ -109,7 +109,28 @@ public class DataManager : MonoBehaviour
         public int ID;
         public int timesAchieved;
     }
+
+    
     #endregion
+    /*
+    [Serializable]
+    public class UserData
+    {
+        public string UserName;
+        public int BestScore;
+        public int MatchesPlayed;
+        public int LastLevelPassed;
+        public Dictionary<int, int> AchievementsDict;
+    }
+    public void AddAchievement(int ID)
+    {
+        if (userData.AchieventsDict.ContainsKey(ID))
+            userData.AchievementsDict[ID]++;
+        else
+            userData.AchievementsDict.Add(ID, 0);
+    }
+    
+    */
 
 
 }

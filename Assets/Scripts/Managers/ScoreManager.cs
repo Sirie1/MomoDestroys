@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Assertions.Must;
+using System;
 
+//Used to count how many times an object was pooped
 public struct PoopReach
 {
     public string objectReached;
@@ -31,10 +33,8 @@ public class ScoreManager : MonoBehaviour
 
     [SerializeField] int score;
     [SerializeField] TextMeshProUGUI scoreText;
-
-   // SerializeField] int poopOnBed;
-   // [SerializeField] int poopOnPicture;
-
+    [SerializeField] AchievementsController achievementsController;
+    //Make a list of objects pooped
     public List<PoopReach> ReachedPoopList = new List<PoopReach>();
        
     Dictionary<string, int> bonusPoopCost = new Dictionary<string, int>()
@@ -74,9 +74,16 @@ public class ScoreManager : MonoBehaviour
     }
     public void AddPoopCollision(Poop poop)
     {
+        //Check if adds to achievements
+
+        if (poop.ObjectPooped.tag == "Furniture")
+        {
+            achievementsController.CheckAchievement(AchievementSO.AchievementType.Poop, poop.ObjectPooped);
+        }
+
 
         //Debug.Log("Pooping on " + poop.ObjectPooped.name);
-        if(ReachedPoopList.Count <1)
+        if (ReachedPoopList.Count <1)
         {
             //Debug.Log("First poop, creating list");
             PoopReach newObjectReached = new PoopReach();
@@ -90,6 +97,7 @@ public class ScoreManager : MonoBehaviour
             newObjectReached.timesReached = 1;
 
             ReachedPoopList.Add (newObjectReached);
+
         }
         else
         {
@@ -106,6 +114,8 @@ public class ScoreManager : MonoBehaviour
                     tempStruct.timesReached++;
                     ReachedPoopList[i] = tempStruct;
                     wasFoundInList = true;
+
+
                     break;
                 }
             }
@@ -120,6 +130,7 @@ public class ScoreManager : MonoBehaviour
                     Debug.LogWarning("Dict doesn't have the value " + poop.ObjectPooped.name);
                 }
                 newObjectReached.timesReached = 1;
+
 
                 ReachedPoopList.Add(newObjectReached);
             }

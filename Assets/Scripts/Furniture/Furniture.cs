@@ -14,12 +14,29 @@ public class Furniture : MonoBehaviour
     [SerializeField] float shakeSpeed = 40f;
     [SerializeField] bool isShakeOn;
     [SerializeField] bool isShakeAnimOn;
+    [SerializeField] ObjectTypes objectType;
     [SerializeField] Slider slider;
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] SpriteRenderer brokenSpriteRenderer;
 
     [SerializeField] FurnitureSO furnitureSO;
-    //Vector2 originalPosition;
+
+    #region Properties
+
+    ObjectTypes ObjectType
+    {
+        get { return objectType; }
+    }
+
+    #endregion
+    public enum ObjectTypes
+    {
+        Table,
+        Bench,
+        Bed,
+        Picture, 
+        ArtPicture
+    }
     private void Start()
     {
         RestoreHealth();

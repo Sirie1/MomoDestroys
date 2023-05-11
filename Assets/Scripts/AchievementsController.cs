@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class AchievementsController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    //Checks if dog messed on object, and corresponds to an achievement. 
+    public void CheckAchievement(AchievementSO.AchievementType action, GameObject affectedObject )
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        DataManager.Instance.AddAchievement(0);
+        DataManager.Instance.SaveUserData();
     }
 }

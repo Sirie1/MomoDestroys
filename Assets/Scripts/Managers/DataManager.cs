@@ -94,6 +94,9 @@ public class DataManager : MonoBehaviour
     #endregion
 
     #region Class definitions formats to save
+
+
+    [Serializable] public class DictionaryOfIntAndInt : SerializableDictionary<int, int> { }
     [Serializable]
     public class UserData
     {
@@ -101,36 +104,56 @@ public class DataManager : MonoBehaviour
         public int BestScore;
         public int MatchesPlayed;
         public int LastLevelPassed;
-        public List<AchievementsData> Achievements;
-    }
-    [Serializable]
-    public class AchievementsData
-    {
-        public int ID;
-        public int timesAchieved;
+        public DictionaryOfIntAndInt AchievementsDict;
+      
     }
 
-    
     #endregion
-    /*
+    //Dictionaries are not serializable, so this functions as serializable dictionaries
+    #region Serializable dictionary
     [Serializable]
-    public class UserData
+    public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>, ISerializationCallbackReceiver
     {
-        public string UserName;
-        public int BestScore;
-        public int MatchesPlayed;
-        public int LastLevelPassed;
-        public Dictionary<int, int> AchievementsDict;
+        [SerializeField]
+        private List<TKey> keys = new List<TKey>();
+
+        [SerializeField]
+        private List<TValue> values = new List<TValue>();
+
+        // save the dictionary to lists
+        public void OnBeforeSerialize()
+        {
+            keys.Clear();
+            values.Clear();
+            foreach (KeyValuePair<TKey, TValue> pair in this)
+            {
+                keys.Add(pair.Key);
+                values.Add(pair.Value);
+            }
+        }
+
+        // load dictionary from lists
+        public void OnAfterDeserialize()
+        {
+            this.Clear();
+
+            if (keys.Count != values.Count)
+                throw new System.Exception(string.Format("there are {0} keys and {1} values after deserialization. Make sure that both key and value types are serializable."));
+
+            for (int i = 0; i < keys.Count; i++)
+                this.Add(keys[i], values[i]);
+        }
     }
+
+    #endregion
+
     public void AddAchievement(int ID)
     {
-        if (userData.AchieventsDict.ContainsKey(ID))
+        if (userData.AchievementsDict.ContainsKey(ID))
             userData.AchievementsDict[ID]++;
         else
             userData.AchievementsDict.Add(ID, 0);
     }
-    
-    */
 
 
 }

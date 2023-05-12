@@ -152,7 +152,7 @@ public class DataManager : MonoBehaviour
         if (userData.AchievementsDict.ContainsKey(ID))
             userData.AchievementsDict[ID]++;
         else
-            userData.AchievementsDict.Add(ID, 0);
+            userData.AchievementsDict.Add(ID, 1);
     }
 
 

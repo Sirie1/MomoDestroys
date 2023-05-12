@@ -18,9 +18,15 @@ public class Poop : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        objectPooped = collision.gameObject;
-        if (objectPooped != null)
-            ScoreManager.Instance.AddPoopCollision(this);
+        if (collision.gameObject == ObjectPooped)
+            return;
+        else
+        {
+            objectPooped = collision.gameObject;
+            if (objectPooped != null)
+                ScoreManager.Instance.AddPoopCollision(this);
+        }
+
 
         //Debug.Log("Pooped on " + collision.gameObject.name);
     }

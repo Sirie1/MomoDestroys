@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Achievement0
   m_EditorClassIdentifier: 
   id: 0
-  Name: Poop on table
+  Title: Poop on table
   achievementType: 1
-  Text: Holy Poop
+  Text: Fecal matter served on silver platter
   interactionObject: 00000000
+  complete: 50
   reward: 0

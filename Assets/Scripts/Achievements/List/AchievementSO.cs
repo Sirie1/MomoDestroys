@@ -13,10 +13,11 @@ public class AchievementSO : ScriptableObject
         Eat
     }
     public int id;
-    public string Name;
+    public string Title;
     public AchievementType achievementType;
     public string Text;
     public List<Furniture.ObjectTypes> interactionObject = new List<Furniture.ObjectTypes>();
+    public int complete;
     public int reward;
 
 }

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Achievement2
   m_EditorClassIdentifier: 
   id: 2
-  Name: Poop on bench
+  Title: Poop on bench
   achievementType: 1
-  Text: It is a bench or a toilet?
+  Text: I said sit, not shit
   interactionObject: 01000000
+  complete: 50
   reward: 0

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Achievement3
   m_EditorClassIdentifier: 
   id: 3
-  Name: Pee on table
+  Title: Pee on bench
   achievementType: 2
   Text: Ohh why on the table?
-  interactionObject: 00000000
+  interactionObject: 01000000
+  complete: 50
   reward: 0

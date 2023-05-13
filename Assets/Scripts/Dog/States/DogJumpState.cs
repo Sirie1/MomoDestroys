@@ -11,7 +11,8 @@ public class DogJumpState : DogBaseState
         rb = dog.GetComponent<Rigidbody2D>();
        // Debug.Log("entering jump state");
         rb.velocity = new Vector2(rb.velocity.x, dog.JumpForce);
-        dog.animator.Play("Dog_Jump");
+        //dog.animator.Play("Dog_Jump");
+        dog.SetAnimation(DogStateController.StatesName.Jump);
     }
 
     public override void ExitState(DogStateController dog)

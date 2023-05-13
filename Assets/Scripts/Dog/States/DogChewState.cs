@@ -8,7 +8,8 @@ public class DogChewState : DogBaseState
     public override void EnterState(DogStateController dog)
     {
         //Debug.Log("entering chew state");
-        dog.animator.Play("Dog_Sniff");
+        //dog.animator.Play("Dog_Sniff");
+        dog.SetAnimation(DogStateController.StatesName.Chew);
         chewStateTimer = dog.mouthController.ChewTime;
     }
 

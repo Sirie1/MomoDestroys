@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class DogWalkState : DogBaseState
 {
-    //float horizontal;
     Vector2 input;
 
     public override void EnterState(DogStateController dog)
     {
-       // Debug.Log("entering walk state");
+        // Debug.Log("entering walk state");
 
-        //horizontal = Input.GetAxisRaw("Horizontal");
-        dog.animator.Play("Dog_Walk");
+        // dog.animator.Play("Dog_Walk");
+        dog.SetAnimation(DogStateController.StatesName.Walk);
     }
 
     public override void ExitState(DogStateController dog)
     {
-        //Debug.Log("exiting walk state");
+
 
     }
 

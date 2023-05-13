@@ -10,7 +10,8 @@ public class DogPeeState : DogBaseState
        // Debug.Log("entering pee state");
         if (dog.peeController.IsPeeAvailable)
         {
-            dog.animator.Play("Dog_Pee");
+            dog.SetAnimation(DogStateController.StatesName.Pee);
+           // dog.animator.Play("Dog_Pee");
             peeTimer = 0;
         }
         else

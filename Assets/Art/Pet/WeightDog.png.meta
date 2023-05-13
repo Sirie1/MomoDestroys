@@ -1,7 +1,298 @@
 fileFormatVersion: 2
 guid: 031b774a983ec1042850632dd19daf2f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8597457537081356349
+    second: WeightDog_0
+  - first:
+      213: -689768280788582399
+    second: WeightDog_1
+  - first:
+      213: -7349986584486333666
+    second: WeightDog_2
+  - first:
+      213: 2750250403879113912
+    second: WeightDog_3
+  - first:
+      213: 2040862105578026817
+    second: WeightDog_4
+  - first:
+      213: -2913133641275799271
+    second: WeightDog_5
+  - first:
+      213: 3767898675687344097
+    second: WeightDog_6
+  - first:
+      213: -1602939940784036707
+    second: WeightDog_7
+  - first:
+      213: -7922496437600739358
+    second: WeightDog_8
+  - first:
+      213: -6146080695371294761
+    second: WeightDog_9
+  - first:
+      213: 5359260344737768230
+    second: WeightDog_10
+  - first:
+      213: 5178698766309864569
+    second: WeightDog_11
+  - first:
+      213: -1463915440516766049
+    second: WeightDog_12
+  - first:
+      213: 3132414969845251701
+    second: WeightDog_13
+  - first:
+      213: -6081397907725329608
+    second: WeightDog_14
+  - first:
+      213: 4610941585591346416
+    second: WeightDog_15
+  - first:
+      213: 5064752035284677494
+    second: WeightDog_16
+  - first:
+      213: 2140075622526768200
+    second: WeightDog_17
+  - first:
+      213: -6693928560731401933
+    second: WeightDog_18
+  - first:
+      213: 208253246817818959
+    second: WeightDog_19
+  - first:
+      213: 7000642365371433515
+    second: WeightDog_20
+  - first:
+      213: 3094731406032790299
+    second: WeightDog_21
+  - first:
+      213: -7276555980156404414
+    second: WeightDog_22
+  - first:
+      213: 8355737792366225813
+    second: WeightDog_23
+  - first:
+      213: -5906702823072022644
+    second: WeightDog_24
+  - first:
+      213: -8615300249478618970
+    second: WeightDog_25
+  - first:
+      213: -3261823961243598825
+    second: WeightDog_26
+  - first:
+      213: 6756314836460654994
+    second: WeightDog_27
+  - first:
+      213: -1252146739917230916
+    second: WeightDog_28
+  - first:
+      213: 7335955083835956455
+    second: WeightDog_29
+  - first:
+      213: -4198220787877806221
+    second: WeightDog_30
+  - first:
+      213: -3696204132378591276
+    second: WeightDog_31
+  - first:
+      213: 6573087701740375197
+    second: WeightDog_32
+  - first:
+      213: -1026269778479133145
+    second: WeightDog_33
+  - first:
+      213: -5896104545182726750
+    second: WeightDog_34
+  - first:
+      213: 2307832745141655954
+    second: WeightDog_35
+  - first:
+      213: 5729772007185152852
+    second: WeightDog_36
+  - first:
+      213: 8647795202902687212
+    second: WeightDog_37
+  - first:
+      213: -7096786493604071857
+    second: WeightDog_38
+  - first:
+      213: -41485452869999320
+    second: WeightDog_39
+  - first:
+      213: -3864036192819762469
+    second: WeightDog_40
+  - first:
+      213: -2032011959750137621
+    second: WeightDog_41
+  - first:
+      213: -680664257236644010
+    second: WeightDog_42
+  - first:
+      213: -6001864125017860277
+    second: WeightDog_43
+  - first:
+      213: 5849261990781052599
+    second: WeightDog_44
+  - first:
+      213: -7776304001601251812
+    second: WeightDog_45
+  - first:
+      213: -512059687772198902
+    second: WeightDog_46
+  - first:
+      213: -5836544581235352342
+    second: WeightDog_47
+  - first:
+      213: 2977291073146175455
+    second: WeightDog_48
+  - first:
+      213: -8189608980935779053
+    second: WeightDog_49
+  - first:
+      213: -4116205742577836384
+    second: WeightDog_50
+  - first:
+      213: -4078350727972569066
+    second: WeightDog_51
+  - first:
+      213: 7267353230159490666
+    second: WeightDog_52
+  - first:
+      213: -5744975896323613704
+    second: WeightDog_53
+  - first:
+      213: -837328381333657416
+    second: WeightDog_54
+  - first:
+      213: 8303109318951223356
+    second: WeightDog_55
+  - first:
+      213: -5334781466085688581
+    second: WeightDog_56
+  - first:
+      213: -728424557138267142
+    second: WeightDog_57
+  - first:
+      213: 8453687911859235195
+    second: WeightDog_58
+  - first:
+      213: 5508543964363505862
+    second: WeightDog_59
+  - first:
+      213: -5600301808013301598
+    second: WeightDog_60
+  - first:
+      213: -6160533973796734851
+    second: WeightDog_61
+  - first:
+      213: -5442774981544348490
+    second: WeightDog_62
+  - first:
+      213: -3809401734725760189
+    second: WeightDog_63
+  - first:
+      213: 255882745383482514
+    second: WeightDog_64
+  - first:
+      213: -5794843834247541250
+    second: WeightDog_65
+  - first:
+      213: 3490758175844005337
+    second: WeightDog_66
+  - first:
+      213: 3379477973541952863
+    second: WeightDog_67
+  - first:
+      213: -7257919341667610813
+    second: WeightDog_68
+  - first:
+      213: -3455277917599431186
+    second: WeightDog_69
+  - first:
+      213: -1644055250428777277
+    second: WeightDog_70
+  - first:
+      213: -2995873097259615774
+    second: WeightDog_71
+  - first:
+      213: 6725288374330441730
+    second: WeightDog_72
+  - first:
+      213: -3508075303365945442
+    second: WeightDog_73
+  - first:
+      213: 4448989093459978613
+    second: WeightDog_74
+  - first:
+      213: 1292127916453632524
+    second: WeightDog_75
+  - first:
+      213: 9083336050565523482
+    second: WeightDog_76
+  - first:
+      213: -5779125498512228546
+    second: WeightDog_77
+  - first:
+      213: 3261435481670076996
+    second: WeightDog_78
+  - first:
+      213: -6574131310546114138
+    second: WeightDog_79
+  - first:
+      213: -5965020021645745848
+    second: WeightDog_80
+  - first:
+      213: 7769902197910937012
+    second: WeightDog_81
+  - first:
+      213: 4310466879230364340
+    second: WeightDog_82
+  - first:
+      213: 7190603782741112921
+    second: WeightDog_83
+  - first:
+      213: 8259142232506538531
+    second: WeightDog_84
+  - first:
+      213: -4080323387047109258
+    second: WeightDog_85
+  - first:
+      213: 2008953025619791506
+    second: WeightDog_86
+  - first:
+      213: 221963431393678862
+    second: WeightDog_87
+  - first:
+      213: -1942412039625769911
+    second: WeightDog_88
+  - first:
+      213: 1225644211316922966
+    second: WeightDog_89
+  - first:
+      213: -2088043276477973592
+    second: WeightDog_90
+  - first:
+      213: 8148325798361726755
+    second: WeightDog_91
+  - first:
+      213: -3697011770256676493
+    second: WeightDog_92
+  - first:
+      213: -1804051655819004223
+    second: WeightDog_93
+  - first:
+      213: -445157875883358383
+    second: WeightDog_94
+  - first:
+      213: 4237016079194799219
+    second: WeightDog_95
+  - first:
+      213: 4288937994841109084
+    second: WeightDog_96
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +323,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +332,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +366,2094 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: WeightDog_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 459
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d303d35241e405770800000000000000
+      internalID: 8597457537081356349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 459
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100c34637637d66f0800000000000000
+      internalID: -689768280788582399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 459
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e133ecfa42a9ff990800000000000000
+      internalID: -7349986584486333666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 459
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4d69ebb2ada2620800000000000000
+      internalID: 2750250403879113912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 452
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147b886a549925c10800000000000000
+      internalID: 2040862105578026817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 452
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919048043687297d0800000000000000
+      internalID: -2913133641275799271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_6
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 453
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e74202e1e34a4430800000000000000
+      internalID: 3767898675687344097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 456
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d942849dd9631c9e0800000000000000
+      internalID: -1602939940784036707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 457
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef92861773ad0290800000000000000
+      internalID: -7922496437600739358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 459
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7128fbb2cb4baa0800000000000000
+      internalID: -6146080695371294761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 459
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623aee293eaef5a40800000000000000
+      internalID: 5359260344737768230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_11
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 459
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97437ac071f6ed740800000000000000
+      internalID: 5178698766309864569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_12
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 453
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96e9cab9a02fabe0800000000000000
+      internalID: -1463915440516766049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_13
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 452
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57efdbe91d2987b20800000000000000
+      internalID: 3132414969845251701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_14
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 452
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b5a34d2d88a9ba0800000000000000
+      internalID: -6081397907725329608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 394
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4af3931fa5dff30800000000000000
+      internalID: 4610941585591346416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 394
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6737492542d994640800000000000000
+      internalID: 5064752035284677494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 394
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8445e29a07313bd10800000000000000
+      internalID: 2140075622526768200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 394
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33153c1a0736a13a0800000000000000
+      internalID: -6693928560731401933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 394
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49d5ef793dd3e200800000000000000
+      internalID: 208253246817818959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 388
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22c38be327472160800000000000000
+      internalID: 7000642365371433515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 388
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1364d331d1b2fa20800000000000000
+      internalID: 3094731406032790299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_22
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 388
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d788e83ea740b90800000000000000
+      internalID: -7276555980156404414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 388
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599ab46604b85f370800000000000000
+      internalID: 8355737792366225813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_24
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 388
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fbef4d31d270ea0800000000000000
+      internalID: -5906702823072022644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 330
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a02e74a11e407880800000000000000
+      internalID: -8615300249478618970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 330
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710c73e936cabb2d0800000000000000
+      internalID: -3261823961243598825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_27
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 330
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29150f91c8043cd50800000000000000
+      internalID: 6756314836460654994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 330
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbce1989c2b7f9ee0800000000000000
+      internalID: -1252146739917230916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 330
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec534cf74c8ec560800000000000000
+      internalID: 7335955083835956455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_30
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 324
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ff1e1cf6cecb5c0800000000000000
+      internalID: -4198220787877806221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 324
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df3e38cce174bcc0800000000000000
+      internalID: -3696204132378591276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_32
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 324
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c49b3607c483b50800000000000000
+      internalID: 6573087701740375197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 324
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e480ae215f1c1f0800000000000000
+      internalID: -1026269778479133145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_34
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 324
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a541d1b724dc2ea0800000000000000
+      internalID: -5896104545182726750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_35
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 266
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299de2f77a1170020800000000000000
+      internalID: 2307832745141655954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 266
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b7f3c684d348f40800000000000000
+      internalID: 5729772007185152852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 266
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced77574be3230870800000000000000
+      internalID: 8647795202902687212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 260
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4670f1d846238d90800000000000000
+      internalID: -7096786493604071857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_39
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 260
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825665e433d9c6ff0800000000000000
+      internalID: -41485452869999320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_40
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 260
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdaa9bf1e8f206ac0800000000000000
+      internalID: -3864036192819762469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_41
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be86fbf73e7dcc3e0800000000000000
+      internalID: -2032011959750137621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_42
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fca10e67bcd86f0800000000000000
+      internalID: -680664257236644010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_43
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b475626a06815bca0800000000000000
+      internalID: -6001864125017860277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_44
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6e2b63ac0cc2150800000000000000
+      internalID: 5849261990781052599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_45
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16db1f06b4051490800000000000000
+      internalID: -7776304001601251812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_46
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a086a8e4d6cc4e8f0800000000000000
+      internalID: -512059687772198902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_47
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 202
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec5cbf60ad600fa0800000000000000
+      internalID: -5836544581235352342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_48
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 202
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfb1d7e476715920800000000000000
+      internalID: 2977291073146175455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_49
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 202
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d59f1b50aa85e80800000000000000
+      internalID: -8189608980935779053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_50
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae993b8fac40e6c0800000000000000
+      internalID: -4116205742577836384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_51
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 196
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6104db5fe99c667c0800000000000000
+      internalID: -4078350727972569066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_52
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 197
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ea1fc3243dad460800000000000000
+      internalID: 7267353230159490666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_53
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 196
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb13784cdeb540b0800000000000000
+      internalID: -5744975896323613704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_54
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 196
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8214606463164f0800000000000000
+      internalID: -837328381333657416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_55
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 196
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30c25f0fe19a3370800000000000000
+      internalID: 8303109318951223356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_56
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 137
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaff9f758c07f5b0800000000000000
+      internalID: -5334781466085688581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_57
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 137
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af33a1289bd14e5f0800000000000000
+      internalID: -728424557138267142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_58
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 137
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b792264cd58815570800000000000000
+      internalID: 8453687911859235195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_59
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 134
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c04281dc87427c40800000000000000
+      internalID: 5508543964363505862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_60
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 132
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8a3626d2bb742b0800000000000000
+      internalID: -5600301808013301598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_61
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 132
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78be11adf2618aa0800000000000000
+      internalID: -6160533973796734851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_62
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 132
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b47aa8cdf06774b0800000000000000
+      internalID: -5442774981544348490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_63
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 133
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b0aea2e49422bc0800000000000000
+      internalID: -3809401734725760189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_64
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 132
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294fbbe40041d8300800000000000000
+      internalID: 255882745383482514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_65
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 132
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd00d23c34949fa0800000000000000
+      internalID: -5794843834247541250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_66
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 132
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5f8fbe01aa17030800000000000000
+      internalID: 3490758175844005337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_67
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 73
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d993bcf4156ee20800000000000000
+      internalID: 3379477973541952863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_68
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 73
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f077710d0b64b90800000000000000
+      internalID: -7257919341667610813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_69
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 73
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee50c317a036c00d0800000000000000
+      internalID: -3455277917599431186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_70
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 73
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cca317d5742f29e0800000000000000
+      internalID: -1644055250428777277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_71
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 73
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9f0b57a458c66d0800000000000000
+      internalID: -2995873097259615774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_72
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 68
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200c704f426055d50800000000000000
+      internalID: 6725288374330441730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_73
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 68
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e975d812910d05fc0800000000000000
+      internalID: -3508075303365945442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_74
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 68
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579e44d320cfdbd30800000000000000
+      internalID: 4448989093459978613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_75
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 68
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a95987e7f8ee110800000000000000
+      internalID: 1292127916453632524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_76
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 68
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18257d230e7e0e70800000000000000
+      internalID: 9083336050565523482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_77
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 68
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fb6cc6afb6ccfa0800000000000000
+      internalID: -5779125498512228546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_78
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 68
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44accce6a42f24d20800000000000000
+      internalID: 3261435481670076996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_79
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 68
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a92020876ef3c4a0800000000000000
+      internalID: -6574131310546114138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84166b3f4edf73da0800000000000000
+      internalID: -5965020021645745848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_81
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 20
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd120ed1ec34db60800000000000000
+      internalID: 7769902197910937012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_82
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 20
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bacc90f9cad1db30800000000000000
+      internalID: 4310466879230364340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_83
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 20
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9583ddefa082ac360800000000000000
+      internalID: 7190603782741112921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_84
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 20
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a9af50a1e5e9270800000000000000
+      internalID: 8259142232506538531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_85
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 4
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d965a7f77cf57c0800000000000000
+      internalID: -4080323387047109258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_86
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 4
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e8386022c31eb10800000000000000
+      internalID: 2008953025619791506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_87
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 4
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06d8599092941300800000000000000
+      internalID: 221963431393678862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_88
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 4
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cf9a29a8a2b05e0800000000000000
+      internalID: -1942412039625769911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_89
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 4
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a1f8c9aec520110800000000000000
+      internalID: 1225644211316922966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_90
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 4
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab33e5f3b7c503e0800000000000000
+      internalID: -2088043276477973592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_91
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 4
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f7085542ba41170800000000000000
+      internalID: 8148325798361726755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_92
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 4
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379a96fe16391bcc0800000000000000
+      internalID: -3697011770256676493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_93
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6f37ac398b6f6e0800000000000000
+      internalID: -1804051655819004223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_94
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157410b354b72d9f0800000000000000
+      internalID: -445157875883358383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_95
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c3604eca7ecca30800000000000000
+      internalID: 4237016079194799219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeightDog_96
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c523e2ee16e558b30800000000000000
+      internalID: 4288937994841109084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

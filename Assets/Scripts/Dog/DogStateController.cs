@@ -29,7 +29,24 @@ public class DogStateController : MonoBehaviour
     DogChewState chewState = new DogChewState();
     DogPeeState peeState = new DogPeeState();
     DogPooState pooState = new DogPooState();
+    [SerializeField] PowerUp currentPowerUp;
 
+    public enum StatesName
+    {
+        Idle,
+        Walk,
+        Jump,
+        Chew,
+        Poo,
+        Pee
+    }
+    public enum PowerUp
+    {
+        Normal,
+        Super,
+        Weight,
+        Bite
+    }
     #endregion
 
     #region States
@@ -67,7 +84,7 @@ public class DogStateController : MonoBehaviour
     }
     #endregion
 
-    #region SetGet
+    #region Properties
 
     public float WalkSpeed
     {
@@ -93,6 +110,13 @@ public class DogStateController : MonoBehaviour
         get { return isFacingRight; }
         set { isFacingRight = value; }
     }
+
+    public PowerUp CurrentPowerUp
+    {
+        get { return currentPowerUp; }
+        set { UpdatePUStats(); 
+            currentPowerUp = value; }
+    }
     #endregion
 
     private void Start()
@@ -117,5 +141,35 @@ public class DogStateController : MonoBehaviour
 
         currentState = state;
         state.EnterState(this);
+    }
+
+    public void SetAnimation(StatesName state)
+    {
+        //string temp = nameof(currentPowerUp) +"_" + nameof(state);
+       // Debug.Log(currentPowerUp.ToString() + "_" + state.ToString());
+        animator.Play(currentPowerUp.ToString() + "_" + state.ToString());
+    }
+
+    #region Debugging power ups
+
+    public void SetPUNormal()
+    {
+        CurrentPowerUp = PowerUp.Normal;
+    }
+    public void SetPUSuper()
+    {
+        CurrentPowerUp = PowerUp.Super;
+    }
+
+    public void SetPUWeight()
+    {
+        CurrentPowerUp = PowerUp.Weight;
+    }
+
+    #endregion
+
+    void UpdatePUStats()
+    {
+
     }
 }

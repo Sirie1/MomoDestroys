@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Dog_Pee
+  m_Name: Normal_Poo
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -1509417048681365806, guid: f888108f2ed9fac42a499a6611770732, type: 3}
+      value: {fileID: 5871434483459771690, guid: f888108f2ed9fac42a499a6611770732, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -40,7 +40,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -1509417048681365806, guid: f888108f2ed9fac42a499a6611770732, type: 3}
+    - {fileID: 5871434483459771690, guid: f888108f2ed9fac42a499a6611770732, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

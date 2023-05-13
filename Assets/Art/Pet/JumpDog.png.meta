@@ -1,7 +1,298 @@
 fileFormatVersion: 2
 guid: 5f1ca44088be26f489ac34619401188a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8173724684335049217
+    second: JumpDog_0
+  - first:
+      213: 859116307350439095
+    second: JumpDog_1
+  - first:
+      213: -2426054681668088577
+    second: JumpDog_2
+  - first:
+      213: -5812198669318959002
+    second: JumpDog_3
+  - first:
+      213: -446586719163099468
+    second: JumpDog_4
+  - first:
+      213: -7250412612327248187
+    second: JumpDog_5
+  - first:
+      213: 7169452229472277590
+    second: JumpDog_6
+  - first:
+      213: 1100112468972342169
+    second: JumpDog_7
+  - first:
+      213: 1049860078568744394
+    second: JumpDog_8
+  - first:
+      213: 7740082603192101633
+    second: JumpDog_9
+  - first:
+      213: -6572133374344838430
+    second: JumpDog_10
+  - first:
+      213: 5800103361299415611
+    second: JumpDog_11
+  - first:
+      213: 2658334627405404259
+    second: JumpDog_12
+  - first:
+      213: -3062676955534425905
+    second: JumpDog_13
+  - first:
+      213: -8080580299355928573
+    second: JumpDog_14
+  - first:
+      213: 1666799116415492755
+    second: JumpDog_15
+  - first:
+      213: -6736364261591045874
+    second: JumpDog_16
+  - first:
+      213: -255839947350680218
+    second: JumpDog_17
+  - first:
+      213: -6253868723689085626
+    second: JumpDog_18
+  - first:
+      213: -8022646483709098008
+    second: JumpDog_19
+  - first:
+      213: -8066321419698177893
+    second: JumpDog_20
+  - first:
+      213: 6643818641881511627
+    second: JumpDog_21
+  - first:
+      213: -2814050160884933189
+    second: JumpDog_22
+  - first:
+      213: -159735209520491224
+    second: JumpDog_23
+  - first:
+      213: 3403766728147010830
+    second: JumpDog_24
+  - first:
+      213: -6562092968254225276
+    second: JumpDog_25
+  - first:
+      213: 8454171933534733572
+    second: JumpDog_26
+  - first:
+      213: -1471297778167132720
+    second: JumpDog_27
+  - first:
+      213: 7248068543823297267
+    second: JumpDog_28
+  - first:
+      213: 2710804313365060316
+    second: JumpDog_29
+  - first:
+      213: -1823741278259488218
+    second: JumpDog_30
+  - first:
+      213: 2697461445949758346
+    second: JumpDog_31
+  - first:
+      213: -5653202243231227459
+    second: JumpDog_32
+  - first:
+      213: 5945618165933267081
+    second: JumpDog_33
+  - first:
+      213: -818679560253637314
+    second: JumpDog_34
+  - first:
+      213: -4625089091065845322
+    second: JumpDog_35
+  - first:
+      213: -1234292730091102981
+    second: JumpDog_36
+  - first:
+      213: 3635288074741767676
+    second: JumpDog_37
+  - first:
+      213: -1966641902956454429
+    second: JumpDog_38
+  - first:
+      213: -524325364409698753
+    second: JumpDog_39
+  - first:
+      213: 1854626524637402648
+    second: JumpDog_40
+  - first:
+      213: 2065757924791443338
+    second: JumpDog_41
+  - first:
+      213: -192550197910758649
+    second: JumpDog_42
+  - first:
+      213: -8244763449876691575
+    second: JumpDog_43
+  - first:
+      213: 5501200387897095006
+    second: JumpDog_44
+  - first:
+      213: 4465741085854385036
+    second: JumpDog_45
+  - first:
+      213: 301609362422442767
+    second: JumpDog_46
+  - first:
+      213: 1962057499511036532
+    second: JumpDog_47
+  - first:
+      213: 3431856989734222779
+    second: JumpDog_48
+  - first:
+      213: 8203433653363200758
+    second: JumpDog_49
+  - first:
+      213: -8175189817818044765
+    second: JumpDog_50
+  - first:
+      213: 7456802964540360648
+    second: JumpDog_51
+  - first:
+      213: 5133639830438930550
+    second: JumpDog_52
+  - first:
+      213: 1233022417225105895
+    second: JumpDog_53
+  - first:
+      213: 3464816492568023151
+    second: JumpDog_54
+  - first:
+      213: 7132467741767341901
+    second: JumpDog_55
+  - first:
+      213: 4490118389439177476
+    second: JumpDog_56
+  - first:
+      213: 1668804618251484638
+    second: JumpDog_57
+  - first:
+      213: -6085483853594362337
+    second: JumpDog_58
+  - first:
+      213: 1003136328082180264
+    second: JumpDog_59
+  - first:
+      213: 1265527702756127817
+    second: JumpDog_60
+  - first:
+      213: 7044638943433970474
+    second: JumpDog_61
+  - first:
+      213: -4128175609358122305
+    second: JumpDog_62
+  - first:
+      213: -8401119086192315636
+    second: JumpDog_63
+  - first:
+      213: -6020236430525454901
+    second: JumpDog_64
+  - first:
+      213: 3509181387959472782
+    second: JumpDog_65
+  - first:
+      213: 3882022800426059425
+    second: JumpDog_66
+  - first:
+      213: -3465808262660827939
+    second: JumpDog_67
+  - first:
+      213: 2743358401273449425
+    second: JumpDog_68
+  - first:
+      213: -3843411848131966083
+    second: JumpDog_69
+  - first:
+      213: -5099325381699222228
+    second: JumpDog_70
+  - first:
+      213: 5033960405696407860
+    second: JumpDog_71
+  - first:
+      213: -7389099026175021411
+    second: JumpDog_72
+  - first:
+      213: -5340414781707834989
+    second: JumpDog_73
+  - first:
+      213: -6016766662035240197
+    second: JumpDog_74
+  - first:
+      213: 4856109276632330365
+    second: JumpDog_75
+  - first:
+      213: 3574601188367047565
+    second: JumpDog_76
+  - first:
+      213: -5282903689075695267
+    second: JumpDog_77
+  - first:
+      213: 5265268685511657524
+    second: JumpDog_78
+  - first:
+      213: -6336828698859956818
+    second: JumpDog_79
+  - first:
+      213: -4580303476297493742
+    second: JumpDog_80
+  - first:
+      213: 4185463423665830928
+    second: JumpDog_81
+  - first:
+      213: -3073555448411441573
+    second: JumpDog_82
+  - first:
+      213: 5932038887927990213
+    second: JumpDog_83
+  - first:
+      213: 6965669994589576195
+    second: JumpDog_84
+  - first:
+      213: -1785121242228689968
+    second: JumpDog_85
+  - first:
+      213: 8126754711796431508
+    second: JumpDog_86
+  - first:
+      213: 7487317158204858463
+    second: JumpDog_87
+  - first:
+      213: 166393642227481756
+    second: JumpDog_88
+  - first:
+      213: -5328661970689471978
+    second: JumpDog_89
+  - first:
+      213: -1849087050046649024
+    second: JumpDog_90
+  - first:
+      213: 8354973965736993833
+    second: JumpDog_91
+  - first:
+      213: -6116813054800780144
+    second: JumpDog_92
+  - first:
+      213: 6690454479454125933
+    second: JumpDog_93
+  - first:
+      213: -4553660187141472153
+    second: JumpDog_94
+  - first:
+      213: -3886603969516129331
+    second: JumpDog_95
+  - first:
+      213: -233958461431002878
+    second: JumpDog_96
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +323,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +332,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +366,1989 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: JumpDog_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 452
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b650eabeb76dc9f0800000000000000
+      internalID: -446586719163099468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 452
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cee837b42c516b90800000000000000
+      internalID: -7250412612327248187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_6
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 453
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654d3db31d20f7360800000000000000
+      internalID: 7169452229472277590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 456
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b031e3672644f00800000000000000
+      internalID: 1100112468972342169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 459
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac524f6dd2ad19e00800000000000000
+      internalID: 1049860078568744394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 459
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b227f6e1c4a6b60800000000000000
+      internalID: 7740082603192101633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 459
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2cfa544871bc4a0800000000000000
+      internalID: -6572133374344838430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_11
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 459
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b320dced64b1e7050800000000000000
+      internalID: 5800103361299415611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_12
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 453
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3689e98524d44e420800000000000000
+      internalID: 2658334627405404259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_13
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 452
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc08893298f2f75d0800000000000000
+      internalID: -3062676955534425905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_14
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 452
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308ceddc7030cdf80800000000000000
+      internalID: -8080580299355928573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 394
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39261ed17f8a12710800000000000000
+      internalID: 1666799116415492755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 394
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09aa361560a382a0800000000000000
+      internalID: -6736364261591045874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 394
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645269cb78bc539a0800000000000000
+      internalID: -6253868723689085626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 394
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e78bf36785d9a090800000000000000
+      internalID: -8022646483709098008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 388
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98f3cee76bae0090800000000000000
+      internalID: -8066321419698177893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 388
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc63775bad5933c50800000000000000
+      internalID: 6643818641881511627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_22
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 388
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd9254c94c72f8d0800000000000000
+      internalID: -2814050160884933189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 388
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825986a5ca188cdf0800000000000000
+      internalID: -159735209520491224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_24
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 388
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e050f792ecb9c3f20800000000000000
+      internalID: 3403766728147010830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 330
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4844e1c7633cee4a0800000000000000
+      internalID: -6562092968254225276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 330
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4054a68d490435570800000000000000
+      internalID: 8454171933534733572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_27
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 330
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddc68d4776e49be0800000000000000
+      internalID: -1471297778167132720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 330
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa354e40ff469460800000000000000
+      internalID: 7248068543823297267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 330
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda98b91926be9520800000000000000
+      internalID: 2710804313365060316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_30
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 324
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a502358f4c0b6e0800000000000000
+      internalID: -1823741278259488218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 324
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b9521b4ee4f6520800000000000000
+      internalID: 2697461445949758346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_32
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 324
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1e2c0038acb81b0800000000000000
+      internalID: -5653202243231227459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 324
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988df8e7834138250800000000000000
+      internalID: 5945618165933267081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_34
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 324
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d753a074773a4f0800000000000000
+      internalID: -818679560253637314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_35
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 266
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b96c78f9f160dfb0800000000000000
+      internalID: -4625089091065845322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 266
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc92123d49eedee0800000000000000
+      internalID: -1234292730091102981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 266
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd523f4e33237230800000000000000
+      internalID: 3635288074741767676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 260
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edd1e5eb9515b4e0800000000000000
+      internalID: -1966641902956454429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_39
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 260
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36f1abebd839b8f0800000000000000
+      internalID: -524325364409698753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_40
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 260
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81697087ff4fcb910800000000000000
+      internalID: 1854626524637402648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_41
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f542343eb0bac10800000000000000
+      internalID: 2065757924791443338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_42
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b191c7d9ce35df0800000000000000
+      internalID: -192550197910758649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_43
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985c9f03357b49d80800000000000000
+      internalID: -8244763449876691575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_44
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53f8de2b90385c40800000000000000
+      internalID: 5501200387897095006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_45
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83c7396bdf79fd30800000000000000
+      internalID: 4465741085854385036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_46
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 260
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b2f1cfd188f2400800000000000000
+      internalID: 301609362422442767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_47
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 202
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a1f3f76e0aa3b10800000000000000
+      internalID: 1962057499511036532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_48
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 202
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbbc09dfb760af20800000000000000
+      internalID: 3431856989734222779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_49
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 202
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2d23fa17378d170800000000000000
+      internalID: 8203433653363200758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_50
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6a099bc24eb8e80800000000000000
+      internalID: -8175189817818044765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_51
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 196
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c70285d9c2eb7760800000000000000
+      internalID: 7456802964540360648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_52
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 197
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678eb120a3a5e3740800000000000000
+      internalID: 5133639830438930550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_53
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 196
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1cbca0b539c1110800000000000000
+      internalID: 1233022417225105895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_54
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 196
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f609e6b1e30851030800000000000000
+      internalID: 3464816492568023151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_55
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 196
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4799f72f9d9bf260800000000000000
+      internalID: 7132467741767341901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_56
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 137
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403a8f1b2ea105e30800000000000000
+      internalID: 4490118389439177476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_57
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 137
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd396665f8c82710800000000000000
+      internalID: 1668804618251484638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_58
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 137
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ef12c6da40c8ba0800000000000000
+      internalID: -6085483853594362337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_59
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 134
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8c0a0fc2bdbed00800000000000000
+      internalID: 1003136328082180264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_60
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 132
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944f1389dbe009110800000000000000
+      internalID: 1265527702756127817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_61
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 132
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23d3428bc593c160800000000000000
+      internalID: 7044638943433970474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_62
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 132
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb207c1c726c5b6c0800000000000000
+      internalID: -4128175609358122305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_63
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 133
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03b0cfb3ba396b80800000000000000
+      internalID: -8401119086192315636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_64
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 132
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc52aaeecd2d37ca0800000000000000
+      internalID: -6020236430525454901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_65
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 132
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e829cb141ed13b030800000000000000
+      internalID: 3509181387959472782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_66
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 132
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6cc5d4b27bfd530800000000000000
+      internalID: 3882022800426059425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_67
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 73
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4dc7c6fb9f6efc0800000000000000
+      internalID: -3465808262660827939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_68
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 73
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbcc775eed521620800000000000000
+      internalID: 2743358401273449425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_69
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 73
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b0192994579aac0800000000000000
+      internalID: -3843411848131966083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_70
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 73
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c254fad259e8b39b0800000000000000
+      internalID: -5099325381699222228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_71
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 73
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4396ae261583cd540800000000000000
+      internalID: 5033960405696407860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_72
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 68
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e27a6b595a47990800000000000000
+      internalID: -7389099026175021411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_73
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 68
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3992f0ffc0903e5b0800000000000000
+      internalID: -5340414781707834989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_74
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 68
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa0afc5996208ca0800000000000000
+      internalID: -6016766662035240197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_75
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 68
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70362888ad546340800000000000000
+      internalID: 4856109276632330365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_76
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 68
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b9e4e77d88b9130800000000000000
+      internalID: 3574601188367047565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_77
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 68
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51ea06b51b5fa6b0800000000000000
+      internalID: -5282903689075695267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_78
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 68
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43809ee09fdf11940800000000000000
+      internalID: 5265268685511657524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_79
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 68
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea593f15fdf0f08a0800000000000000
+      internalID: -6336828698859956818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2131dcb714e7f60c0800000000000000
+      internalID: -4580303476297493742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_81
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 20
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cfdfbeec0c51a30800000000000000
+      internalID: 4185463423665830928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_82
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 20
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5638f3aa998855d0800000000000000
+      internalID: -3073555448411441573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_83
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 20
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c740c470f5d25250800000000000000
+      internalID: 5932038887927990213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_84
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 20
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cdb1254f70ba060800000000000000
+      internalID: 6965669994589576195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_85
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 4
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d374fb20b9f937e0800000000000000
+      internalID: -1785121242228689968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_86
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 4
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49abb5d5a5808c070800000000000000
+      internalID: 8126754711796431508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_87
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 4
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50ec7f294b48e760800000000000000
+      internalID: 7487317158204858463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_88
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 4
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c3ad1d2262f4200800000000000000
+      internalID: 166393642227481756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_89
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 4
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61acbec8b2acc06b0800000000000000
+      internalID: -5328661970689471978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_90
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 4
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dc137ff19b656e0800000000000000
+      internalID: -1849087050046649024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_91
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 4
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924e3672e84d2f370800000000000000
+      internalID: 8354973965736993833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_92
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 4
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094a0275fe6bc1ba0800000000000000
+      internalID: -6116813054800780144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_93
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fb8c9c6e449dc50800000000000000
+      internalID: 6690454479454125933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_94
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7600895af262ec0c0800000000000000
+      internalID: -4553660187141472153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_95
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc33e562842001ac0800000000000000
+      internalID: -3886603969516129331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpDog_96
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2094536d400d0ccf0800000000000000
+      internalID: -233958461431002878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -6,8 +6,9 @@ public class DogIdleState : DogBaseState
 {
     public override void EnterState(DogStateController dog)
     {
-       // Debug.Log("entering idle state");
-        dog.animator.Play("Dog_Idle");
+        // Debug.Log("entering idle state");
+        //dog.animator.Play("Dog_Idle");
+        dog.SetAnimation(DogStateController.StatesName.Idle);
     }
 
     public override void ExitState(DogStateController dog)

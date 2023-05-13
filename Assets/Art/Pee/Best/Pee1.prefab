@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7256474488625350811}
   - component: {fileID: 7903263002343207391}
+  - component: {fileID: 6434056715291957102}
+  - component: {fileID: 7005234924005819265}
   m_Layer: 9
   m_Name: Pee1
   m_TagString: Poop
@@ -82,3 +84,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &6434056715291957102
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3639160510155987579}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.023922164, y: 0.068176396}
+  m_Size: {x: 2.3721645, y: 2.2345626}
+  m_Direction: 1
+--- !u!114 &7005234924005819265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3639160510155987579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9033a1c526238e14bb8b8c9af5194b31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

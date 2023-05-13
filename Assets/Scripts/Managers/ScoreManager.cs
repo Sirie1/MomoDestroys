@@ -137,6 +137,10 @@ public class ScoreManager : MonoBehaviour
             }
         }
     }
+    public void AddPeeCollision(Pee pee)
+    {
+
+    }
     public void AddPee()
     {
         score += 150;

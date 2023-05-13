@@ -1,22 +1,34 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AchievementSO
+    - AchievementsController
+    - AchievementsSOCatalog
     - DataManager
-    - DogController
+    - DogAnimationController
+    - DogPUController
     - DogStateController
     - EndScreenController
+    - FaceController
     - Furniture
+    - FurnitureSO
     - GameManager
     - GroundCheck
     - MouthController
+    - Pee
     - PeeController
     - Poop
     - PoopController
+    - PowerUPsSO
     - ScoreManager
     - SessionController
+    - SoundManager
     - TimerManager
+    - ToggleAudio
+    - VolumeSlider
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineConfiner
     - Cinemachine.CinemachineFramingTransposer
     - Cinemachine.CinemachinePipeline
     - Cinemachine.CinemachineVirtualCamera
@@ -29,6 +41,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -64,6 +77,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateMachineInspector
     - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
@@ -77,8 +91,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Slider
-    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -99,6 +115,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 58
       Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 62
@@ -108,6 +126,10 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -138,61 +160,89 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2462}
     - Class: 114
-      Script: {instanceID: 2474}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 2928}
+      Script: {instanceID: 2930}
     - Class: 114
-      Script: {instanceID: 2986}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 3096}
+      Script: {instanceID: 2990}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 3100}
     - Class: 114
-      Script: {instanceID: 3314}
+      Script: {instanceID: 3212}
     - Class: 114
-      Script: {instanceID: 3404}
+      Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 3484}
+      Script: {instanceID: 3318}
     - Class: 114
-      Script: {instanceID: 3678}
+      Script: {instanceID: 3408}
     - Class: 114
-      Script: {instanceID: 3734}
+      Script: {instanceID: 3488}
     - Class: 114
-      Script: {instanceID: 3826}
+      Script: {instanceID: 3682}
     - Class: 114
-      Script: {instanceID: 4366}
+      Script: {instanceID: 3738}
     - Class: 114
-      Script: {instanceID: 4370}
+      Script: {instanceID: 3828}
     - Class: 114
-      Script: {instanceID: 4412}
+      Script: {instanceID: 3832}
     - Class: 114
-      Script: {instanceID: 4458}
+      Script: {instanceID: 4372}
     - Class: 114
-      Script: {instanceID: 4618}
+      Script: {instanceID: 4376}
     - Class: 114
-      Script: {instanceID: 4962}
+      Script: {instanceID: 4406}
     - Class: 114
-      Script: {instanceID: 4978}
+      Script: {instanceID: 4420}
     - Class: 114
-      Script: {instanceID: 5120}
+      Script: {instanceID: 4450}
     - Class: 114
-      Script: {instanceID: 5460}
+      Script: {instanceID: 4466}
     - Class: 114
-      Script: {instanceID: 5690}
+      Script: {instanceID: 4628}
     - Class: 114
-      Script: {instanceID: 5876}
+      Script: {instanceID: 4988}
     - Class: 114
-      Script: {instanceID: 6000}
+      Script: {instanceID: 5130}
     - Class: 114
-      Script: {instanceID: 6044}
+      Script: {instanceID: 5184}
     - Class: 114
-      Script: {instanceID: 6178}
+      Script: {instanceID: 5260}
     - Class: 114
-      Script: {instanceID: 6556}
+      Script: {instanceID: 5472}
     - Class: 114
-      Script: {instanceID: 6768}
+      Script: {instanceID: 5532}
+    - Class: 114
+      Script: {instanceID: 5702}
+    - Class: 114
+      Script: {instanceID: 5888}
+    - Class: 114
+      Script: {instanceID: 6012}
+    - Class: 114
+      Script: {instanceID: 6056}
+    - Class: 114
+      Script: {instanceID: 6190}
+    - Class: 114
+      Script: {instanceID: 6370}
+    - Class: 114
+      Script: {instanceID: 6490}
+    - Class: 114
+      Script: {instanceID: 6568}
+    - Class: 114
+      Script: {instanceID: 6574}
+    - Class: 114
+      Script: {instanceID: 6786}
+    - Class: 114
+      Script: {instanceID: 29346}
+    - Class: 114
+      Script: {instanceID: 60886}
+    - Class: 114
+      Script: {instanceID: 64564}
+    - Class: 114
+      Script: {instanceID: 66452}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -276,7 +326,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: f3a0ba27556bbe28254b17c1160ddd00
+      Hash: 7bed852b6d0b67edf929b2c206b7b04d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -408,7 +458,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: 4bbc34d1a5dcd46ee3b69099c021bb6d
+      Hash: 223fcd2e6a6434dcacfacd0ab54bbc61
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EndScreenController
@@ -480,10 +530,22 @@ ScriptsOnlyBuild:
     className: IKManager2D
   - hash:
       serializedVersion: 2
+      Hash: 3ae4d84a3381f3dbd00513656db6ff19
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AchievementsController
+  - hash:
+      serializedVersion: 2
       Hash: 62824bb9557c7e987502f2fbd2a26819
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineBrain
+  - hash:
+      serializedVersion: 2
+      Hash: 975c28c21bd93a4d9838b066e07a1261
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToggleAudio
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -624,7 +686,7 @@ ScriptsOnlyBuild:
     className: CinemachineTrack
   - hash:
       serializedVersion: 2
-      Hash: 0f9528e54387808ce02e98452510e133
+      Hash: f7d44f861640928e6ec957cc57b1c034
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DogStateController
@@ -652,6 +714,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 05d13838c64f802f0ec08d71ed2b04fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AchievementSO
   - hash:
       serializedVersion: 2
       Hash: 5d5b0c61f3ab6ff5f41b1bbe19764526
@@ -762,7 +830,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 34fe029c5142325d8dbdd66628fade88
+      Hash: 347c3899f79ddb5b57ce5727a7fe04c8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Furniture
@@ -778,6 +846,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
     className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: ea53c7b5e340f953bb16a4b189205f30
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FurnitureSO
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -798,7 +872,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 27b47b598ca47c347331586ccdf648ac
+      Hash: a4a9bac08d933d9eb47ba624c7653dde
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DataManager
@@ -808,6 +882,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: b9aaa0dc5c3c08b4daa72e23c09c4b7f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FurnitureCatalogSO
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -900,12 +980,6 @@ ScriptsOnlyBuild:
     className: InputSettings
   - hash:
       serializedVersion: 2
-      Hash: ab3215488891b0b696238b6df52b9117
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DogController
-  - hash:
-      serializedVersion: 2
       Hash: 87cef3c82381dc586f6772c3e27561b6
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
@@ -948,7 +1022,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 16cd2d019ebb19362697f575bcb56b97
+      Hash: adee6a4673b9b5222796a6926b05562c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScoreManager
@@ -958,6 +1032,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: 1028c39545bcfa841aaab54121e69a47
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VolumeSlider
   - hash:
       serializedVersion: 2
       Hash: cd0ecdca0166232906c6f2df9dddc3d3
@@ -1182,6 +1262,12 @@ ScriptsOnlyBuild:
     className: CinemachinePOV
   - hash:
       serializedVersion: 2
+      Hash: 16c9da70883338a077d0d6b14fc86d57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AchievementsSOCatalog
+  - hash:
+      serializedVersion: 2
       Hash: 66a76d307baa3e8eb65d877c961f1b43
     assemblyName: Cinemachine.dll
     namespaceName: 
@@ -1206,10 +1292,22 @@ ScriptsOnlyBuild:
     className: CinemachineBasicMultiChannelPerlin
   - hash:
       serializedVersion: 2
+      Hash: 2ab19d85fb4d17bebda781cba598f759
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FaceController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: BufferManager
+  - hash:
+      serializedVersion: 2
+      Hash: ef8faf4d6141a83339a94e3b41d8cf01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundManager
   - hash:
       serializedVersion: 2
       Hash: 704dcd31abc789439bc3f3cd10b58c2b
@@ -1288,6 +1386,30 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: b7b17cca6d8aa85e2b500eba5a693416
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pee
+  - hash:
+      serializedVersion: 2
+      Hash: 3c4f8d3b309dbf9965221311b50cfbad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PowerUPsSO
+  - hash:
+      serializedVersion: 2
+      Hash: 7d2c0d8e45a98eaf29c513cc60afc7c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DogPUController
+  - hash:
+      serializedVersion: 2
+      Hash: 22a198b562bbd08e52e22726eb598f56
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DogAnimationController
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

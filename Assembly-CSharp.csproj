@@ -77,7 +77,7 @@
     <Compile Include="Assets\Scripts\Furniture\FurnitureSO\FurnitureCatalogSO.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogJumpState.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogChewState.cs" />
-    <Compile Include="Assets\Scripts\Dog\DogController.cs" />
+    <Compile Include="Assets\Scripts\Dog\___DogController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogBaseState.cs" />
     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\SFX\VolumeSlider.cs" />
@@ -95,6 +95,9 @@
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Scripts\Dog\Pee.cs" />
+    <Compile Include="Assets\Scripts\Dog\PU\PowerUPsSO.cs" />
+    <Compile Include="Assets\Scripts\Dog\PU\DogPUController.cs" />
+    <Compile Include="Assets\Scripts\Dog\DogAnimationController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

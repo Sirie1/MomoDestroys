@@ -45,3 +45,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: FurnitureBackground
+    uniqueID: 1343843651
+    locked: 0
+  - name: Furniture
+    uniqueID: 3708180791
+    locked: 0
+  - name: Dog
+    uniqueID: 2794164355
+    locked: 0
+  - name: Mouth
+    uniqueID: 2788585399
+    locked: 0
+  - name: Pee
+    uniqueID: 3033814289
+    locked: 0
+  - name: Poop
+    uniqueID: 3644983329
+    locked: 0

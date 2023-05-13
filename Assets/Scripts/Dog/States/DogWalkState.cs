@@ -11,7 +11,9 @@ public class DogWalkState : DogBaseState
         // Debug.Log("entering walk state");
 
         // dog.animator.Play("Dog_Walk");
-        dog.SetAnimation(DogStateController.StatesName.Walk);
+
+        dog.CurrentStateName = DogStateController.StatesName.Walk;
+        dog.UpdateAnimation();
     }
 
     public override void ExitState(DogStateController dog)

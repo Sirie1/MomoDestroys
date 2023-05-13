@@ -3219,8 +3219,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1404152023}
-        m_TargetAssemblyTypeName: DogStateController, Assembly-CSharp
+      - m_Target: {fileID: 1404152024}
+        m_TargetAssemblyTypeName: DogPUController, Assembly-CSharp
         m_MethodName: SetPUSuper
         m_Mode: 1
         m_Arguments:
@@ -4776,7 +4776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 2052235454}
-  achievementsController: {fileID: 0}
+  achievementsController: {fileID: 1091207481}
 --- !u!1 &460545263
 GameObject:
   m_ObjectHideFlags: 0
@@ -5163,8 +5163,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1404152023}
-        m_TargetAssemblyTypeName: DogStateController, Assembly-CSharp
+      - m_Target: {fileID: 1404152024}
+        m_TargetAssemblyTypeName: DogPUController, Assembly-CSharp
         m_MethodName: SetPUNormal
         m_Mode: 1
         m_Arguments:
@@ -18042,13 +18042,14 @@ GameObject:
   - component: {fileID: 1404152019}
   - component: {fileID: 1404152018}
   - component: {fileID: 1404152021}
-  - component: {fileID: 1404152024}
   - component: {fileID: 1404152022}
   - component: {fileID: 1404152023}
   - component: {fileID: 1404152027}
   - component: {fileID: 1404152025}
   - component: {fileID: 1404152026}
   - component: {fileID: 1404152028}
+  - component: {fileID: 1404152024}
+  - component: {fileID: 1404152029}
   m_Layer: 12
   m_Name: Dog
   m_TagString: Dog
@@ -18195,19 +18196,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a740402de0e8164b8510fabc46ee860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dogController: {fileID: 1404152024}
+  dogController: {fileID: 0}
   mouthController: {fileID: 1869151200}
   poopController: {fileID: 1404152022}
   peeController: {fileID: 1404152027}
+  dogAnimationController: {fileID: 1404152029}
+  dogPuController: {fileID: 1404152024}
   groundCheck: {fileID: 500139556}
-  animator: {fileID: 1404152025}
   playerInput: {fileID: 1404152026}
   isOnGround: 0
   isFacingRight: 1
   walkSpeed: 3
   sustainedJump: 0.5
   jumpForce: 9
-  currentPowerUp: 0
+  currentStateName: 0
 --- !u!114 &1404152024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18217,9 +18219,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1404152017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5214a4e75e1f20e47a98d81816ef5b67, type: 3}
+  m_Script: {fileID: 11500000, guid: a69c0d1ab8f229741b406d867370d010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  normalSO: {fileID: 11400000, guid: bc8e8bdbd294e70458cca4113612c722, type: 2}
+  superSO: {fileID: 11400000, guid: 6e05a6e407663924d918d05709b35c89, type: 2}
+  weightSO: {fileID: 11400000, guid: cf63c7cbcc886c444918200ea72aa92d, type: 2}
+  myRigidbody2D: {fileID: 1404152018}
+  dogStateController: {fileID: 1404152023}
+  dogAnimationController: {fileID: 1404152029}
+  currentPowerUp: 0
 --- !u!95 &1404152025
 Animator:
   serializedVersion: 3
@@ -18317,6 +18326,21 @@ PolygonCollider2D:
       - {x: 0.09223628, y: -0.9333334}
       - {x: 0.35331398, y: -0.122900575}
       - {x: 0.94199115, y: 0.11233427}
+--- !u!114 &1404152029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404152017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64caac860415534fbb659e998d1b12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1404152025}
+  dogPUController: {fileID: 1404152024}
+  dogStateController: {fileID: 1404152023}
 --- !u!1 &1430937280
 GameObject:
   m_ObjectHideFlags: 0
@@ -20400,8 +20424,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1404152023}
-        m_TargetAssemblyTypeName: DogStateController, Assembly-CSharp
+      - m_Target: {fileID: 1404152024}
+        m_TargetAssemblyTypeName: DogPUController, Assembly-CSharp
         m_MethodName: SetPUWeight
         m_Mode: 1
         m_Arguments:

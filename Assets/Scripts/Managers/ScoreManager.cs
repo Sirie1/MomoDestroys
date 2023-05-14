@@ -148,7 +148,7 @@ public class ScoreManager : MonoBehaviour
     }
     void UpdateUI()
     {
-        scoreText.text = "-£" + score.ToString();
+        scoreText.text = "-$" + score.ToString();
     }
 
 }

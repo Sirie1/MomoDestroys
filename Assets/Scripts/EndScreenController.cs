@@ -11,7 +11,7 @@ public class EndScreenController : MonoBehaviour
     [SerializeField] GameObject ScoreTextGameObject;
     [SerializeField] GameObject bonusTextPrefab;
     [SerializeField] TextMeshProUGUI totalScoreText;
-    // Start is called before the first frame update
+
     void Start()
     {
         scoreTextParentUI.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Base Score $" + ScoreManager.Instance.Score.ToString();
@@ -37,7 +37,8 @@ public class EndScreenController : MonoBehaviour
 
             GameObject tempBonusText = Instantiate(bonusTextPrefab, scoreTextParentUI.transform);
 
-            int bonusScore = ScoreManager.Instance.ReachedPoopList[i].timesReached * ScoreManager.Instance.ReachedPoopList[i].bonusDestruction;
+            //int bonusScore = ScoreManager.Instance.ReachedPoopList[i].timesReached * ScoreManager.Instance.ReachedPoopList[i].bonusDestruction;
+            int bonusScore = ScoreManager.Instance.ReachedPoopList[i].timesReached * ScoreManager.Instance.GetBonusDestruction(ScoreManager.Instance.ReachedPoopList[i].objectReached, DogStateController.StatesName.Poo);
             tempBonusText.GetComponent<TextMeshProUGUI>().text = ScoreManager.Instance.ReachedPoopList[i].objectReached + " X" + ScoreManager.Instance.ReachedPoopList[i].timesReached + " $" + bonusScore;
             tempBonusText.GetComponent<TextMeshProUGUI>().color = Color.green;
             totalScore = totalScore + bonusScore;

@@ -98,6 +98,10 @@ public class Furniture : MonoBehaviour
         transform.localPosition = originalPosition;
 
     }*/
+    public string GetName()
+    {
+        return furnitureSO.FurnitureName;
+    }
     private void RestoreHealth()
     {
         health = furnitureSO.MaxHealth;

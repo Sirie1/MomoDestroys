@@ -9,7 +9,7 @@ using System;
 public struct PoopReach
 {
     public string objectReached;
-    public int bonusDestruction;
+    //public int bonusDestruction;
     public int timesReached;
 }
 public class ScoreManager : MonoBehaviour
@@ -34,6 +34,7 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] int score;
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField] AchievementsController achievementsController;
+    [SerializeField] FurnitureCatalogSO furnitureCatalogSO;
     //Make a list of objects pooped
     public List<PoopReach> ReachedPoopList = new List<PoopReach>();
        
@@ -75,39 +76,31 @@ public class ScoreManager : MonoBehaviour
     public void AddPoopCollision(Poop poop)
     {
         //Check if adds to achievements
-
         if (poop.ObjectPooped.GetComponent<Furniture>() != null)
         {
-            
             achievementsController.CheckAchievement(AchievementSO.AchievementType.Poop, poop.ObjectPooped.GetComponent<Furniture>());
         }
-
-
         //Debug.Log("Pooping on " + poop.ObjectPooped.name);
         if (ReachedPoopList.Count <1)
         {
             //Debug.Log("First poop, creating list");
             PoopReach newObjectReached = new PoopReach();
             newObjectReached.objectReached = poop.ObjectPooped.name;
+            /*
             //Search in dictionary for corresponding bonus 
-            //newObjectReached.bonusDestruction = bonusPoopCost[poop.ObjectPooped.name];
             if (!bonusPoopCost.TryGetValue(poop.ObjectPooped.name, out newObjectReached.bonusDestruction))
             {
                 Debug.LogWarning("Dict doesn't have the value " + poop.ObjectPooped.name);
-            }
+            }*/
             newObjectReached.timesReached = 1;
-
             ReachedPoopList.Add (newObjectReached);
-
         }
         else
         {
-            //Debug.Log("Poop list not mull");
             //Check list if existing
             bool wasFoundInList = false;
             for (int i = 0; i < ReachedPoopList.Count; i++)
             {
-                //Debug.Log($"Checking element n: {i}");
                 if (ReachedPoopList[i].objectReached == poop.ObjectPooped.name)
                 {
                     //Debug.Log ("Pooped repeated " + poop.ObjectPooped.name);
@@ -115,8 +108,6 @@ public class ScoreManager : MonoBehaviour
                     tempStruct.timesReached++;
                     ReachedPoopList[i] = tempStruct;
                     wasFoundInList = true;
-
-
                     break;
                 }
             }
@@ -125,14 +116,14 @@ public class ScoreManager : MonoBehaviour
             {
                 PoopReach newObjectReached = new PoopReach();
                 newObjectReached.objectReached = poop.ObjectPooped.name;
+                /*
                 //Search in dictionary for corresponding bonus 
                 if (!bonusPoopCost.TryGetValue(poop.ObjectPooped.name, out newObjectReached.bonusDestruction))
                 {
                     Debug.LogWarning("Dict doesn't have the value " + poop.ObjectPooped.name);
-                }
+                }*/
+                //Search in furniture catalog for corresponding Bonus destruction
                 newObjectReached.timesReached = 1;
-
-
                 ReachedPoopList.Add(newObjectReached);
             }
         }
@@ -141,10 +132,32 @@ public class ScoreManager : MonoBehaviour
     {
 
     }
+
     public void AddPee()
     {
         score += 150;
         UpdateUI();
+    }
+    public int GetBonusDestruction(string furnitureName, DogStateController.StatesName action)
+    {
+        foreach (FurnitureSO furnitureSO in furnitureCatalogSO.FurnitureCatalog)
+        {
+            if (furnitureSO.FurnitureName == furnitureName)
+            {
+                if (action == DogStateController.StatesName.Poo)
+                    return furnitureSO.BonusForPoop;
+                else if (action == DogStateController.StatesName.Pee)
+                    return furnitureSO.BonusForPee;
+                else
+                {
+                    Debug.LogWarning ("Tried to get bonus destruction but action was not valid");
+                    return 0;
+                }
+            }
+
+        }
+        Debug.LogWarning ("Could not find bonus destruction for " + furnitureName);
+        return 0;   
     }
     void UpdateUI()
     {

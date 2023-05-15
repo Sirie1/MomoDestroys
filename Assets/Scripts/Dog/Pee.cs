@@ -6,6 +6,10 @@ public class Pee : MonoBehaviour
 {
     [SerializeField] GameObject objectPeed;
 
+    public GameObject ObjectPeed
+    {
+        get { return objectPeed; }
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject == objectPeed)

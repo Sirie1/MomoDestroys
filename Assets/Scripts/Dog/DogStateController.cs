@@ -13,7 +13,6 @@ public class DogStateController : MonoBehaviour
     [SerializeField] DogAnimationController dogAnimationController;
     [SerializeField] DogPUController dogPuController; 
     public GroundCheck groundCheck;
-  //  public Animator animator;
     public PlayerInput playerInput;
 
     
@@ -114,6 +113,10 @@ public class DogStateController : MonoBehaviour
     {
         get { return currentStateName; }
         set { currentStateName = value; }
+    }
+    public DogPUController.PowerUp CurrentPU
+    {
+        get { return dogPuController.CurrentPowerUp; }
     }
     #endregion
 

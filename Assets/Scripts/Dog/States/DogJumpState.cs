@@ -6,6 +6,7 @@ public class DogJumpState : DogBaseState
 {
     float horizontal;
     Rigidbody2D rb;
+
     public override void EnterState(DogStateController dog)
     {
         rb = dog.GetComponent<Rigidbody2D>();
@@ -19,7 +20,9 @@ public class DogJumpState : DogBaseState
 
     public override void ExitState(DogStateController dog)
     {
-      Debug.Log("exiting jump state");
+        if (dog.CurrentPU == DogPUController.PowerUp.Weight)
+            CinemachineShake.Instance.ShakeCamera (2f,0.1f);
+        Debug.Log("exiting jump state");
     }
 
     public override void UpdateState(DogStateController dog)

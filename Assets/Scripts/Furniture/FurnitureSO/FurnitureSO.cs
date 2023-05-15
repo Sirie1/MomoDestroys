@@ -44,19 +44,20 @@ public class FurnitureSO : ScriptableObject
     {
         get => bonusForPoop;
     }
+    public int BonusForPee
+    {
+        get => bonusForPee;
+    }
     /*
     public string MessagePooOnScoreboard
     {
         get => messagePooOnScoreboard;
     }
-    public float BonusForPee
-    {
-        get => bonusForPee;
-    }
+
     public string MessagePeeOnScoreboard
     {
         get => messagePeeOnScoreboard;
     }*/
 
-    
+
 }

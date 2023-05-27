@@ -6,7 +6,6 @@ using DG.Tweening;
 
 public class Furniture : MonoBehaviour
 {
-   // [SerializeField] bool mouthContact = false;
     [Range(0.0f, 100.0f)] [SerializeField] private float health = 100f;
     [SerializeField] float shakeIntensity = 0.025f;
     [SerializeField] float shakeTime = 0.1f;
@@ -129,6 +128,7 @@ public class Furniture : MonoBehaviour
     {
         if (health < 10f)
         {
+            spriteRenderer.enabled = false;
             brokenSpriteRenderer.gameObject.SetActive (true);
         }
         else

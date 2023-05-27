@@ -10,6 +10,15 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject EndScreen;
     [SerializeField] GameObject PauseMenu;
     [SerializeField] GameObject Joystick;
+
+    //Future implementation
+    [SerializeField] string currentPetName;
+    [SerializeField] GameObject currectPetGO;
+    [SerializeField] GameObject momoPrefab;
+    [SerializeField] GameObject tofuPrefab;
+
+    [SerializeField] Vector3 petPosition = new Vector3(-1.83f, -2.32f, 0f);
+
     bool isGamePaused;
     #region Singleton
     private static GameManager _instance;
@@ -82,4 +91,21 @@ public class GameManager : MonoBehaviour
         ScoreManager.Instance.ResetScore();
         TimerManager.Instance.ResetTimer();
     }
+
+    #region Pet Set 
+    //Future implementation
+    public void MomoSet()
+    {
+        currentPetName = "Momo";
+        currectPetGO = Instantiate(momoPrefab);
+        currectPetGO.transform.position = petPosition;
+    }
+    public void TofuSet()
+    {
+        currentPetName = "Tofu";
+        currectPetGO = Instantiate(tofuPrefab);
+        currectPetGO.transform.position = petPosition;
+    }
+
+    #endregion
 }

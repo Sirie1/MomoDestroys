@@ -10,8 +10,10 @@ public class PeeController : MonoBehaviour
     [SerializeField] int peeMaxCharge = 3;
     [SerializeField] int peeCharge = 3;
     [SerializeField] float peeTime = 2f;
-    [SerializeField] Slider peeBarUI;
+    //[SerializeField] Slider peeBarUI;
     [SerializeField] bool isPeeAvailable;
+
+    [SerializeField] PeeChargeUI peeChargeUI;
 
     #region GetSet
 
@@ -28,7 +30,7 @@ public class PeeController : MonoBehaviour
     private void Start()
     {
         RestartPeeCharge();
-        peeBarUI.maxValue = peeMaxCharge;
+        //peeBarUI.maxValue = peeMaxCharge;
         UpdatePeeBarUI();
         isPeeAvailable = true;
     }
@@ -59,11 +61,13 @@ public class PeeController : MonoBehaviour
     }
     void RestartPeeCharge()
     {
-        peeBarUI.value = peeMaxCharge;
+        peeChargeUI.UpdatePeeChargeUI(peeMaxCharge);
+        //peeBarUI.value = peeMaxCharge;
     }
     void UpdatePeeBarUI()
     {
-        peeBarUI.value = peeCharge;
+        //peeBarUI.value = peeCharge;
+        peeChargeUI.UpdatePeeChargeUI(peeCharge);
     }
 
 }

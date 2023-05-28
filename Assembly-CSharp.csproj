@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\SFX\ToggleAudio.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
     <Compile Include="Assets\Scripts\Dog\PoopController.cs" />
+    <Compile Include="Assets\Scripts\Camera\CinemachineShake.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogPooState.cs" />
     <Compile Include="Assets\Scripts\Dog\DogStateController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogPeeState.cs" />
@@ -98,7 +99,7 @@
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Scripts\Dog\Pee.cs" />
-    <Compile Include="Assets\Scripts\Camera\CinemachineShake.cs" />
+    <Compile Include="Assets\Scripts\UI\Pee\PeeChargeUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />

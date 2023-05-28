@@ -12,10 +12,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject Joystick;
 
     //Future implementation
+    /*
     [SerializeField] string currentPetName;
     [SerializeField] GameObject currectPetGO;
     [SerializeField] GameObject momoPrefab;
     [SerializeField] GameObject tofuPrefab;
+    */
 
     [SerializeField] Vector3 petPosition = new Vector3(-1.83f, -2.32f, 0f);
 
@@ -94,6 +96,7 @@ public class GameManager : MonoBehaviour
 
     #region Pet Set 
     //Future implementation
+    /*
     public void MomoSet()
     {
         currentPetName = "Momo";
@@ -106,6 +109,7 @@ public class GameManager : MonoBehaviour
         currectPetGO = Instantiate(tofuPrefab);
         currectPetGO.transform.position = petPosition;
     }
-
+    */
     #endregion
+
 }

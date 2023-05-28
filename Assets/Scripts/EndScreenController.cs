@@ -25,7 +25,7 @@ public class EndScreenController : MonoBehaviour
     {
         if (ScoreManager.Instance.Score > DataManager.Instance.userData.BestScore)
         {
-            DataManager.Instance.userData.BestScore = ScoreManager.Instance.Score;
+            DataManager.Instance.NewBestScore(ScoreManager.Instance.Score);
             DataManager.Instance.SaveUserData();
         }
     }
@@ -39,10 +39,12 @@ public class EndScreenController : MonoBehaviour
 
             //int bonusScore = ScoreManager.Instance.ReachedPoopList[i].timesReached * ScoreManager.Instance.ReachedPoopList[i].bonusDestruction;
             int bonusScore = ScoreManager.Instance.ReachedPoopList[i].timesReached * ScoreManager.Instance.GetBonusDestruction(ScoreManager.Instance.ReachedPoopList[i].objectReached, DogStateController.StatesName.Poo);
-            tempBonusText.GetComponent<TextMeshProUGUI>().text = ScoreManager.Instance.ReachedPoopList[i].objectReached + " X" + ScoreManager.Instance.ReachedPoopList[i].timesReached + " $" + bonusScore;
+            tempBonusText.GetComponent<TextMeshProUGUI>().text = "Poop on " + ScoreManager.Instance.ReachedPoopList[i].objectReached + " X" + ScoreManager.Instance.ReachedPoopList[i].timesReached + " $" + bonusScore;
             tempBonusText.GetComponent<TextMeshProUGUI>().color = Color.green;
             totalScore = totalScore + bonusScore;
         }
         totalScoreText.text = "$" + totalScore.ToString();
+
+        ScoreManager.Instance.Score = totalScore;
     }
 }

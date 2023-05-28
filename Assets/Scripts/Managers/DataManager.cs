@@ -152,8 +152,22 @@ public class DataManager : MonoBehaviour
         if (userData.AchievementsDict.ContainsKey(ID))
             userData.AchievementsDict[ID]++;
         else
+        {
+            Debug.Log ("New achievement added");
             userData.AchievementsDict.Add(ID, 1);
-    }
+        }
 
+    }
+    public void NewBestScore(int newBestScore)
+    {
+        userData.BestScore = newBestScore;
+        SaveUserData();
+    }
+    
+    public void ResetUserData()
+    {
+        userData = new UserData();
+        SaveUserData();
+    }
 
 }

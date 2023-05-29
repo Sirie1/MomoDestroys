@@ -7,9 +7,7 @@ public class DogChewState : DogBaseState
     float chewStateTimer;
     public override void EnterState(DogStateController dog)
     {
-        //Debug.Log("entering chew state");
-
-        //dog.SetAnimation(DogStateController.StatesName.Chew);
+        SoundManager.Instance.PlayEatSFX();
         dog.CurrentStateName = DogStateController.StatesName.Chew;
         dog.UpdateAnimation();
         chewStateTimer = dog.mouthController.ChewTime;
@@ -19,6 +17,7 @@ public class DogChewState : DogBaseState
     {
        // Debug.Log("exiting chew state");
         dog.mouthController.StopAnimation();
+        SoundManager.Instance.StopSFX();
     }
 
     public override void UpdateState(DogStateController dog)

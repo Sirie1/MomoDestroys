@@ -5,6 +5,8 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     [SerializeField] private AudioSource musicSource, effectsSource;
+    [SerializeField] private AudioClip poop;
+    [SerializeField] private AudioClip eating;
     private static SoundManager _instance;
     public static SoundManager Instance
     {
@@ -40,5 +42,17 @@ public class SoundManager : MonoBehaviour
     public void ToggleMusic()
     {
         musicSource.mute = !musicSource.mute;
+    }
+    public void PlayPoopSFX()
+    {
+        effectsSource.PlayOneShot(poop);
+    }
+    public void PlayEatSFX()
+    {
+        effectsSource.PlayOneShot(eating);
+    }
+    public void StopSFX()
+    {
+        effectsSource.Stop();
     }
 }

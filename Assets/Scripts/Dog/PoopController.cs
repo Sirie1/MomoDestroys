@@ -58,7 +58,7 @@ public class PoopController : MonoBehaviour
         //if (readyToPoop && timePressed >= timeToPoop)
         if (readyToPoop)
         {
-
+            SoundManager.Instance.PlayPoopSFX();
             GameObject newPoop;
             newPoop = Instantiate(poopPrefab);
 

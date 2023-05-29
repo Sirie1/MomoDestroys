@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class DogStateController : MonoBehaviour
 {
     #region Def
-    public DogController dogController;
+    //public DogController dogController;
     public MouthController mouthController;   
     public PoopController poopController;
     public PeeController peeController;

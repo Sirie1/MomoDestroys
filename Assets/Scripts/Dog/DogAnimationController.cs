@@ -14,11 +14,21 @@ public class DogAnimationController : MonoBehaviour
     private void Awake()
     {
         //CurrentSkin set in awake before states controller calls set animation on its start
-        currentSkin = "Momo_";
+        if(this.gameObject.tag == "Dog")
+            currentSkin = "Momo_";
+        else if (this.gameObject.tag == "SideDog")
+            currentSkin = "Tofu_";
+        else
+            Debug.LogWarning ("Invalid current skin set");
     }
     private void Start()
     {
-        SetMomo();
+        if (this.gameObject.tag == "Dog")
+            SetMomo();
+        else if (this.gameObject.tag == "SideDog")
+            SetTofu();
+        else
+            Debug.LogWarning("Invalid dog set");
     }
     public void SetAnimation()
     {

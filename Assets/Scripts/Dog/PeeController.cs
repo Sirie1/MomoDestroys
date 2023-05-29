@@ -61,13 +61,15 @@ public class PeeController : MonoBehaviour
     }
     void RestartPeeCharge()
     {
-        peeChargeUI.UpdatePeeChargeUI(peeMaxCharge);
+        if (this.gameObject.tag == "Dog")
+            peeChargeUI.UpdatePeeChargeUI(peeMaxCharge);
         //peeBarUI.value = peeMaxCharge;
     }
     void UpdatePeeBarUI()
     {
         //peeBarUI.value = peeCharge;
-        peeChargeUI.UpdatePeeChargeUI(peeCharge);
+        if (this.gameObject.tag == "Dog")
+            peeChargeUI.UpdatePeeChargeUI(peeCharge);
     }
 
 }

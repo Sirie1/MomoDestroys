@@ -85,7 +85,8 @@ public class PoopController : MonoBehaviour
     }
     private void UpdatePoopUI()
     {
-        poopBarUI.value = (float)currentCharge/(float)reachToPoop;
+        if (this.gameObject.tag == "Dog")
+            poopBarUI.value = (float)currentCharge/(float)reachToPoop;
     }
     /*
     //To be used if button is meant to be pressed for some seconds

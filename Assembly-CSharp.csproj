@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\TextWriter\UI_Assistant.cs" />
     <Compile Include="Assets\Scripts\Dog\PeeController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogIdleState.cs" />
     <Compile Include="Assets\Scripts\EndScreenController.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\Scripts\Managers\SessionController.cs" />
     <Compile Include="Assets\Scripts\Achievements\List\AchievementSO.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogWalkState.cs" />
+    <Compile Include="Assets\Scripts\TextWriter\TextWriter.cs" />
     <Compile Include="Assets\Scripts\Furniture\Furniture.cs" />
     <Compile Include="Assets\Scripts\Furniture\FurnitureSO\FurnitureSO.cs" />
     <Compile Include="Assets\Scripts\Dog\GroundCheck.cs" />
@@ -86,6 +88,7 @@
     <Compile Include="Assets\Scripts\SFX\VolumeSlider.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets\Scripts\Dog\MouthController.cs" />
+    <Compile Include="Assets\Scripts\UI\Pee\PeeChargeUI.cs" />
     <Compile Include="Assets\Scripts\Dog\Poop.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
@@ -99,9 +102,6 @@
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Scripts\Dog\Pee.cs" />
-    <Compile Include="Assets\Scripts\UI\Pee\PeeChargeUI.cs" />
-    <Compile Include="Assets\Scripts\TextWriter\TextWriter.cs" />
-    <Compile Include="Assets\Scripts\TextWriter\UI_Assistant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />

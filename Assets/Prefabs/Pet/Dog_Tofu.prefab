@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 8848256198218738924}
   m_Layer: 12
   m_Name: Dog_Tofu
-  m_TagString: Dog
+  m_TagString: SideDog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d75e535d05c8df4a94084f069185f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dogStateController: {fileID: 0}
+  dogStateController: {fileID: 8848256198218738918}
   poopPrefab: {fileID: 4317841403162617507, guid: 5763fb6102e73ec4583eb5e978745cc3, type: 3}
   poopBarUI: {fileID: 0}
   currentCharge: 0
@@ -214,7 +214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a740402de0e8164b8510fabc46ee860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dogController: {fileID: 0}
   mouthController: {fileID: 8848256198422609873}
   poopController: {fileID: 8848256198218738919}
   peeController: {fileID: 8848256198218738922}
@@ -244,8 +243,8 @@ MonoBehaviour:
   peeMaxCharge: 3
   peeCharge: 3
   peeTime: 1
-  peeBarUI: {fileID: 0}
   isPeeAvailable: 0
+  peeChargeUI: {fileID: 0}
 --- !u!95 &8848256198218738920
 Animator:
   serializedVersion: 3

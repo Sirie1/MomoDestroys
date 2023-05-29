@@ -24,11 +24,14 @@ public class UI_Assistant : MonoBehaviour {
     private TextWriter.TextWriterSingle textWriterSingle;
     private AudioSource talkingAudioSource;
     private int messageCount = 0;
+    [SerializeField] Animator dogAnimator;
+    [SerializeField] bool isIntroCompleted;
 
     private void Awake() {
         messageText = transform.Find("Message").Find("messageText").GetComponent<Text>();
         talkingAudioSource = transform.Find("TalkingSound").GetComponent<AudioSource>();
         messageCount = 0;
+        isIntroCompleted = false;
     }
     public void OnMessageClick()
     {
@@ -49,12 +52,19 @@ public class UI_Assistant : MonoBehaviour {
 
             if (messageCount == messageArray.Count())
             {
-                EndIntro();
+                if(!isIntroCompleted)
+                    EndIntro();
+                else
+                    StartGame();
             }
-            string message = messageArray[messageCount];
-            messageCount++;
-            StartTalkingSound();
-            textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .02f, true, true, StopTalkingSound);
+            else
+            {
+                string message = messageArray[messageCount];
+                messageCount++;
+                StartTalkingSound();
+                textWriterSingle = TextWriter.AddWriter_Static(messageText, message, .02f, true, true, StopTalkingSound);
+            }
+
         }
     }
     private void StartTalkingSound() {
@@ -67,7 +77,11 @@ public class UI_Assistant : MonoBehaviour {
 
     public void EndIntro()
     {
+        dogAnimator.SetBool("isTextFinished", true);
+        isIntroCompleted=true;
+    }
+    public void StartGame()
+    {
         SceneManager.LoadScene(1);
     }
-
 }

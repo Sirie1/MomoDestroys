@@ -26,7 +26,7 @@ public class PoopController : MonoBehaviour
 
     private void Start()
     {
-        dogStateController = FindObjectOfType<DogStateController>();
+        dogStateController = this.gameObject.GetComponent<DogStateController>();
         ResetPoop();
         UpdatePoopUI();
         readyToPoop =false;

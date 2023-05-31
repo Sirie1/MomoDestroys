@@ -12,7 +12,10 @@ public class DogPUController : MonoBehaviour
     [SerializeField] DogStateController dogStateController;
     [SerializeField] DogAnimationController dogAnimationController;
 
+    [SerializeField] GameObject tofuPrefab;
+
     [SerializeField] PowerUp currentPowerUp;
+    [SerializeField] PowerUp currentPowerUpSkin;
 
     public PowerUp CurrentPowerUp
     {
@@ -25,12 +28,17 @@ public class DogPUController : MonoBehaviour
 
         }
     }
+    public PowerUp CurrentPowerUpSkin
+    {
+        get { return currentPowerUpSkin; }
+
+    }
     public enum PowerUp
     {
         Normal,
         Super,
         Weight,
-        Bite
+        Tofu
     }
 
     #region Debugging power ups
@@ -38,15 +46,25 @@ public class DogPUController : MonoBehaviour
     public void SetPUNormal()
     {
         CurrentPowerUp = PowerUp.Normal;
+        currentPowerUpSkin = PowerUp.Normal;
     }
     public void SetPUSuper()
     {
         CurrentPowerUp = PowerUp.Super;
+        currentPowerUpSkin = PowerUp.Super;
     }
 
     public void SetPUWeight()
     {
         CurrentPowerUp = PowerUp.Weight;
+        currentPowerUpSkin = PowerUp.Weight;
+    }
+    public void SetPUTofu()
+    {
+        CurrentPowerUp = PowerUp.Tofu;
+        currentPowerUpSkin = PowerUp.Normal;
+        var tofu = Instantiate(tofuPrefab);
+        tofu.transform.position = this.transform.position - new Vector3 (-2,1,0);
     }
 
     #endregion
@@ -69,10 +87,8 @@ public class DogPUController : MonoBehaviour
                     SetSOConfig(weightSO);
                 }
                 break;
-            case PowerUp.Bite:
+            case PowerUp.Tofu:
                 {
-                    //Needs to be created
-                    Debug.LogWarning (" bite info still not created");
                     SetSOConfig(normalSO);
                 }
                 break;

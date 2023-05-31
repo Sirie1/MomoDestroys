@@ -32,7 +32,7 @@ public class DogAnimationController : MonoBehaviour
     }
     public void SetAnimation()
     {
-        animator.Play(currentSkin + dogPUController.CurrentPowerUp.ToString() + "_" + dogStateController.CurrentStateName.ToString());
+        animator.Play(currentSkin + dogPUController.CurrentPowerUpSkin.ToString() + "_" + dogStateController.CurrentStateName.ToString());
     }
     public void SetMomo()
     {

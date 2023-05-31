@@ -65,17 +65,6 @@
                 },
                 {
                     "name": "",
-                    "id": "5258a658-94c3-4e1e-809e-393b0f167e97",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "9458d653-98ff-4378-90ad-21dace42968f",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -110,6 +99,114 @@
                 {
                     "name": "",
                     "id": "e3174a20-a3b0-454a-ba07-27105e043771",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pee",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "SideDog",
+            "id": "4e3d2fb3-d01a-47ab-88cf-94b0af170d43",
+            "actions": [
+                {
+                    "name": "Pee",
+                    "type": "Button",
+                    "id": "c3853bdb-45a4-4fe6-85f2-1bfbf2071077",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Chew",
+                    "type": "Button",
+                    "id": "344455c6-fbd2-45ae-a860-8cdc98f41dfc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Poop",
+                    "type": "Button",
+                    "id": "756ca86c-d946-4f50-9997-e82457e1fcbb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "abd857ee-b36f-4ef4-9e18-6afea9e42f9a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "f16e53a3-4a6a-4479-93a8-31acfc0d8cd2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f84d464b-95df-446a-bd64-a063a8d255ff",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e93a70d-a1ff-438e-97be-c643d3130031",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b0be7f2-dccc-4d24-8039-29e95847d026",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Poop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "158f8d2a-864c-4376-b0e3-d0c9b8ed26fa",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Chew",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2ccf2c52-ae30-4d02-95c5-b0ed4794594d",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",

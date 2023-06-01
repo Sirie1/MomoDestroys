@@ -5,6 +5,15 @@ using UnityEngine;
 public class Pee : MonoBehaviour
 {
     [SerializeField] GameObject objectPeed;
+  //  [SerializeField] Collider2D myCollider;
+    [SerializeField] Rigidbody2D rb;
+    [SerializeField] RaycastHit2D[] hits = new RaycastHit2D[4];
+    private void Start()
+    {
+        rb.Cast(-this.transform.up, hits);
+        if (hits.Length > 0)
+            CheckHits();
+    }
 
     public GameObject ObjectPeed
     {
@@ -20,8 +29,14 @@ public class Pee : MonoBehaviour
             if (objectPeed != null)
                 ScoreManager.Instance.AddPeeCollision(this);
         }
+    }
 
-
-        //Debug.Log("Pooped on " + collision.gameObject.name);
+    void CheckHits()
+    {
+        for (int i=0; i < hits.Length; i++)
+        {
+            if (hits[i])
+                Debug.Log ("Peed on : " + hits[i].collider.gameObject.name);
+        }
     }
 }

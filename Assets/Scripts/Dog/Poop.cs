@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Poop : MonoBehaviour
 {
-    [SerializeField] int poopDamage;
+    //[SerializeField] int poopDamage;
     [SerializeField] GameObject objectPooped;
+    /*//Future implementation
     public int PoopDamage
     {
         get { return poopDamage; }
         set { poopDamage = value; }
-    }
+    }*/
     public GameObject ObjectPooped
     {
         get { return objectPooped; }

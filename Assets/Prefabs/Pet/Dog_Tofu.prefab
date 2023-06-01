@@ -154,7 +154,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 3.5
+  m_Mass: 2.5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
@@ -176,8 +176,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.040663023, y: -0.51587105}
-  m_Size: {x: 2.1197128, y: 1.112369}
+  m_Offset: {x: -0.040663004, y: -0.41072792}
+  m_Size: {x: 2.119713, y: 0.9020835}
   m_Direction: 1
 --- !u!114 &8848256198218738919
 MonoBehaviour:
@@ -223,7 +223,7 @@ MonoBehaviour:
   playerInput: {fileID: 8848256198218738923}
   isOnGround: 0
   isFacingRight: 1
-  walkSpeed: 3
+  walkSpeed: 2.5
   sustainedJump: 0.5
   jumpForce: 9
   currentStateName: 0
@@ -342,7 +342,9 @@ MonoBehaviour:
   myRigidbody2D: {fileID: 8848256198218738915}
   dogStateController: {fileID: 8848256198218738918}
   dogAnimationController: {fileID: 8848256198218738924}
+  tofuPrefab: {fileID: 0}
   currentPowerUp: 0
+  currentPowerUpSkin: 0
 --- !u!114 &8848256198218738924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,9 +459,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.14138709, y: -0.1683305}
+  m_Offset: {x: -0.14138709, y: -0.0062354975}
   serializedVersion: 2
-  m_Radius: 0.84148324
+  m_Radius: 0.6793882
 --- !u!114 &8848256198422609873
 MonoBehaviour:
   m_ObjectHideFlags: 0

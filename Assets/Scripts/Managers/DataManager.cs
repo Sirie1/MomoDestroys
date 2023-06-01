@@ -37,14 +37,10 @@ public class DataManager : MonoBehaviour
         _instance = this;
         isNewPlayer = false;
         LoadUserData();
-        //***if is new player initialize new values
         if (isNewPlayer)
         {
-            //***initialize something
             SaveUserData();
         }
-
-
     }
     #endregion
 

@@ -12,6 +12,11 @@ public struct PoopReach
     //public int bonusDestruction;
     public int timesReached;
 }
+public struct PeeReach
+{
+    public string objectReached;
+    public int timesReached;
+}
 public class ScoreManager : MonoBehaviour
 {
     #region Singleton
@@ -37,7 +42,8 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] FurnitureCatalogSO furnitureCatalogSO;
     //Make a list of objects pooped
     public List<PoopReach> ReachedPoopList = new List<PoopReach>();
-       
+    public List<PeeReach> ReachedPeeList = new List<PeeReach>();
+       /*
     Dictionary<string, int> bonusPoopCost = new Dictionary<string, int>()
     {
 
@@ -47,7 +53,7 @@ public class ScoreManager : MonoBehaviour
         {"Furniture Small Table", 5},
         {"Furniture Chest", 10},
         {"Furniture Art Picture", 50}
-    };
+    };*/
 
     public int Score
     {
@@ -131,7 +137,41 @@ public class ScoreManager : MonoBehaviour
     }
     public void AddPeeCollision(Pee pee)
     {
+        if (pee.ObjectPeed.GetComponent<Furniture>() != null)
+        {
+            achievementsController.CheckAchievement(AchievementSO.AchievementType.Pee, pee.ObjectPeed.GetComponent<Furniture>());
+        }
+        if (ReachedPeeList.Count < 1)
+        {
+            PeeReach newObjectReached = new PeeReach();
+            newObjectReached.objectReached = pee.ObjectPeed.name;
 
+            newObjectReached.timesReached = 1;
+            ReachedPeeList.Add(newObjectReached);
+        }
+        else
+        {
+            bool wasFoundInList = false;
+            for (int i = 0; i < ReachedPeeList.Count; i++)
+            {
+                if (ReachedPeeList[i].objectReached == pee.ObjectPeed.name)
+                {
+                    PeeReach tempStruct = ReachedPeeList[i];
+                    tempStruct.timesReached++;
+                    ReachedPeeList[i] = tempStruct;
+                    wasFoundInList = true;
+                    break;
+                }
+            }
+            if (!wasFoundInList)
+            {
+                PeeReach newObjectReached = new PeeReach();
+                newObjectReached.objectReached = pee.ObjectPeed.name;
+                //Search in furniture catalog for corresponding Bonus destruction
+                newObjectReached.timesReached = 1;
+                ReachedPeeList.Add(newObjectReached);
+            }
+        }
     }
 
     public void AddPee()

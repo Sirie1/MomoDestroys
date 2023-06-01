@@ -344,6 +344,7 @@ MonoBehaviour:
   dogAnimationController: {fileID: 8848256198218738924}
   tofuPrefab: {fileID: 8848256198218738912, guid: dd31a9c5e9456794986edba56209f2c9, type: 3}
   currentPowerUp: 0
+  currentPowerUpSkin: 0
 --- !u!114 &8848256198218738924
 MonoBehaviour:
   m_ObjectHideFlags: 0

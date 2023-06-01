@@ -11,6 +11,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pee1 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6434056715291957102, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+      propertyPath: m_Size.x
+      value: 2.4306917
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434056715291957102, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+      propertyPath: m_Size.y
+      value: 2.2345645
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434056715291957102, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.053184755
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434056715291957102, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0681764
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434056715291957102, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7005234924005819265, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 6706747832033046310}
+    - target: {fileID: 7005234924005819265, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+      propertyPath: myCollider
+      value: 
+      objectReference: {fileID: 2043552802018545658}
     - target: {fileID: 7256474488625350811, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -69,3 +97,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+--- !u!1 &8617234639470871279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3639160510155987579, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+  m_PrefabInstance: {fileID: 4978294034865870996}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &2043552802018545658 stripped
+CapsuleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 6434056715291957102, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+  m_PrefabInstance: {fileID: 4978294034865870996}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &6706747832033046310
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8617234639470871279}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class DogBaseState
+public abstract class DogBaseState: MonoBehaviour
 {
     public abstract void EnterState(DogStateController dog);
 

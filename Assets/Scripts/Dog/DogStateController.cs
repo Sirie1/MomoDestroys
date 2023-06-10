@@ -25,14 +25,20 @@ public class DogStateController : MonoBehaviour
     [SerializeField] DogBaseState prevState;
     [SerializeField] DogBaseState currentState;
     [SerializeField] StatesName currentStateName;
+    /*
     DogIdleState idleState = new DogIdleState();
     DogWalkState walkState = new DogWalkState();
     DogJumpState jumpState = new DogJumpState();
     DogChewState chewState = new DogChewState();
     DogPeeState peeState = new DogPeeState();
     DogPooState pooState = new DogPooState();
-
-
+    */
+    DogIdleState idleState;
+    DogWalkState walkState;
+    DogJumpState jumpState;
+    DogChewState chewState;
+    DogPeeState peeState;
+    DogPooState pooState;
     public enum StatesName
     {
         Idle,
@@ -122,6 +128,8 @@ public class DogStateController : MonoBehaviour
 
     private void Start()
     {
+        InitializeStates();
+
         prevState = IdleState;
         currentState = IdleState;
         currentState.EnterState(this);
@@ -155,5 +163,15 @@ public class DogStateController : MonoBehaviour
     {
 
         dogAnimationController.SetAnimation();
+    }
+    private void InitializeStates()
+    {
+        idleState = this.gameObject.AddComponent<DogIdleState>();
+        walkState = this.gameObject.AddComponent<DogWalkState>();
+        jumpState = this.gameObject.AddComponent<DogJumpState>();
+        chewState = this.gameObject.AddComponent<DogChewState>();
+        peeState = this.gameObject.AddComponent<DogPeeState>();
+        pooState = this.gameObject.AddComponent<DogPooState>();
+
     }
 }

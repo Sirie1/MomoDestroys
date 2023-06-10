@@ -11,6 +11,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pee1 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3639160510155987579, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639160510155987579, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
+      propertyPath: m_TagString
+      value: Pee
+      objectReference: {fileID: 0}
     - target: {fileID: 6434056715291957102, guid: bdbe43c4cba2f424081f4bd10cf3e71b, type: 3}
       propertyPath: m_Size.x
       value: 2.4306917

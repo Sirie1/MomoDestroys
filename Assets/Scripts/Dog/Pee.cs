@@ -10,15 +10,28 @@ public class Pee : MonoBehaviour
     [SerializeField] RaycastHit2D[] hits = new RaycastHit2D[4];
     private void Start()
     {
-        rb.Cast(-this.transform.up, hits);
+        //rb.Cast(-this.transform.up, hits);
+        rb.Cast(new Vector2 (0, -1), hits);
         if (hits.Length > 0)
             CheckHits();
+    }
+    private void FixedUpdate()
+    {
+        if (objectPeed == null)
+        {
+            Debug.Log ("Checking pee hits");
+            rb.Cast(new Vector2(0, -1), hits);
+            if (hits.Length > 0)
+                CheckHits();
+        }
+
     }
 
     public GameObject ObjectPeed
     {
         get { return objectPeed; }
     }
+    /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject == objectPeed)
@@ -29,14 +42,18 @@ public class Pee : MonoBehaviour
             if (objectPeed != null)
                 ScoreManager.Instance.AddPeeCollision(this);
         }
-    }
+    }*/
 
     void CheckHits()
     {
         for (int i=0; i < hits.Length; i++)
         {
-            if (hits[i])
-                Debug.Log ("Peed on : " + hits[i].collider.gameObject.name);
+            if (hits[i] && hits[i].collider.gameObject.tag == "Furniture")
+            {
+                objectPeed = hits[i].collider.gameObject;
+                Debug.Log("Peed on : " + hits[i].collider.gameObject.name);
+            }
+
         }
     }
 }

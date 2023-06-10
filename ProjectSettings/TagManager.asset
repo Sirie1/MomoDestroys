@@ -8,6 +8,8 @@ TagManager:
   - Dog
   - Furniture
   - Poop
+  - SideDog
+  - Pee
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - UI
   - Furniture floor
   - Furniture
-  - 
+  - Pee
   - Poop
   - 
   - 

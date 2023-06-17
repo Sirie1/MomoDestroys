@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu]
 public class AchievementSO : ScriptableObject
@@ -19,5 +20,5 @@ public class AchievementSO : ScriptableObject
     public List<Furniture.ObjectTypes> interactionObject = new List<Furniture.ObjectTypes>();
     public int complete;
     public int reward;
-
+    public Sprite icon;
 }

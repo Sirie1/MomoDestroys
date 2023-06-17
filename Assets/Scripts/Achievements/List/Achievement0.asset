@@ -19,3 +19,4 @@ MonoBehaviour:
   interactionObject: 00000000
   complete: 50
   reward: 0
+  icon: {fileID: 21300000, guid: cd4ce74d433f4b8409df6d0807e597a2, type: 3}

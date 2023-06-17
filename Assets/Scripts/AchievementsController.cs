@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AchievementsController : MonoBehaviour
 {
@@ -9,6 +11,8 @@ public class AchievementsController : MonoBehaviour
     //Line prefab shoud be initialized inside panel gameobject
     [SerializeField] GameObject linePrefab;
     [SerializeField] Transform panel;
+
+
 
     private void OnEnable()
     {
@@ -52,6 +56,7 @@ public class AchievementsController : MonoBehaviour
                 templine.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = achievement.Text;
                 templine.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = DataManager.Instance.userData.AchievementsDict[achievement.id].ToString() + 
                                                                                                                             "/" + achievement.complete.ToString();
+                templine.transform.GetChild(3).GetComponent<Image>().sprite = achievement.icon;
             }
             else
             {

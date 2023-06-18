@@ -52,6 +52,7 @@ public class Pee : MonoBehaviour
             {
                 objectPeed = hits[i].collider.gameObject;
                 Debug.Log("Peed on : " + hits[i].collider.gameObject.name);
+                ScoreManager.Instance.AddPeeCollision(this);
             }
 
         }

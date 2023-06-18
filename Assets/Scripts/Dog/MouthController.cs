@@ -45,6 +45,18 @@ public class MouthController : MonoBehaviour
         }
                 
     }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (reachableFurniture == null)
+        {
+            if (collision.gameObject.tag == "Furniture")
+            {
+                IsFurnitureReachable = true;
+                reachableFurniture = collision.gameObject.GetComponentInParent<Furniture>();
+            }
+        }
+
+    }
 
     private void OnTriggerExit2D(Collider2D collision)
     {

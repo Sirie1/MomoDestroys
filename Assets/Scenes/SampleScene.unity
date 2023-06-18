@@ -7922,7 +7922,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.8293782, y: -0.4865675, z: -10}
+  m_LocalPosition: {x: -1.8294822, y: -0.49548554, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -34762,5 +34762,17 @@ PrefabInstance:
       propertyPath: peeChargeUI
       value: 
       objectReference: {fileID: 1058349421}
+    - target: {fileID: 8848256198422609903, guid: 143da85833901b24d8f8cb2b79c6ef1c, type: 3}
+      propertyPath: m_Radius
+      value: 0.9500015
+      objectReference: {fileID: 0}
+    - target: {fileID: 8848256198422609903, guid: 143da85833901b24d8f8cb2b79c6ef1c, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.14138708
+      objectReference: {fileID: 0}
+    - target: {fileID: 8848256198422609903, guid: 143da85833901b24d8f8cb2b79c6ef1c, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.27684876
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 143da85833901b24d8f8cb2b79c6ef1c, type: 3}

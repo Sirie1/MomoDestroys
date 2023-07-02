@@ -15,7 +15,9 @@ MonoBehaviour:
   id: 1
   Title: Pee on table
   achievementType: 2
+  IsHeavy: 0
   Text: please that be poured lemon juice...
   interactionObject: 00000000
   complete: 50
   reward: 0
+  icon: {fileID: 21300000, guid: a1621d07f51744c4ebdfdeb2fd72cd96, type: 3}

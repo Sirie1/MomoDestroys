@@ -11,11 +11,14 @@ public class AchievementSO : ScriptableObject
         Chew,
         Poop,
         Pee,
-        Eat
+        Eat,
+
+
     }
     public int id;
     public string Title;
     public AchievementType achievementType;
+    public bool IsHeavy;
     public string Text;
     public List<Furniture.ObjectTypes> interactionObject = new List<Furniture.ObjectTypes>();
     public int complete;

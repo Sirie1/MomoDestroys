@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   furnitureName: Furniture Bed
   isMovable: 1
+  isHeavy: 1
   maxHealth: 50
   mass: 27.77
   bonusForPoop: 60
-  messagePooOnScoreboard: 
   bonusForPee: 50
-  messagePeeOnScoreboard: 

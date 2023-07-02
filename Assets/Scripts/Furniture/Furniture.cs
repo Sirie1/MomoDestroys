@@ -7,6 +7,7 @@ using DG.Tweening;
 public class Furniture : MonoBehaviour
 {
     [Range(0.0f, 100.0f)] [SerializeField] private float health = 100f;
+    [SerializeField] bool isHeavy;
     [SerializeField] float shakeIntensity = 0.025f;
     [SerializeField] float shakeTime = 0.1f;
     [SerializeField] float shakeCurrentTime = 0.1f;
@@ -27,6 +28,11 @@ public class Furniture : MonoBehaviour
         get { return objectType; }
     }
 
+    public bool IsHeavy
+    {
+        get { return isHeavy; }
+
+    }
     #endregion
     public enum ObjectTypes
     {
@@ -70,12 +76,13 @@ public class Furniture : MonoBehaviour
     }
     void SetPhysics()
     {
-
+        isHeavy = furnitureSO.IsHeavy;
         if (furnitureSO.IsMovable)
         {
             GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
             GetComponent<Rigidbody2D>().mass = furnitureSO.Mass;
             GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+
         }
         else
         {

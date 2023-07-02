@@ -35,10 +35,14 @@ public class AchievementsController : MonoBehaviour
                 {
                     if (myType == affectedObject.ObjectType)
                     {
-                        Debug.Log("Achievement reached");
-                        DataManager.Instance.AddAchievement(achievement.id);
 
-                        DataManager.Instance.SaveUserData();
+                        if (achievement.IsHeavy == affectedObject.IsHeavy)
+                        {
+                            Debug.Log("Achievement reached");
+                            DataManager.Instance.AddAchievement(achievement.id);
+                            DataManager.Instance.SaveUserData();
+                        }
+
                     }
                 }
             }

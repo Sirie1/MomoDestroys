@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   furnitureName: Furniture Wardrobe
   isMovable: 0
+  isHeavy: 1
   maxHealth: 500
   mass: 20
   bonusForPoop: 60

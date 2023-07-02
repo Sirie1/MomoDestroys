@@ -9,13 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30983f88cf3d7cf4e9d6ee8c8e5d72a2, type: 3}
-  m_Name: Furniture Chest
+  m_Script: {fileID: 11500000, guid: 6001b0b62bb560744bc5b59e2201d971, type: 3}
+  m_Name: Achievement10
   m_EditorClassIdentifier: 
-  furnitureName: Furniture Chest
-  isMovable: 1
-  isHeavy: 1
-  maxHealth: 500
-  mass: 20
-  bonusForPoop: 60
-  bonusForPee: 50
+  id: 10
+  Title: Poop on heavy Stuff
+  achievementType: 1
+  IsHeavy: 1
+  Text: Heavy Poop
+  interactionObject: 00000000020000000500000001000000
+  complete: 0
+  reward: 0
+  icon: {fileID: 0}

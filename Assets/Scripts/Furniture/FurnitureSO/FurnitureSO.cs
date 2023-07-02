@@ -9,6 +9,7 @@ public class FurnitureSO : ScriptableObject
     [Header("General Settings")]
     [SerializeField] string furnitureName;
     [SerializeField] bool isMovable;
+    [SerializeField] bool isHeavy;
     [SerializeField] int maxHealth;
     [SerializeField] float mass = 1f;
 
@@ -30,6 +31,10 @@ public class FurnitureSO : ScriptableObject
     public bool IsMovable
     {
         get => isMovable;
+    }
+    public bool IsHeavy
+    {
+        get => isHeavy;
     }
 
     public int MaxHealth

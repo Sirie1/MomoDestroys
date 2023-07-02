@@ -7,35 +7,37 @@ public class SpinGameObject : MonoBehaviour
 {
     [SerializeField] GameObject goToSpin;
     [SerializeField] float spinPeriod;
-    [SerializeField] float spinningDuration;
+    [SerializeField] float startSpinPeriod;
+    [SerializeField] float endSpinPeriod;
+    [SerializeField] float decreaseSpeed;
     float nChild;
-    [SerializeField] float timerSpinningDuration;
-    //[SerializeField] float timerOnChild;
-    [SerializeField] float timerSpinPeriod;
+    float timerChildPeriod = 0;
     [SerializeField] bool isSpinEnabled;
-    //[SerializeField] bool isSpinning;
-   // [SerializeField] bool isTimesUpOnChild;
-
-    // Update is called once per frame
     void Update()
     {
 
         if (isSpinEnabled)
         {
             UpdateTimers();
-            if (CheckActiveChild() != CheckCorrespondingChildIx())
+            if (CheckChangeChild())
             {
-                DisableAllChildren();
-                EnableChild (CheckCorrespondingChildIx());
+                ChangeToNextChild();
+
             }
-            if (timerSpinningDuration > spinningDuration)
+            spinPeriod *= decreaseSpeed;
+            if (spinPeriod > endSpinPeriod)
             {
                 Debug.Log ("spin finished");
                 StopSpin();
             }
+
         }
     }
-    
+    private void OnEnable()
+    {
+        SetupNewSpin (goToSpin);
+    }
+
     public void StartSpin()
     {
         DisableAllChildren();
@@ -46,29 +48,37 @@ public class SpinGameObject : MonoBehaviour
     {
         isSpinEnabled = false;
     }
-    public void SetupNewSpin(GameObject go, float newSpinDuration)
+    public void SetupNewSpin(GameObject go)
     {
         goToSpin = go;
-        spinningDuration = newSpinDuration;
+        spinPeriod = startSpinPeriod;
         nChild = goToSpin.transform.childCount;
-
-        // timerOnChild = 0;
-        timerSpinningDuration = 0;
-        timerSpinPeriod = 0;
+        timerChildPeriod = 0f;
+        SetRandomChild();
     }
-
-    public int CheckCorrespondingChildIx()
+    public bool CheckChangeChild()
     {
-        if (timerSpinPeriod > spinPeriod)
+        if (timerChildPeriod > (spinPeriod / nChild))
         {
-            timerSpinPeriod = 0f;
-            return 0;
+            timerChildPeriod = 0;
+            return true;
+        }
+        else
+            return false;
+    }
+    public void ChangeToNextChild()
+    {
+        int currentActiveChild = CheckActiveChild();
+        if (currentActiveChild == nChild - 1)
+        {
+            DisableAllChildren();
+            EnableChild(0);
         }
 
         else
         {
-            
-            return Mathf.FloorToInt(timerSpinPeriod / (spinPeriod / nChild));
+            DisableAllChildren();
+            EnableChild(currentActiveChild + 1);
         }
 
     }
@@ -82,15 +92,14 @@ public class SpinGameObject : MonoBehaviour
         Debug.LogWarning ("Could not find active children");
         return 99;
     }
+    public void SetRandomChild()
+    {
+        DisableAllChildren();
+        EnableChild (Random.Range (0, (int)nChild));
+    }
     void UpdateTimers()
     {
-        timerSpinningDuration+= Time.deltaTime;
-        timerSpinPeriod += Time.deltaTime;
-    }
-    void SetSpinPeriod()
-    {
-        //To Be completed
-        spinPeriod = 0.5f;
+        timerChildPeriod += Time.deltaTime;
     }
     void DisableAllChildren()
     {

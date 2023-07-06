@@ -5,11 +5,14 @@ using UnityEngine.Serialization;
 
 public class SpinGameObject : MonoBehaviour
 {
+    //In stop Spin method, it can be added what to do when spin is over
     [SerializeField] GameObject goToSpin;
+    //Spin period only to watch, not to modify in inspector
     [SerializeField] float spinPeriod;
     [SerializeField] float startSpinPeriod;
     [SerializeField] float endSpinPeriod;
     [SerializeField] float decreaseSpeed;
+
     float nChild;
     float timerChildPeriod = 0;
     [SerializeField] bool isSpinEnabled;
@@ -33,9 +36,18 @@ public class SpinGameObject : MonoBehaviour
 
         }
     }
+    /*
+    void SetTestParamenters()
+    {
+        startSpinPeriod = 0.3f;
+        endSpinPeriod = 3f;
+        decreaseSpeed = 1.004f;
+    }
+    */
     private void OnEnable()
     {
         SetupNewSpin (goToSpin);
+        isSpinEnabled = true;
     }
 
     public void StartSpin()
@@ -47,6 +59,11 @@ public class SpinGameObject : MonoBehaviour
     public void StopSpin()
     {
         isSpinEnabled = false;
+        //Do something with final result
+        goToSpin.transform.GetChild (CheckActiveChild()).gameObject.GetComponent<PUSet>().SetPU();
+
+        //End something to do, finally disable object
+        this.gameObject.SetActive(false);
     }
     public void SetupNewSpin(GameObject go)
     {

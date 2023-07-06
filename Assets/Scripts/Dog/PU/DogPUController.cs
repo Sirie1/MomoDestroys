@@ -41,6 +41,19 @@ public class DogPUController : MonoBehaviour
         Tofu
     }
 
+    public void SetPU(PowerUp newPU)
+    {
+        if (newPU == PowerUp.Super)
+            SetPUSuper();
+        else if (newPU == PowerUp.Weight)   
+            SetPUWeight();
+        else if (newPU == PowerUp.Tofu)
+            SetPUTofu();
+        else if (newPU == PowerUp.Normal)
+            SetPUNormal();
+        else 
+            Debug.LogWarning ("Failed to set PU, PU not defined");
+    }
     #region Debugging power ups
 
     public void SetPUNormal()

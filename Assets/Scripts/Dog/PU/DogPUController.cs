@@ -63,19 +63,22 @@ public class DogPUController : MonoBehaviour
     }
     public void SetPUSuper()
     {
-        CurrentPowerUp = PowerUp.Super;
         currentPowerUpSkin = PowerUp.Super;
+        CurrentPowerUp = PowerUp.Super;
+ 
     }
 
     public void SetPUWeight()
     {
-        CurrentPowerUp = PowerUp.Weight;
         currentPowerUpSkin = PowerUp.Weight;
+
+        CurrentPowerUp = PowerUp.Weight;
     }
     public void SetPUTofu()
     {
-        CurrentPowerUp = PowerUp.Tofu;
         currentPowerUpSkin = PowerUp.Normal;
+
+        CurrentPowerUp = PowerUp.Tofu;
         var tofu = Instantiate(tofuPrefab);
         tofu.transform.position = this.transform.position - new Vector3 (-2,1,0);
     }

@@ -18,6 +18,9 @@ public class Furniture : MonoBehaviour
     [SerializeField] Slider slider;
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] SpriteRenderer brokenSpriteRenderer;
+    [SerializeField] GameObject foodPrefab;
+
+    int foodPopProbabilty = 25;
 
     [SerializeField] FurnitureSO furnitureSO;
 
@@ -124,8 +127,20 @@ public class Furniture : MonoBehaviour
             ScoreManager.Instance.AddScore();
             slider.value = health /furnitureSO.MaxHealth;
             UpdateSprite();
+    
         }
     }
+
+    public void CheckForFood()
+    {
+        if(Random.Range(0,100)<foodPopProbabilty)
+        {
+            PopFood();
+        }
+
+
+    }
+
     public void StartShake()
     {
         StartShakeTimer();
@@ -141,5 +156,18 @@ public class Furniture : MonoBehaviour
         else
             brokenSpriteRenderer.gameObject.SetActive(false);
 
+    }
+    public void PopFood()
+    {
+        GameObject newFood = Instantiate(foodPrefab);
+        newFood.transform.position=this.transform.position;
+        newFood.GetComponent<Rigidbody2D>().velocity = new Vector2 ( RandomSign()*5,5);
+    }
+    private int RandomSign()
+    {
+        if(Random.value < 0.5f)
+            return 1;
+        else
+            return -1;
     }
 }

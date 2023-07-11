@@ -219,6 +219,7 @@ MonoBehaviour:
   slider: {fileID: 528879202}
   spriteRenderer: {fileID: 2044914389}
   brokenSpriteRenderer: {fileID: 1733487765}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: be77c0351cb2d9c4c948fa8f12e93817, type: 2}
 --- !u!61 &22259883
 BoxCollider2D:
@@ -2752,6 +2753,7 @@ MonoBehaviour:
   slider: {fileID: 552550646}
   spriteRenderer: {fileID: 1380775395}
   brokenSpriteRenderer: {fileID: 1136659746}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: 70712ea179a30084ea1e268c66a757c9, type: 2}
 --- !u!61 &180379523
 BoxCollider2D:
@@ -5206,6 +5208,7 @@ MonoBehaviour:
   slider: {fileID: 34458415}
   spriteRenderer: {fileID: 1511247162}
   brokenSpriteRenderer: {fileID: 69108627}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: 9d7561e40a234fc4a8c279b327f2c8b1, type: 2}
 --- !u!61 &382785632
 BoxCollider2D:
@@ -8101,6 +8104,7 @@ MonoBehaviour:
   slider: {fileID: 48583891}
   spriteRenderer: {fileID: 1472268428}
   brokenSpriteRenderer: {fileID: 977818357}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: be77c0351cb2d9c4c948fa8f12e93817, type: 2}
 --- !u!61 &518152668
 BoxCollider2D:
@@ -8261,7 +8265,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.8294688, y: -0.49433112, z: -10}
+  m_LocalPosition: {x: -0.119856, y: -0.4848349, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8916,6 +8920,7 @@ MonoBehaviour:
   slider: {fileID: 974079156}
   spriteRenderer: {fileID: 910810350}
   brokenSpriteRenderer: {fileID: 250565124}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: b2b9035869054814482408638a356595, type: 2}
 --- !u!61 &562643175
 BoxCollider2D:
@@ -12856,6 +12861,7 @@ MonoBehaviour:
   slider: {fileID: 436010426}
   spriteRenderer: {fileID: 629792689}
   brokenSpriteRenderer: {fileID: 1811379453}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: b2b9035869054814482408638a356595, type: 2}
 --- !u!61 &579880311
 BoxCollider2D:
@@ -14718,6 +14724,7 @@ MonoBehaviour:
   slider: {fileID: 1800742197}
   spriteRenderer: {fileID: 412438957}
   brokenSpriteRenderer: {fileID: 1648881211}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: bba2f47f5a95e91459a7c8a8e0578826, type: 2}
 --- !u!61 &749933393
 BoxCollider2D:
@@ -17977,6 +17984,7 @@ MonoBehaviour:
   slider: {fileID: 922051657}
   spriteRenderer: {fileID: 2059053557}
   brokenSpriteRenderer: {fileID: 1130971047}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: 86ad06abe9989f84aaed11a01cbb8d32, type: 2}
 --- !u!61 &859804970
 BoxCollider2D:
@@ -20039,6 +20047,7 @@ MonoBehaviour:
   slider: {fileID: 1141780890}
   spriteRenderer: {fileID: 1640422426}
   brokenSpriteRenderer: {fileID: 1064505872}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: b2b9035869054814482408638a356595, type: 2}
 --- !u!61 &1018621552
 BoxCollider2D:
@@ -20577,6 +20586,7 @@ MonoBehaviour:
   slider: {fileID: 1860259305}
   spriteRenderer: {fileID: 225545052}
   brokenSpriteRenderer: {fileID: 2026840060}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: b2b9035869054814482408638a356595, type: 2}
 --- !u!61 &1047064548
 BoxCollider2D:
@@ -20911,6 +20921,7 @@ MonoBehaviour:
   slider: {fileID: 787626753}
   spriteRenderer: {fileID: 1456130152}
   brokenSpriteRenderer: {fileID: 1851057998}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: 0af878e2240f1fe46819dff0fa056b1d, type: 2}
 --- !u!61 &1053848331
 BoxCollider2D:
@@ -22937,6 +22948,7 @@ MonoBehaviour:
   slider: {fileID: 938254895}
   spriteRenderer: {fileID: 1724077928}
   brokenSpriteRenderer: {fileID: 1562102577}
+  foodPrefab: {fileID: 2013320792650541321, guid: f197da44a8134e143be977b16781cead, type: 3}
   furnitureSO: {fileID: 11400000, guid: 414ca1606008b084eb17c665d3ff359a, type: 2}
 --- !u!61 &1183638768
 BoxCollider2D:
@@ -23625,6 +23637,7 @@ MonoBehaviour:
   slider: {fileID: 1431696765}
   spriteRenderer: {fileID: 154360850}
   brokenSpriteRenderer: {fileID: 307847027}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: 86ad06abe9989f84aaed11a01cbb8d32, type: 2}
 --- !u!61 &1259253742
 BoxCollider2D:
@@ -26779,6 +26792,7 @@ MonoBehaviour:
   slider: {fileID: 1522735605}
   spriteRenderer: {fileID: 1675902596}
   brokenSpriteRenderer: {fileID: 2141966884}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: 70712ea179a30084ea1e268c66a757c9, type: 2}
 --- !u!61 &1430937283
 BoxCollider2D:
@@ -29788,6 +29802,7 @@ MonoBehaviour:
   slider: {fileID: 2112779927}
   spriteRenderer: {fileID: 1340762816}
   brokenSpriteRenderer: {fileID: 450847222}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: edc3d82c63e7c9e4f98725ae334f125f, type: 2}
 --- !u!61 &1705170912
 BoxCollider2D:
@@ -30048,6 +30063,7 @@ MonoBehaviour:
   slider: {fileID: 1280608971}
   spriteRenderer: {fileID: 1481849959}
   brokenSpriteRenderer: {fileID: 1808470322}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: 1b08ee70368c6534ea0345c6939d6bdd, type: 2}
 --- !u!61 &1719987225
 BoxCollider2D:
@@ -32169,6 +32185,7 @@ MonoBehaviour:
   slider: {fileID: 686418072}
   spriteRenderer: {fileID: 617036729}
   brokenSpriteRenderer: {fileID: 905817101}
+  foodPrefab: {fileID: 2013320792650541321, guid: f197da44a8134e143be977b16781cead, type: 3}
   furnitureSO: {fileID: 11400000, guid: edc3d82c63e7c9e4f98725ae334f125f, type: 2}
 --- !u!1 &1851057996
 GameObject:
@@ -35460,6 +35477,7 @@ MonoBehaviour:
   slider: {fileID: 1611671184}
   spriteRenderer: {fileID: 887124252}
   brokenSpriteRenderer: {fileID: 48729155}
+  foodPrefab: {fileID: 0}
   furnitureSO: {fileID: 11400000, guid: edc3d82c63e7c9e4f98725ae334f125f, type: 2}
 --- !u!61 &2115686819
 BoxCollider2D:

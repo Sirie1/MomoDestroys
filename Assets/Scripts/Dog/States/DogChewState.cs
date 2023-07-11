@@ -11,6 +11,8 @@ public class DogChewState : DogBaseState
         dog.CurrentStateName = DogStateController.StatesName.Chew;
         dog.UpdateAnimation();
         chewStateTimer = dog.mouthController.ChewTime;
+
+        dog.mouthController.ReachableFurniture.CheckForFood();
     }
 
     public override void ExitState(DogStateController dog)

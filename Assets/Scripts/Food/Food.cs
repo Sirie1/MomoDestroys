@@ -5,28 +5,56 @@ using UnityEngine;
 
 public class Food : MonoBehaviour
 {
-    bool hasCollidedSomething;
+    //Box collider used for trigge, capsule collider for physics beheaviour
+    //bool hasCollidedSomething;
+    private Collider2D parentCollider;
     // Start is called before the first frame update
     void Start()
     {
-        
+        GetComponent<CapsuleCollider2D>().enabled = false;
+        GetComponent<BoxCollider2D>().enabled=true;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(CheckIsGrounded())
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        StartCoroutine(DelayedGroundCheck());
+    }
+    IEnumerator DelayedGroundCheck()
+    {
+        yield return new WaitForSeconds(0.1f);
+        if (CheckIsGrounded())
         {
-            EnableFoodTrigger();
+            GetComponent<BoxCollider2D>().enabled = true;
         }
     }
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        hasCollidedSomething = true;
+
+        parentCollider = collision;
+        if (collision.gameObject.tag == "dog")
+        {
+            Debug.Log("run pu");
+            Destroy(gameObject);
+        }
     }
-    private void OnCollisionExit2D(Collision2D collision)
+
+    
+    
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        hasCollidedSomething= false;
+        if(collision == parentCollider)
+        {
+            GetComponent<CapsuleCollider2D>().enabled = true;
+            GetComponent<BoxCollider2D>().enabled=false;
+        }
+
     }
     private bool CheckIsGrounded()
     {
@@ -37,17 +65,7 @@ public class Food : MonoBehaviour
         else
             return false;
     }
-    private void EnableFoodTrigger()
-    {
-        GetComponent<BoxCollider2D>().isTrigger = true;
-    }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.tag == "dog")
-        {
-            Debug.Log("run pu");
-            Destroy(gameObject);
-        }
-    }
+
+
 }

@@ -8,11 +8,13 @@ public class Food : MonoBehaviour
     //Box collider used for trigge, capsule collider for physics beheaviour
     //bool hasCollidedSomething;
     private Collider2D parentCollider;
+    //[SerializeField] GameObject spinGO;
     // Start is called before the first frame update
     void Start()
     {
         GetComponent<CapsuleCollider2D>().enabled = false;
         GetComponent<BoxCollider2D>().enabled=true;
+       
 
     }
 
@@ -38,9 +40,9 @@ public class Food : MonoBehaviour
     {
 
         parentCollider = collision;
-        if (collision.gameObject.tag == "dog")
+        if (collision.gameObject.tag == "Dog"&&CheckIsGrounded())
         {
-            Debug.Log("run pu");
+            FindObjectOfType<SpinGameObject>(true).gameObject.SetActive(true);
             Destroy(gameObject);
         }
     }

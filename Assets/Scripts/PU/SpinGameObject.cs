@@ -12,7 +12,8 @@ public class SpinGameObject : MonoBehaviour
     [SerializeField] float startSpinPeriod;
     [SerializeField] float endSpinPeriod;
     [SerializeField] float decreaseSpeed;
-
+    [SerializeField] float spinTime = 3f;
+    [SerializeField] float timerSpinTime;
     float nChild;
     float timerChildPeriod = 0;
     [SerializeField] bool isSpinEnabled;
@@ -25,10 +26,11 @@ public class SpinGameObject : MonoBehaviour
             if (CheckChangeChild())
             {
                 ChangeToNextChild();
-
             }
-            spinPeriod *= decreaseSpeed;
-            if (spinPeriod > endSpinPeriod)
+            UpdateSpinSpeed();
+            //spinPeriod *= decreaseSpeed;
+            //if (spinPeriod > endSpinPeriod)
+            if (timerSpinTime > spinTime)
             {
                 Debug.Log ("spin finished");
                 StopSpin();
@@ -71,6 +73,7 @@ public class SpinGameObject : MonoBehaviour
         spinPeriod = startSpinPeriod;
         nChild = goToSpin.transform.childCount;
         timerChildPeriod = 0f;
+        timerSpinTime = 0f;
         SetRandomChild();
     }
     public bool CheckChangeChild()
@@ -114,9 +117,19 @@ public class SpinGameObject : MonoBehaviour
         DisableAllChildren();
         EnableChild (Random.Range (0, (int)nChild));
     }
+    void UpdateSpinSpeed()
+    {
+        if(timerSpinTime > spinTime)
+            spinPeriod = 3;
+        else if (timerSpinTime > (2*spinTime/3) && (spinPeriod <= 1.3f))
+            spinPeriod = 1.3f;
+        else if (timerSpinTime > (1*spinTime/3) && (spinPeriod <= 0.9f))
+            spinPeriod = 0.9f;
+    }
     void UpdateTimers()
     {
         timerChildPeriod += Time.deltaTime;
+        timerSpinTime += Time.deltaTime;
     }
     void DisableAllChildren()
     {

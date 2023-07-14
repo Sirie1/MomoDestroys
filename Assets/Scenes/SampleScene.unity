@@ -3390,6 +3390,8 @@ MonoBehaviour:
   startSpinPeriod: 0.3
   endSpinPeriod: 3
   decreaseSpeed: 1.004
+  spinTime: 3
+  timerSpinTime: 0
   isSpinEnabled: 0
 --- !u!4 &255136498
 Transform:

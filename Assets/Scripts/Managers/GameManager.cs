@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour
         EndScreen.SetActive(false);
 
         ResumeGame();
+        ClosePauseMenu();
 
         ScoreManager.Instance.ResetScore();
         TimerManager.Instance.ResetTimer();
@@ -62,25 +63,48 @@ public class GameManager : MonoBehaviour
     public void PauseGame()
     {
         isGamePaused = true;
-        PauseMenu.SetActive(true);
+        //PauseMenu.SetActive(true);
         Joystick.SetActive(false);
         Time.timeScale = 0;
+    }
+    public void OpenPauseMenu()
+    {
+        PauseMenu.SetActive(true);
+    }
+    public void ClosePauseMenu()
+    {
+        PauseMenu.SetActive(false);
     }
     public void ResumeGame()
     {
         isGamePaused = false;
-        PauseMenu.SetActive(false);
+        //PauseMenu.SetActive(false);
         Joystick.SetActive(true);
         Time.timeScale = 1;
     }
     public void TogglePause()
     { 
         if(isGamePaused)
+        {
             ResumeGame();
-        else
-            PauseGame();
-    }
+            ClosePauseMenu();
+        }
 
+        else
+        {
+            PauseGame();
+            OpenPauseMenu();
+        }
+    }
+     public void DisableJoystick()
+    {
+        Joystick.SetActive(false);
+    }
+    public void EnableJoystick()
+    {
+        Joystick.SetActive(true);
+
+    }
 
     public void ExitGame()
     {

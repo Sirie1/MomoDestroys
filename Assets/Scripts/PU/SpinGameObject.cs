@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
-
+using DG.Tweening;
 public class SpinGameObject : MonoBehaviour
 {
     //In stop Spin method, it can be added what to do when spin is over
@@ -48,8 +48,15 @@ public class SpinGameObject : MonoBehaviour
     */
     private void OnEnable()
     {
+        Time.timeScale = 0;
+        GameManager.Instance.DisableJoystick();
         SetupNewSpin (goToSpin);
         isSpinEnabled = true;
+    }
+    private void OnDisable()
+    {
+        Time.timeScale = 1;
+        GameManager.Instance.EnableJoystick();
     }
 
     public void StartSpin()
@@ -63,7 +70,7 @@ public class SpinGameObject : MonoBehaviour
         isSpinEnabled = false;
         //Do something with final result
         goToSpin.transform.GetChild (CheckActiveChild()).gameObject.GetComponent<PUSet>().SetPU();
-
+        goToSpin.transform.GetChild(CheckActiveChild()).gameObject.transform.DOPunchScale(new Vector3(0.5f, 0.5f, 0.5f), 1f, 10, 1f );
         //End something to do, finally disable object
         this.gameObject.SetActive(false);
     }
@@ -128,8 +135,10 @@ public class SpinGameObject : MonoBehaviour
     }
     void UpdateTimers()
     {
-        timerChildPeriod += Time.deltaTime;
-        timerSpinTime += Time.deltaTime;
+        //timerChildPeriod += Time.deltaTime;
+        // timerSpinTime += Time.deltaTime;
+        timerChildPeriod += Time.unscaledDeltaTime;
+        timerSpinTime += Time.unscaledDeltaTime;
     }
     void DisableAllChildren()
     {

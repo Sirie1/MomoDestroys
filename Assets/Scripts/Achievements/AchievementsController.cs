@@ -17,6 +17,7 @@ public class AchievementsController : MonoBehaviour
     private void OnEnable()
     {
         GameManager.Instance.PauseGame();
+        GameManager.Instance.OpenPauseMenu();
         GenerateEmpyAchievementList();
         SetCurrentAchievementsList();
     }

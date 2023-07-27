@@ -8,6 +8,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioClip poop;
     [SerializeField] private AudioClip eating;
     [SerializeField] private AudioClip rouletteSpin;
+    [SerializeField] private AudioClip jumping;
     private static SoundManager _instance;
     public static SoundManager Instance
     {
@@ -44,6 +45,7 @@ public class SoundManager : MonoBehaviour
     {
         musicSource.mute = !musicSource.mute;
     }
+    #region SFX
     public void PlayPoopSFX()
     {
         effectsSource.PlayOneShot(poop);
@@ -52,12 +54,18 @@ public class SoundManager : MonoBehaviour
     {
         effectsSource.PlayOneShot(eating);
     }
-    public void StopSFX()
-    {
-        effectsSource.Stop();
-    }
+
     public void PlaySpinSFX()
     {
         effectsSource.PlayOneShot(rouletteSpin);
+    }
+    public void PlayJumpSFX()
+    {
+        effectsSource.PlayOneShot(jumping);
+    }
+    #endregion
+    public void StopSFX()
+    {
+        effectsSource.Stop();
     }
 }

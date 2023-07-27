@@ -12,6 +12,7 @@ public class DogJumpState : DogBaseState
     public override void EnterState(DogStateController dog)
     {
         isWaitingForJump = true;
+        SoundManager.Instance.PlayJumpSFX();
         if (dog.gameObject.tag == "Dog")
             Jump(dog);
         else if (dog.gameObject.tag == "SideDog")

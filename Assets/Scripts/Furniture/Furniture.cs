@@ -100,13 +100,7 @@ public class Furniture : MonoBehaviour
     {
         spriteRenderer.transform.localPosition = new Vector3( Mathf.Sin(Time.time * shakeSpeed) * shakeIntensity, Mathf.Sin(Time.time * shakeSpeed) * shakeIntensity, 0);
     }
-    /*
-    private void ResetPosition ()
-    {
-        isShakeAnimOn = false;
-        transform.localPosition = originalPosition;
 
-    }*/
     public string GetName()
     {
         return furnitureSO.FurnitureName;
@@ -133,12 +127,13 @@ public class Furniture : MonoBehaviour
 
     public void CheckForFood()
     {
-        if(Random.Range(0,100)<foodPopProbabilty)
+        if (health > 0)
         {
-            PopFood();
+            if (Random.Range(0, 100) < foodPopProbabilty)
+            {
+                PopFood();
+            }
         }
-
-
     }
 
     public void StartShake()

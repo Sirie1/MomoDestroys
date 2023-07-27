@@ -17,6 +17,12 @@ public class SpinGameObject : MonoBehaviour
     float nChild;
     float timerChildPeriod = 0;
     [SerializeField] bool isSpinEnabled;
+
+
+    Sequence animationSequence;
+    [SerializeField] Transform iconPosition;
+    [SerializeField] Transform roulettePosition;
+
     void Update()
     {
 
@@ -49,8 +55,10 @@ public class SpinGameObject : MonoBehaviour
     private void OnEnable()
     {
         Time.timeScale = 0;
+
         GameManager.Instance.DisableJoystick();
         SetupNewSpin (goToSpin);
+
         isSpinEnabled = true;
     }
     private void OnDisable()
@@ -63,14 +71,32 @@ public class SpinGameObject : MonoBehaviour
     {
         DisableAllChildren();
         isSpinEnabled = true;
-       
+    }
+    private void ScaleAndPosSetup()
+    {
+        foreach (Transform childTransform in goToSpin.transform)
+        {
+            childTransform.localScale = new Vector3 (1, 1, 1);
+            childTransform.position = roulettePosition.position;
+        }
+    }
+    private void AnimationSetup()
+    {
+        animationSequence = DOTween.Sequence();
+        animationSequence.Append (goToSpin.transform.GetChild(CheckActiveChild()).gameObject.transform.DOPunchScale(new Vector3(0.5f, 0.5f, 0.5f), 1f, 5, 1f));
+        animationSequence.PrependInterval(1);
+        animationSequence.Append(goToSpin.transform.GetChild(CheckActiveChild()).gameObject.transform.DOScale(new Vector3(0.3f, 0.3f, 0.3f), 0.5f));
+        animationSequence.Insert(2f, goToSpin.transform.GetChild(CheckActiveChild()).gameObject.transform.DOMove(iconPosition.position, 0.5f));
     }
     public void StopSpin()
     {
         isSpinEnabled = false;
         //Do something with final result
+        AnimationSetup();
+        animationSequence.Play();
         goToSpin.transform.GetChild (CheckActiveChild()).gameObject.GetComponent<PUSet>().SetPU();
-        goToSpin.transform.GetChild(CheckActiveChild()).gameObject.transform.DOPunchScale(new Vector3(0.5f, 0.5f, 0.5f), 1f, 10, 1f );
+        //goToSpin.transform.GetChild(CheckActiveChild()).gameObject.transform.DOPunchScale(new Vector3(0.5f, 0.5f, 0.5f), 1f, 10, 1f );
+
         //End something to do, finally disable object
         this.gameObject.SetActive(false);
     }
@@ -82,6 +108,8 @@ public class SpinGameObject : MonoBehaviour
         timerChildPeriod = 0f;
         timerSpinTime = 0f;
         SetRandomChild();
+
+        ScaleAndPosSetup();
     }
     public bool CheckChangeChild()
     {

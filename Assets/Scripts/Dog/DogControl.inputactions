@@ -24,18 +24,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Poop",
+                    "name": "Chew",
                     "type": "Button",
-                    "id": "007a22eb-5ad1-4975-8046-1647861cfa8e",
+                    "id": "1407a574-d38b-47b7-8ddd-8f70009878ad",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Chew",
+                    "name": "Poop",
                     "type": "Button",
-                    "id": "1407a574-d38b-47b7-8ddd-8f70009878ad",
+                    "id": "007a22eb-5ad1-4975-8046-1647861cfa8e",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -87,23 +87,23 @@
                 },
                 {
                     "name": "",
-                    "id": "b9f15750-0fda-4b63-b23c-ed32d8d83ab3",
-                    "path": "<Keyboard>/c",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Chew",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "e3174a20-a3b0-454a-ba07-27105e043771",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Pee",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9f15750-0fda-4b63-b23c-ed32d8d83ab3",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Chew",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -114,9 +114,18 @@
             "id": "4e3d2fb3-d01a-47ab-88cf-94b0af170d43",
             "actions": [
                 {
-                    "name": "Pee",
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "f16e53a3-4a6a-4479-93a8-31acfc0d8cd2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
                     "type": "Button",
-                    "id": "c3853bdb-45a4-4fe6-85f2-1bfbf2071077",
+                    "id": "abd857ee-b36f-4ef4-9e18-6afea9e42f9a",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -141,47 +150,16 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Jump",
+                    "name": "Pee",
                     "type": "Button",
-                    "id": "abd857ee-b36f-4ef4-9e18-6afea9e42f9a",
+                    "id": "c3853bdb-45a4-4fe6-85f2-1bfbf2071077",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "Move",
-                    "type": "PassThrough",
-                    "id": "f16e53a3-4a6a-4479-93a8-31acfc0d8cd2",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "f84d464b-95df-446a-bd64-a063a8d255ff",
-                    "path": "<Gamepad>/leftStick",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "5e93a70d-a1ff-438e-97be-c643d3130031",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "",
                     "id": "7b0be7f2-dccc-4d24-8039-29e95847d026",
@@ -206,12 +184,34 @@
                 },
                 {
                     "name": "",
+                    "id": "f84d464b-95df-446a-bd64-a063a8d255ff",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "2ccf2c52-ae30-4d02-95c5-b0ed4794594d",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Pee",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e93a70d-a1ff-438e-97be-c643d3130031",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

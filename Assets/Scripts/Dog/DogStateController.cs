@@ -129,7 +129,7 @@ public class DogStateController : MonoBehaviour
     private void Start()
     {
         InitializeStates();
-
+        playerInput = FindObjectOfType<PlayerInput>();
         prevState = IdleState;
         currentState = IdleState;
         currentState.EnterState(this);
@@ -137,10 +137,10 @@ public class DogStateController : MonoBehaviour
         currentStateName = StatesName.Idle;
 
         //This if fixes side dog and main dog simultaneous movements not working propertly when instantiated at same time 
-        if (this.tag=="SideDog")
+        /*if (this.tag=="SideDog")
         {
             this.gameObject.GetComponent<PlayerInput>().enabled = true;
-        }
+        }*/
     }
     private void Update()
     {

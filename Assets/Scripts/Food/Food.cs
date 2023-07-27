@@ -5,10 +5,9 @@ using UnityEngine;
 public class Food : MonoBehaviour
 {
     //Box collider used for trigge, capsule collider for physics beheaviour
-    //bool hasCollidedSomething;
+
     private Collider2D parentCollider;
-    //[SerializeField] GameObject spinGO;
-    // Start is called before the first frame update
+
     void Start()
     {
         GetComponent<CapsuleCollider2D>().enabled = false;
@@ -46,8 +45,6 @@ public class Food : MonoBehaviour
         }
     }
 
-    
-    
     private void OnTriggerExit2D(Collider2D collision)
     {
         if(collision == parentCollider)
@@ -66,7 +63,4 @@ public class Food : MonoBehaviour
         else
             return false;
     }
-
-
-
 }

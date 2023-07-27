@@ -21,26 +21,18 @@ public class PoopController : MonoBehaviour
     [SerializeField] float poopShootY;
 
 
-    //[SerializeField] float timeToPoop;
-    //[SerializeField] float timePressed;
-
     private void Start()
     {
         dogStateController = this.gameObject.GetComponent<DogStateController>();
         ResetPoop();
         UpdatePoopUI();
         readyToPoop =false;
-        //timeToPoop = 1f;
+
     }
     private void Update()
     {
         if (dogStateController.playerInput.actions["Poop"].IsPressed())
         {
-            //dogStateController.animator.Play("Dog_Sit");
-
-            //UpdatePoopTimePressed();
-
-                
             Poop();
         }
     }
@@ -55,7 +47,6 @@ public class PoopController : MonoBehaviour
     //Creates poop, poopshootx and y defines the shot of poop
     public void Poop()
     {
-        //if (readyToPoop && timePressed >= timeToPoop)
         if (readyToPoop)
         {
             SoundManager.Instance.PlayPoopSFX();
@@ -88,14 +79,4 @@ public class PoopController : MonoBehaviour
         if (this.gameObject.tag == "Dog")
             poopBarUI.value = (float)currentCharge/(float)reachToPoop;
     }
-    /*
-    //To be used if button is meant to be pressed for some seconds
-    private void ResetTimePressed()
-    {
-        timePressed = 0f;
-    }
-    private void UpdatePoopTimePressed()
-    {
-        timePressed += Time.deltaTime;
-    }*/
 }

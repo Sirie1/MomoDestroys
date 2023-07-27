@@ -6,7 +6,6 @@ using UnityEngine.InputSystem;
 public class DogStateController : MonoBehaviour
 {
     #region Def
-    //public DogController dogController;
     public MouthController mouthController;   
     public PoopController poopController;
     public PeeController peeController;
@@ -25,14 +24,7 @@ public class DogStateController : MonoBehaviour
     [SerializeField] DogBaseState prevState;
     [SerializeField] DogBaseState currentState;
     [SerializeField] StatesName currentStateName;
-    /*
-    DogIdleState idleState = new DogIdleState();
-    DogWalkState walkState = new DogWalkState();
-    DogJumpState jumpState = new DogJumpState();
-    DogChewState chewState = new DogChewState();
-    DogPeeState peeState = new DogPeeState();
-    DogPooState pooState = new DogPooState();
-    */
+
     DogIdleState idleState;
     DogWalkState walkState;
     DogJumpState jumpState;
@@ -135,12 +127,6 @@ public class DogStateController : MonoBehaviour
         currentState.EnterState(this);
 
         currentStateName = StatesName.Idle;
-
-        //This if fixes side dog and main dog simultaneous movements not working propertly when instantiated at same time 
-        /*if (this.tag=="SideDog")
-        {
-            this.gameObject.GetComponent<PlayerInput>().enabled = true;
-        }*/
     }
     private void Update()
     {

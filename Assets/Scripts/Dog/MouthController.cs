@@ -11,7 +11,7 @@ public class MouthController : MonoBehaviour
     [SerializeField] float chewTime = 0.3f;
     [SerializeField] PoopController poopController;
     [SerializeField] Animator mouthAnimator;
-   // [SerializeField] bool isChewing;
+
 
     private void Start()
     {

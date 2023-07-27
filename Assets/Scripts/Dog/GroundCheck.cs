@@ -7,10 +7,14 @@ public class GroundCheck : MonoBehaviour
     [SerializeField] bool isGrounded;
     [SerializeField] float radiousCheck;
     [SerializeField] LayerMask platformLayerMask;
-
+    [SerializeField] GameObject landedFurniture;
     public bool IsGrounded
     {
         get { return isGrounded; }
+    }
+    public GameObject LandedFurniture
+    {
+        get { return landedFurniture; }
     }
     private void FixedUpdate()
     {
@@ -26,5 +30,12 @@ public class GroundCheck : MonoBehaviour
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, radiousCheck, platformLayerMask);
         if (colliders.Length > 0)
             isGrounded = true;
+        foreach (Collider2D coll in colliders)
+        {
+            if (coll.tag == "Furniture")
+            {
+                landedFurniture = coll.gameObject;
+            }
+        }
     }
 }

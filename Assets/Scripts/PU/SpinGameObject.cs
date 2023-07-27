@@ -178,5 +178,6 @@ public class SpinGameObject : MonoBehaviour
     void EnableChild(int index)
     {
         goToSpin.transform.GetChild (index).gameObject.SetActive (true);
+        SoundManager.Instance.PlaySpinSFX();
     }
 }

@@ -18,8 +18,6 @@ public class DogJumpState : DogBaseState
             StartCoroutine (DelayedJump(dog));
         else
             Debug.LogWarning ("Trying to jump on a not valid pet");
-        //Invoke ("Jump", 1f);
-        //Jump (dog);
     }
 
     public override void ExitState(DogStateController dog)
@@ -37,6 +35,11 @@ public class DogJumpState : DogBaseState
                 if (dog.CurrentPU == DogPUController.PowerUp.Weight)
                     CinemachineShake.Instance.ShakeCamera(2f, 0.1f);
                 dog.SwitchState(dog.IdleState);
+
+                if (dog.CurrentPU == DogPUController.PowerUp.Weight && dog.groundCheck.LandedFurniture != null)
+                {
+                    dog.groundCheck.LandedFurniture.GetComponentInParent<Furniture>().TakeDamageFromHeavyDog(10);
+                }
             }
 
             horizontal = dog.playerInput.actions["Move"].ReadValue<Vector2>().x;

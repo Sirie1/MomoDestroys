@@ -124,6 +124,18 @@ public class Furniture : MonoBehaviour
     
         }
     }
+    public void TakeDamageFromHeavyDog(float power)
+    {
+        if (health > 0)
+        {
+            StartShake();
+            health -= power;
+            ScoreManager.Instance.AddScore();
+            slider.value = health / furnitureSO.MaxHealth;
+            UpdateSprite();
+
+        }
+    }
 
     public void CheckForFood()
     {

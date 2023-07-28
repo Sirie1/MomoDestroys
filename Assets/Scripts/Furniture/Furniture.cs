@@ -20,7 +20,7 @@ public class Furniture : MonoBehaviour
     [SerializeField] SpriteRenderer brokenSpriteRenderer;
     [SerializeField] GameObject foodPrefab;
 
-    int foodPopProbabilty = 25;
+    int foodPopProbabilty = 10;
 
     [SerializeField] FurnitureSO furnitureSO;
 

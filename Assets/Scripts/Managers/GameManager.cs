@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour
     public void ResumeGame()
     {
         isGamePaused = false;
-        //PauseMenu.SetActive(false);
+        PauseMenu.SetActive(false);
         Joystick.SetActive(true);
         Time.timeScale = 1;
     }

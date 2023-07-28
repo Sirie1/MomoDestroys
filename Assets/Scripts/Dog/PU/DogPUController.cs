@@ -80,7 +80,7 @@ public class DogPUController : MonoBehaviour
 
         CurrentPowerUp = PowerUp.Tofu;
         var tofu = Instantiate(tofuPrefab);
-        tofu.transform.position = this.transform.position - new Vector3 (-2,1,0);
+        tofu.transform.position = this.transform.position + new Vector3 (2,2,0);
     }
 
     #endregion

@@ -22,7 +22,7 @@ public class FaceController : MonoBehaviour
 
     private void CheckScore()
     {
-        int multiplier = 3;
+        int multiplier = 4;
         if(ScoreManager.Instance.Score < 50 * multiplier)
         {
             SetFace (0);

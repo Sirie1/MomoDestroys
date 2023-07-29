@@ -48,6 +48,7 @@ public class Furniture : MonoBehaviour
     }
     private void Start()
     {
+        foodPrefab = GetComponentInParent<Transform>().GetComponentInParent<RoomParamenters>().FoodInRoom;
         RestoreHealth();
         isShakeOn = false;
         shakeIntensity = 0.025f;

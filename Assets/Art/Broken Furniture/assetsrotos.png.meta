@@ -1,0 +1,744 @@
+fileFormatVersion: 2
+guid: 338e65bb1f18b6c4086f9dacb29a41a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2093177839119646375
+    second: assetsrotos_0
+  - first:
+      213: -5630248564036150806
+    second: assetsrotos_1
+  - first:
+      213: 7452442395052228577
+    second: assetsrotos_2
+  - first:
+      213: 3334839008307388735
+    second: assetsrotos_3
+  - first:
+      213: 4204473139172428357
+    second: assetsrotos_4
+  - first:
+      213: 4384548842968390832
+    second: assetsrotos_5
+  - first:
+      213: -6191279635630109175
+    second: assetsrotos_6
+  - first:
+      213: -325164113708923533
+    second: assetsrotos_7
+  - first:
+      213: -1933855984480128828
+    second: assetsrotos_8
+  - first:
+      213: -1122909998398412034
+    second: assetsrotos_9
+  - first:
+      213: 3971089762226462141
+    second: assetsrotos_10
+  - first:
+      213: -7210179494293928363
+    second: assetsrotos_11
+  - first:
+      213: 994808162121793482
+    second: assetsrotos_12
+  - first:
+      213: -9194606687514248963
+    second: assetsrotos_13
+  - first:
+      213: -1967983670875877679
+    second: assetsrotos_14
+  - first:
+      213: -5091635484103520914
+    second: assetsrotos_15
+  - first:
+      213: -8830178859923093897
+    second: assetsrotos_16
+  - first:
+      213: -8058501262801072190
+    second: assetsrotos_17
+  - first:
+      213: 1274199575421495205
+    second: assetsrotos_18
+  - first:
+      213: 5345106497145969278
+    second: assetsrotos_19
+  - first:
+      213: 8522321459970217970
+    second: assetsrotos_20
+  - first:
+      213: 4656269563232742860
+    second: assetsrotos_21
+  - first:
+      213: 1331891342632200441
+    second: assetsrotos_22
+  - first:
+      213: 4480768359613632264
+    second: assetsrotos_23
+  - first:
+      213: 4150674617328195310
+    second: assetsrotos_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: assetsrotos_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 250
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae327097267c0d10800000000000000
+      internalID: 2093177839119646375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 245
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9d877e2c65dd1b0800000000000000
+      internalID: -5630248564036150806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 242
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef3622afd46c6760800000000000000
+      internalID: 7452442395052228577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 241
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f312749c86ab74e20800000000000000
+      internalID: 3334839008307388735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_4
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 245
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a4b083b0a495a30800000000000000
+      internalID: 4204473139172428357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 241
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc1b7d31fb09dc30800000000000000
+      internalID: 4384548842968390832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 241
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e482569f7241aa0800000000000000
+      internalID: -6191279635630109175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 243
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375ccac16f8cc7bf0800000000000000
+      internalID: -325164113708923533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_8
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 244
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c07c466a309925e0800000000000000
+      internalID: -1933855984480128828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 209
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa6abe4e4f9a60f0800000000000000
+      internalID: -1122909998398412034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 210
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdd2b859152c1730800000000000000
+      internalID: 3971089762226462141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5560ecb73fb40fb90800000000000000
+      internalID: -7210179494293928363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 210
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfbde2b0c44ecd00800000000000000
+      internalID: 994808162121793482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8384dcee1366080800000000000000
+      internalID: -9194606687514248963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 209
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de8ca5374150b4e0800000000000000
+      internalID: -1967983670875877679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 210
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d4c3cf080e659b0800000000000000
+      internalID: -5091635484103520914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 202
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776ce177c17e47580800000000000000
+      internalID: -8830178859923093897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_17
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 202
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf84b81cc37a2090800000000000000
+      internalID: -8058501262801072190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_18
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 203
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7a3f943cddea110800000000000000
+      internalID: 1274199575421495205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 187
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a94012a02ad2a40800000000000000
+      internalID: 5345106497145969278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 187
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f79633f63e554670800000000000000
+      internalID: 8522321459970217970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_21
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 189
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd63fe6f746e9040800000000000000
+      internalID: 4656269563232742860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 171
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8a2059e14db7210800000000000000
+      internalID: 1331891342632200441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_23
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 187
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f849b3513ee2e30800000000000000
+      internalID: 4480768359613632264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assetsrotos_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 187
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6d310c2982a9930800000000000000
+      internalID: 4150674617328195310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

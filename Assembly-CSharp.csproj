@@ -56,24 +56,32 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Dog\PU\PuUI.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\TextWriter\UI_Assistant.cs" />
     <Compile Include="Assets\Scripts\Dog\PeeController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogIdleState.cs" />
     <Compile Include="Assets\Scripts\EndScreenController.cs" />
     <Compile Include="Assets\Scripts\Dog\DogAnimationController.cs" />
-    <Compile Include="Assets\Scripts\AchievementsController.cs" />
+    <Compile Include="Assets\Scripts\UI\ComponentTimerUI.cs" />
+    <Compile Include="Assets\Scripts\PU\PUSet.cs" />
+    <Compile Include="Assets\Scripts\Achievements\AchievementsController.cs" />
+    <Compile Include="Assets\Scripts\Managers\Services\ActiveLevelService.cs" />
     <Compile Include="Assets\Scripts\SFX\ToggleAudio.cs" />
+    <Compile Include="Assets\Scripts\ActiveLevel.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
     <Compile Include="Assets\Scripts\Dog\PoopController.cs" />
     <Compile Include="Assets\Scripts\Camera\CinemachineShake.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogPooState.cs" />
     <Compile Include="Assets\Scripts\Dog\DogStateController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogPeeState.cs" />
+    <Compile Include="Assets\Scripts\Furniture\RoomParamenters.cs" />
     <Compile Include="Assets\Scripts\Managers\SessionController.cs" />
     <Compile Include="Assets\Scripts\Achievements\List\AchievementSO.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogWalkState.cs" />
     <Compile Include="Assets\Scripts\TextWriter\TextWriter.cs" />
+    <Compile Include="Assets\Scripts\Managers\ServiceLocator\IService.cs" />
+    <Compile Include="Assets\Scripts\PU\SpinGameObject.cs" />
     <Compile Include="Assets\Scripts\Furniture\Furniture.cs" />
     <Compile Include="Assets\Scripts\Furniture\FurnitureSO\FurnitureSO.cs" />
     <Compile Include="Assets\Scripts\Dog\GroundCheck.cs" />
@@ -82,16 +90,19 @@
     <Compile Include="Assets\Scripts\Dog\States\DogJumpState.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogChewState.cs" />
     <Compile Include="Assets\Scripts\Dog\PU\DogPUController.cs" />
-    <Compile Include="Assets\Scripts\Dog\___DogController.cs" />
     <Compile Include="Assets\Scripts\Dog\States\DogBaseState.cs" />
     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\SFX\VolumeSlider.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\Scripts\Managers\ServiceLocator\ServiceLocator.cs" />
     <Compile Include="Assets\Scripts\Dog\MouthController.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraRoomSwitch.cs" />
     <Compile Include="Assets\Scripts\UI\Pee\PeeChargeUI.cs" />
     <Compile Include="Assets\Scripts\Dog\Poop.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Scripts\Managers\Services\LevelControllerService.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Scripts\Food\Food.cs" />
     <Compile Include="Assets\Scripts\Achievements\AchievementsSOCatalog.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Scripts\Dog\PU\PowerUPsSO.cs" />
@@ -100,6 +111,7 @@
     <Compile Include="Assets\Scripts\Managers\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Managers\TimerManager.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\Scripts\Managers\Services\TimerService.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Scripts\Dog\Pee.cs" />
   </ItemGroup>

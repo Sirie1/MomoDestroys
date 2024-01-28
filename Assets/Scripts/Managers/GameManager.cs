@@ -52,8 +52,22 @@ public class GameManager : MonoBehaviour
         ClosePauseMenu();
 
         ScoreManager.Instance.ResetScore();
-        TimerManager.Instance.ResetTimer();
+        //TimerManager.Instance.ResetTimer();
+        
         //DataManager.Instance.LoadUserData();
+
+        //service locator implementation
+
+
+        ServiceLocator.GetService<ActiveLevelService>().LoadNewLevel();
+    }
+
+    public void LoadDependencies()
+    {
+        var timerService = new TimerService();
+        ServiceLocator.AddService(timerService);
+        var activeLevelService = new ActiveLevelService(timerService);
+        ServiceLocator.AddService(activeLevelService);
     }
     public void ManageGameEnd()
     {

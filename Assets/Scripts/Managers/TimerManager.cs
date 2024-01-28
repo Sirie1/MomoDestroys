@@ -14,6 +14,7 @@ public class TimerManager : MonoBehaviour
 
     #region Singleton
     private static TimerManager _instance;
+
     void Awake()
     {
         _instance = this; //Initialization of the private instance
@@ -46,11 +47,11 @@ public class TimerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeLeft -= Time.deltaTime;
-        if (timeLeft>=0)
-            UpdateTimeUI();
-        else
-            GameManager.Instance.ManageGameEnd();
+        //timeLeft -= Time.deltaTime;
+        //if (timeLeft>=0)
+        //    UpdateTimeUI();
+        //else
+        //    GameManager.Instance.ManageGameEnd();
     }
     private void UpdateTimeUI()
     {

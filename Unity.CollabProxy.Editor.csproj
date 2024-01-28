@@ -141,11 +141,11 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Models\IStartModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Components\ChangeEntryGroup.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Settings\CollabSetting.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Settings\CollabSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Models\Structures\IChangeEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Settings\CollabSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\EditorGameService\Analytics\EditorGameServiceAnalyticsSender.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Views\Adapters\ListAdapters\BaseListAdapter.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Models\Enums\ProjectStatus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Views\Adapters\ListAdapters\BaseListAdapter.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Components\ChangeListElements\ConflictedChangeListElement.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Models\Structures\ChangeEntry.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\Models\Structures\IHistoryEntry.cs" />
@@ -452,6 +452,12 @@
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
